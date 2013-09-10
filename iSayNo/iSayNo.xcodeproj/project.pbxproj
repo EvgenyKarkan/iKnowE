@@ -12,12 +12,14 @@
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
 		DE518B9017DE880000B1206A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE518B8E17DE880000B1206A /* InfoPlist.strings */; };
 		DE518B9217DE880000B1206A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE518B9117DE880000B1206A /* main.m */; };
-		DE518B9617DE880000B1206A /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE518B9517DE880000B1206A /* EKAppDelegate.m */; };
-		DE518B9817DE880000B1206A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE518B9717DE880000B1206A /* Default.png */; };
-		DE518B9A17DE880000B1206A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE518B9917DE880000B1206A /* Default@2x.png */; };
-		DE518B9C17DE880000B1206A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE518B9B17DE880000B1206A /* Default-568h@2x.png */; };
-		DE518B9F17DE880000B1206A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE518B9D17DE880000B1206A /* MainStoryboard.storyboard */; };
-		DE518BA217DE880000B1206A /* EKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE518BA117DE880000B1206A /* EKViewController.m */; };
+		DEEE938117DFC4D8005EE731 /* EKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE937B17DFC4D8005EE731 /* EKViewController.m */; };
+		DEEE938217DFC4D8005EE731 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE937D17DFC4D8005EE731 /* EKAppDelegate.m */; };
+		DEEE938917DFC4E2005EE731 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938517DFC4E2005EE731 /* Default-568h@2x.png */; };
+		DEEE938A17DFC4E2005EE731 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938617DFC4E2005EE731 /* Default.png */; };
+		DEEE938B17DFC4E2005EE731 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938717DFC4E2005EE731 /* Default@2x.png */; };
+		DEEE938C17DFC4E2005EE731 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938817DFC4E2005EE731 /* MainStoryboard.storyboard */; };
+		DEEE938E17DFC528005EE731 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938D17DFC528005EE731 /* additivies.plist */; };
+		DEEE939017DFC641005EE731 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938F17DFC641005EE731 /* categories.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +31,16 @@
 		DE518B8F17DE880000B1206A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE518B9117DE880000B1206A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE518B9317DE880000B1206A /* iSayNo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSayNo-Prefix.pch"; sourceTree = "<group>"; };
-		DE518B9417DE880000B1206A /* EKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKAppDelegate.h; sourceTree = "<group>"; };
-		DE518B9517DE880000B1206A /* EKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
-		DE518B9717DE880000B1206A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		DE518B9917DE880000B1206A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		DE518B9B17DE880000B1206A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DE518B9E17DE880000B1206A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DE518BA017DE880000B1206A /* EKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKViewController.h; sourceTree = "<group>"; };
-		DE518BA117DE880000B1206A /* EKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKViewController.m; sourceTree = "<group>"; };
+		DEEE937A17DFC4D8005EE731 /* EKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKViewController.h; sourceTree = "<group>"; };
+		DEEE937B17DFC4D8005EE731 /* EKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKViewController.m; sourceTree = "<group>"; };
+		DEEE937C17DFC4D8005EE731 /* EKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAppDelegate.h; sourceTree = "<group>"; };
+		DEEE937D17DFC4D8005EE731 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
+		DEEE938517DFC4E2005EE731 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEEE938617DFC4E2005EE731 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DEEE938717DFC4E2005EE731 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DEEE938817DFC4E2005EE731 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DEEE938D17DFC528005EE731 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
+		DEEE938F17DFC641005EE731 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +87,8 @@
 		DE518B8B17DE880000B1206A /* iSayNo */ = {
 			isa = PBXGroup;
 			children = (
-				DE518B9417DE880000B1206A /* EKAppDelegate.h */,
-				DE518B9517DE880000B1206A /* EKAppDelegate.m */,
-				DE518B9D17DE880000B1206A /* MainStoryboard.storyboard */,
-				DE518BA017DE880000B1206A /* EKViewController.h */,
-				DE518BA117DE880000B1206A /* EKViewController.m */,
+				DEEE937817DFC4D8005EE731 /* Classes */,
+				DEEE938317DFC4E2005EE731 /* Recourses */,
 				DE518B8C17DE880000B1206A /* Supporting Files */,
 			);
 			path = iSayNo;
@@ -100,11 +101,72 @@
 				DE518B8E17DE880000B1206A /* InfoPlist.strings */,
 				DE518B9117DE880000B1206A /* main.m */,
 				DE518B9317DE880000B1206A /* iSayNo-Prefix.pch */,
-				DE518B9717DE880000B1206A /* Default.png */,
-				DE518B9917DE880000B1206A /* Default@2x.png */,
-				DE518B9B17DE880000B1206A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEEE937817DFC4D8005EE731 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE937917DFC4D8005EE731 /* Controllers */,
+				DEEE937C17DFC4D8005EE731 /* EKAppDelegate.h */,
+				DEEE937D17DFC4D8005EE731 /* EKAppDelegate.m */,
+				DEEE937E17DFC4D8005EE731 /* Helpers */,
+				DEEE937F17DFC4D8005EE731 /* Models */,
+				DEEE938017DFC4D8005EE731 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DEEE937917DFC4D8005EE731 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE937A17DFC4D8005EE731 /* EKViewController.h */,
+				DEEE937B17DFC4D8005EE731 /* EKViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DEEE937E17DFC4D8005EE731 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DEEE937F17DFC4D8005EE731 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE938F17DFC641005EE731 /* categories.plist */,
+				DEEE938D17DFC528005EE731 /* additivies.plist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEEE938017DFC4D8005EE731 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEEE938317DFC4E2005EE731 /* Recourses */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE938417DFC4E2005EE731 /* Images */,
+				DEEE938817DFC4E2005EE731 /* MainStoryboard.storyboard */,
+			);
+			path = Recourses;
+			sourceTree = "<group>";
+		};
+		DEEE938417DFC4E2005EE731 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE938517DFC4E2005EE731 /* Default-568h@2x.png */,
+				DEEE938617DFC4E2005EE731 /* Default.png */,
+				DEEE938717DFC4E2005EE731 /* Default@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE518B9017DE880000B1206A /* InfoPlist.strings in Resources */,
-				DE518B9817DE880000B1206A /* Default.png in Resources */,
-				DE518B9A17DE880000B1206A /* Default@2x.png in Resources */,
-				DE518B9C17DE880000B1206A /* Default-568h@2x.png in Resources */,
-				DE518B9F17DE880000B1206A /* MainStoryboard.storyboard in Resources */,
+				DEEE938917DFC4E2005EE731 /* Default-568h@2x.png in Resources */,
+				DEEE938A17DFC4E2005EE731 /* Default.png in Resources */,
+				DEEE938B17DFC4E2005EE731 /* Default@2x.png in Resources */,
+				DEEE938C17DFC4E2005EE731 /* MainStoryboard.storyboard in Resources */,
+				DEEE938E17DFC528005EE731 /* additivies.plist in Resources */,
+				DEEE939017DFC641005EE731 /* categories.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE518B9217DE880000B1206A /* main.m in Sources */,
-				DE518B9617DE880000B1206A /* EKAppDelegate.m in Sources */,
-				DE518BA217DE880000B1206A /* EKViewController.m in Sources */,
+				DEEE938117DFC4D8005EE731 /* EKViewController.m in Sources */,
+				DEEE938217DFC4D8005EE731 /* EKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +253,6 @@
 				DE518B8F17DE880000B1206A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE518B9D17DE880000B1206A /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE518B9E17DE880000B1206A /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -301,6 +357,7 @@
 				DE518BA717DE880000B1206A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

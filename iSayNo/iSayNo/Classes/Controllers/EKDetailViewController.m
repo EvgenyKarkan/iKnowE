@@ -6,18 +6,19 @@
 //  Copyright (c) 2013 EvgenyKarkan. All rights reserved.
 //
 
-#import "EKViewController.h"
+#import "EKDetailViewController.h"
 
-@interface EKViewController ()
+@interface EKDetailViewController ()
 
 @end
 
-@implementation EKViewController
+
+@implementation EKDetailViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning

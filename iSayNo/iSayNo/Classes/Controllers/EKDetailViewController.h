@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EKViewController : UIViewController
+@interface EKDetailViewController : UIViewController
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB711FF645704458B029D483 /* libPods-iKnowE.a */; };
 		D0272E463D714B58AF504C41 /* libPods-iSayNo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */; };
 		DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */; };
 		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
@@ -28,7 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSayNo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSayNo.xcconfig"; path = "Pods/Pods-iSayNo.xcconfig"; sourceTree = "<group>"; };
+		C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iKnowE.xcconfig"; path = "Pods/Pods-iKnowE.xcconfig"; sourceTree = "<group>"; };
+		DB711FF645704458B029D483 /* libPods-iKnowE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iKnowE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
 		DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailViewController.m; sourceTree = "<group>"; };
 		DE1B08DD17EE0C6600164B62 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */,
 				DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */,
 				D0272E463D714B58AF504C41 /* libPods-iSayNo.a in Frameworks */,
+				588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +162,7 @@
 				DE1B08D817EE0C6600164B62 /* iKnowE */,
 				DE518B8417DE880000B1206A /* Frameworks */,
 				DE518B8317DE880000B1206A /* Products */,
-				552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */,
+				C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +181,7 @@
 				DE518B8717DE880000B1206A /* Foundation.framework */,
 				DE518B8917DE880000B1206A /* CoreGraphics.framework */,
 				0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */,
+				DB711FF645704458B029D483 /* libPods-iKnowE.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,7 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-iSayNo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-iKnowE-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		76144D8A16014ED6AEC67C2B /* Check Pods Manifest.lock */ = {
@@ -369,7 +373,7 @@
 		};
 		DE518BA617DE880000B1206A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */;
+			baseConfigurationReference = C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
@@ -382,7 +386,7 @@
 		};
 		DE518BA717DE880000B1206A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */;
+			baseConfigurationReference = C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";

@@ -8,48 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		D0272E463D714B58AF504C41 /* libPods-iSayNo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */; };
+		DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */; };
+		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
+		DE1B08F517EE0C6700164B62 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */; };
+		DE1B08F617EE0C6700164B62 /* EKPlistDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */; };
+		DE1B08F717EE0C6700164B62 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E517EE0C6600164B62 /* additivies.plist */; };
+		DE1B08F817EE0C6700164B62 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E617EE0C6600164B62 /* categories.plist */; };
+		DE1B08F917EE0C6700164B62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E817EE0C6600164B62 /* InfoPlist.strings */; };
+		DE1B08FB17EE0C6700164B62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08EC17EE0C6600164B62 /* main.m */; };
+		DE1B08FC17EE0C6700164B62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */; };
+		DE1B08FD17EE0C6700164B62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F017EE0C6600164B62 /* Default.png */; };
+		DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F117EE0C6600164B62 /* Default@2x.png */; };
+		DE1B08FF17EE0C6700164B62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F217EE0C6700164B62 /* MainStoryboard.storyboard */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
-		DE518B9017DE880000B1206A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE518B8E17DE880000B1206A /* InfoPlist.strings */; };
-		DE518B9217DE880000B1206A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE518B9117DE880000B1206A /* main.m */; };
-		DE93DA5317EE0AF1008E9D91 /* EKPlistDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93DA5217EE0AF1008E9D91 /* EKPlistDataProvider.m */; };
-		DEEC8EB717ECE0E400529EB8 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC8EB617ECE0E400529EB8 /* EKListViewController.m */; };
-		DEEE938117DFC4D8005EE731 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE937B17DFC4D8005EE731 /* EKDetailViewController.m */; };
-		DEEE938217DFC4D8005EE731 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE937D17DFC4D8005EE731 /* EKAppDelegate.m */; };
-		DEEE938917DFC4E2005EE731 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938517DFC4E2005EE731 /* Default-568h@2x.png */; };
-		DEEE938A17DFC4E2005EE731 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938617DFC4E2005EE731 /* Default.png */; };
-		DEEE938B17DFC4E2005EE731 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938717DFC4E2005EE731 /* Default@2x.png */; };
-		DEEE938C17DFC4E2005EE731 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938817DFC4E2005EE731 /* MainStoryboard.storyboard */; };
-		DEEE938E17DFC528005EE731 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938D17DFC528005EE731 /* additivies.plist */; };
-		DEEE939017DFC641005EE731 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEE938F17DFC641005EE731 /* categories.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSayNo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSayNo.xcconfig"; path = "Pods/Pods-iSayNo.xcconfig"; sourceTree = "<group>"; };
+		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
+		DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailViewController.m; sourceTree = "<group>"; };
+		DE1B08DD17EE0C6600164B62 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
+		DE1B08DE17EE0C6600164B62 /* EKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListViewController.m; sourceTree = "<group>"; };
+		DE1B08DF17EE0C6600164B62 /* EKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAppDelegate.h; sourceTree = "<group>"; };
+		DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
+		DE1B08E217EE0C6600164B62 /* EKPlistDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPlistDataProvider.h; sourceTree = "<group>"; };
+		DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKPlistDataProvider.m; sourceTree = "<group>"; };
+		DE1B08E517EE0C6600164B62 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
+		DE1B08E617EE0C6600164B62 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		DE1B08E917EE0C6600164B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE1B08EA17EE0C6600164B62 /* iKnowE-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iKnowE-Info.plist"; sourceTree = "<group>"; };
+		DE1B08EB17EE0C6600164B62 /* iKnowE-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iKnowE-Prefix.pch"; sourceTree = "<group>"; };
+		DE1B08EC17EE0C6600164B62 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE1B08F017EE0C6600164B62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE1B08F117EE0C6600164B62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE1B08F217EE0C6700164B62 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE518B8917DE880000B1206A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE518B8D17DE880000B1206A /* iKnowE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iKnowE-Info.plist"; sourceTree = "<group>"; };
-		DE518B8F17DE880000B1206A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE518B9117DE880000B1206A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE518B9317DE880000B1206A /* iKnowE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iKnowE-Prefix.pch"; sourceTree = "<group>"; };
-		DE93DA5117EE0AF1008E9D91 /* EKPlistDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPlistDataProvider.h; sourceTree = "<group>"; };
-		DE93DA5217EE0AF1008E9D91 /* EKPlistDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKPlistDataProvider.m; sourceTree = "<group>"; };
-		DEEC8EB517ECE0E400529EB8 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
-		DEEC8EB617ECE0E400529EB8 /* EKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListViewController.m; sourceTree = "<group>"; };
-		DEEE937A17DFC4D8005EE731 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
-		DEEE937B17DFC4D8005EE731 /* EKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailViewController.m; sourceTree = "<group>"; };
-		DEEE937C17DFC4D8005EE731 /* EKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAppDelegate.h; sourceTree = "<group>"; };
-		DEEE937D17DFC4D8005EE731 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
-		DEEE938517DFC4E2005EE731 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DEEE938617DFC4E2005EE731 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		DEEE938717DFC4E2005EE731 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		DEEE938817DFC4E2005EE731 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DEEE938D17DFC528005EE731 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
-		DEEE938F17DFC641005EE731 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +67,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE1B08D817EE0C6600164B62 /* iKnowE */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08D917EE0C6600164B62 /* Classes */,
+				DE1B08E817EE0C6600164B62 /* InfoPlist.strings */,
+				DE1B08EA17EE0C6600164B62 /* iKnowE-Info.plist */,
+				DE1B08EB17EE0C6600164B62 /* iKnowE-Prefix.pch */,
+				DE1B08EC17EE0C6600164B62 /* main.m */,
+				DE1B08ED17EE0C6600164B62 /* Recourses */,
+			);
+			path = iKnowE;
+			sourceTree = "<group>";
+		};
+		DE1B08D917EE0C6600164B62 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08DA17EE0C6600164B62 /* Controllers */,
+				DE1B08DF17EE0C6600164B62 /* EKAppDelegate.h */,
+				DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */,
+				DE1B08E117EE0C6600164B62 /* Helpers */,
+				DE1B08E417EE0C6600164B62 /* Models */,
+				DE1B08E717EE0C6600164B62 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE1B08DA17EE0C6600164B62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */,
+				DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */,
+				DE1B08DD17EE0C6600164B62 /* EKListViewController.h */,
+				DE1B08DE17EE0C6600164B62 /* EKListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE1B08E117EE0C6600164B62 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08E217EE0C6600164B62 /* EKPlistDataProvider.h */,
+				DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DE1B08E417EE0C6600164B62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08E517EE0C6600164B62 /* additivies.plist */,
+				DE1B08E617EE0C6600164B62 /* categories.plist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE1B08E717EE0C6600164B62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE1B08ED17EE0C6600164B62 /* Recourses */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08EE17EE0C6600164B62 /* Images */,
+				DE1B08F217EE0C6700164B62 /* MainStoryboard.storyboard */,
+			);
+			path = Recourses;
+			sourceTree = "<group>";
+		};
+		DE1B08EE17EE0C6600164B62 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */,
+				DE1B08F017EE0C6600164B62 /* Default.png */,
+				DE1B08F117EE0C6600164B62 /* Default@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		DE518B7917DE880000B1206A = {
 			isa = PBXGroup;
 			children = (
-				DE518B8B17DE880000B1206A /* iSayNo */,
+				DE1B08D817EE0C6600164B62 /* iKnowE */,
 				DE518B8417DE880000B1206A /* Frameworks */,
 				DE518B8317DE880000B1206A /* Products */,
 				552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */,
@@ -94,95 +175,6 @@
 				0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DE518B8B17DE880000B1206A /* iSayNo */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE937817DFC4D8005EE731 /* Classes */,
-				DEEE938317DFC4E2005EE731 /* Recourses */,
-				DE518B8C17DE880000B1206A /* Supporting Files */,
-			);
-			path = iSayNo;
-			sourceTree = "<group>";
-		};
-		DE518B8C17DE880000B1206A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DE518B8D17DE880000B1206A /* iKnowE-Info.plist */,
-				DE518B8E17DE880000B1206A /* InfoPlist.strings */,
-				DE518B9117DE880000B1206A /* main.m */,
-				DE518B9317DE880000B1206A /* iKnowE-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DEEE937817DFC4D8005EE731 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE937917DFC4D8005EE731 /* Controllers */,
-				DEEE937C17DFC4D8005EE731 /* EKAppDelegate.h */,
-				DEEE937D17DFC4D8005EE731 /* EKAppDelegate.m */,
-				DEEE937E17DFC4D8005EE731 /* Helpers */,
-				DEEE937F17DFC4D8005EE731 /* Models */,
-				DEEE938017DFC4D8005EE731 /* Views */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		DEEE937917DFC4D8005EE731 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE937A17DFC4D8005EE731 /* EKDetailViewController.h */,
-				DEEE937B17DFC4D8005EE731 /* EKDetailViewController.m */,
-				DEEC8EB517ECE0E400529EB8 /* EKListViewController.h */,
-				DEEC8EB617ECE0E400529EB8 /* EKListViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DEEE937E17DFC4D8005EE731 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				DE93DA5117EE0AF1008E9D91 /* EKPlistDataProvider.h */,
-				DE93DA5217EE0AF1008E9D91 /* EKPlistDataProvider.m */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		DEEE937F17DFC4D8005EE731 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE938F17DFC641005EE731 /* categories.plist */,
-				DEEE938D17DFC528005EE731 /* additivies.plist */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		DEEE938017DFC4D8005EE731 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEEE938317DFC4E2005EE731 /* Recourses */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE938417DFC4E2005EE731 /* Images */,
-				DEEE938817DFC4E2005EE731 /* MainStoryboard.storyboard */,
-			);
-			path = Recourses;
-			sourceTree = "<group>";
-		};
-		DEEE938417DFC4E2005EE731 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE938517DFC4E2005EE731 /* Default-568h@2x.png */,
-				DEEE938617DFC4E2005EE731 /* Default.png */,
-				DEEE938717DFC4E2005EE731 /* Default@2x.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,13 +231,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE518B9017DE880000B1206A /* InfoPlist.strings in Resources */,
-				DEEE938917DFC4E2005EE731 /* Default-568h@2x.png in Resources */,
-				DEEE938A17DFC4E2005EE731 /* Default.png in Resources */,
-				DEEE938B17DFC4E2005EE731 /* Default@2x.png in Resources */,
-				DEEE938C17DFC4E2005EE731 /* MainStoryboard.storyboard in Resources */,
-				DEEE938E17DFC528005EE731 /* additivies.plist in Resources */,
-				DEEE939017DFC641005EE731 /* categories.plist in Resources */,
+				DE1B08F717EE0C6700164B62 /* additivies.plist in Resources */,
+				DE1B08F817EE0C6700164B62 /* categories.plist in Resources */,
+				DE1B08F917EE0C6700164B62 /* InfoPlist.strings in Resources */,
+				DE1B08FC17EE0C6700164B62 /* Default-568h@2x.png in Resources */,
+				DE1B08FD17EE0C6700164B62 /* Default.png in Resources */,
+				DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */,
+				DE1B08FF17EE0C6700164B62 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,21 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE518B9217DE880000B1206A /* main.m in Sources */,
-				DEEE938117DFC4D8005EE731 /* EKDetailViewController.m in Sources */,
-				DEEE938217DFC4D8005EE731 /* EKAppDelegate.m in Sources */,
-				DEEC8EB717ECE0E400529EB8 /* EKListViewController.m in Sources */,
-				DE93DA5317EE0AF1008E9D91 /* EKPlistDataProvider.m in Sources */,
+				DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */,
+				DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */,
+				DE1B08F517EE0C6700164B62 /* EKAppDelegate.m in Sources */,
+				DE1B08F617EE0C6700164B62 /* EKPlistDataProvider.m in Sources */,
+				DE1B08FB17EE0C6700164B62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE518B8E17DE880000B1206A /* InfoPlist.strings */ = {
+		DE1B08E817EE0C6600164B62 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE518B8F17DE880000B1206A /* en */,
+				DE1B08E917EE0C6600164B62 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -374,8 +366,8 @@
 			baseConfigurationReference = 552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iSayNo/iKnowE-Prefix.pch";
-				INFOPLIST_FILE = "iSayNo/iKnowE-Info.plist";
+				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
+				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = iKnowE;
 				WRAPPER_EXTENSION = app;
@@ -387,8 +379,8 @@
 			baseConfigurationReference = 552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iSayNo/iKnowE-Prefix.pch";
-				INFOPLIST_FILE = "iSayNo/iKnowE-Info.plist";
+				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
+				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = iKnowE;
 				WRAPPER_EXTENSION = app;

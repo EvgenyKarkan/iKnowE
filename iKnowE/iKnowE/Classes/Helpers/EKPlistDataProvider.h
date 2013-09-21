@@ -10,4 +10,6 @@
 
 @interface EKPlistDataProvider : NSObject
 
++ (NSArray *)additiveDescriptions;
+
 @end

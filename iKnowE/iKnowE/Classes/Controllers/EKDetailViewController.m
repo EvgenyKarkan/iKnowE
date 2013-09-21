@@ -7,6 +7,8 @@
 //
 
 #import "EKDetailViewController.h"
+#import "EKPlistDataProvider.h"
+#import "EKAdditiveDescription.h"
 
 @interface EKDetailViewController ()
 
@@ -19,6 +21,9 @@
 {
     [super viewDidLoad];
 	self.view.backgroundColor = [UIColor redColor];
+	
+	NSLog(@"CODE %@", ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][0]).chemicalName);
+
 }
 
 - (void)didReceiveMemoryWarning

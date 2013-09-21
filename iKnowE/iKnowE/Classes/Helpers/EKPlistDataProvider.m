@@ -7,7 +7,23 @@
 //
 
 #import "EKPlistDataProvider.h"
+#import "EKAdditiveDescription.h"
 
-@implementation EKPlistDataProvider
+
+@implementation EKPlistDataProvider;
+
++ (NSArray *)additiveDescriptions
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"additivies" ofType:@"plist"];
+    NSArray *raughDescriptions = [[NSArray alloc] initWithContentsOfFile:path];
+    NSMutableArray *result = [[NSMutableArray alloc] initWithCapacity:[raughDescriptions count]];
+	
+    for (NSDictionary *dict in raughDescriptions) {
+        EKAdditiveDescription *description = [[EKAdditiveDescription alloc] initWithDictionary:dict];
+        [result addObject:description];
+    }
+    
+    return result;
+}
 
 @end

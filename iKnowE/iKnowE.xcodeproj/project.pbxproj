@@ -19,7 +19,6 @@
 		DE1B08FC17EE0C6700164B62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */; };
 		DE1B08FD17EE0C6700164B62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F017EE0C6600164B62 /* Default.png */; };
 		DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F117EE0C6600164B62 /* Default@2x.png */; };
-		DE1B08FF17EE0C6700164B62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F217EE0C6700164B62 /* MainStoryboard.storyboard */; };
 		DE1B090B17EE175800164B62 /* EKAdditiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B090A17EE175800164B62 /* EKAdditiveDescription.m */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
@@ -46,7 +45,6 @@
 		DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DE1B08F017EE0C6600164B62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DE1B08F117EE0C6600164B62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		DE1B08F217EE0C6700164B62 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DE1B090917EE175800164B62 /* EKAdditiveDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAdditiveDescription.h; sourceTree = "<group>"; };
 		DE1B090A17EE175800164B62 /* EKAdditiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAdditiveDescription.m; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,7 +136,6 @@
 			isa = PBXGroup;
 			children = (
 				DE1B08EE17EE0C6600164B62 /* Images */,
-				DE1B08F217EE0C6700164B62 /* MainStoryboard.storyboard */,
 			);
 			path = Recourses;
 			sourceTree = "<group>";
@@ -242,7 +239,6 @@
 				DE1B08FC17EE0C6700164B62 /* Default-568h@2x.png in Resources */,
 				DE1B08FD17EE0C6700164B62 /* Default.png in Resources */,
 				DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */,
-				DE1B08FF17EE0C6700164B62 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

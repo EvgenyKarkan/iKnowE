@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB711FF645704458B029D483 /* libPods-iKnowE.a */; };
-		D0272E463D714B58AF504C41 /* libPods-iSayNo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */; };
 		DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */; };
 		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
 		DE1B08F517EE0C6700164B62 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */; };
@@ -28,7 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSayNo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iKnowE.xcconfig"; path = "Pods/Pods-iKnowE.xcconfig"; sourceTree = "<group>"; };
 		DB711FF645704458B029D483 /* libPods-iKnowE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iKnowE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */,
 				DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */,
 				DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */,
-				D0272E463D714B58AF504C41 /* libPods-iSayNo.a in Frameworks */,
 				588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,7 +177,6 @@
 				DE518B8517DE880000B1206A /* UIKit.framework */,
 				DE518B8717DE880000B1206A /* Foundation.framework */,
 				DE518B8917DE880000B1206A /* CoreGraphics.framework */,
-				0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */,
 				DB711FF645704458B029D483 /* libPods-iKnowE.a */,
 			);
 			name = Frameworks;

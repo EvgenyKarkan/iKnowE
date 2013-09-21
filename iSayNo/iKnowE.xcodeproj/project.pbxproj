@@ -27,14 +27,14 @@
 /* Begin PBXFileReference section */
 		0DE97BE0D7F74713A6385AD8 /* libPods-iSayNo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSayNo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSayNo.xcconfig"; path = "Pods/Pods-iSayNo.xcconfig"; sourceTree = "<group>"; };
-		DE518B8217DE880000B1206A /* iSayNo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSayNo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE518B8917DE880000B1206A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE518B8D17DE880000B1206A /* iSayNo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSayNo-Info.plist"; sourceTree = "<group>"; };
+		DE518B8D17DE880000B1206A /* iKnowE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iKnowE-Info.plist"; sourceTree = "<group>"; };
 		DE518B8F17DE880000B1206A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE518B9117DE880000B1206A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE518B9317DE880000B1206A /* iSayNo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSayNo-Prefix.pch"; sourceTree = "<group>"; };
+		DE518B9317DE880000B1206A /* iKnowE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iKnowE-Prefix.pch"; sourceTree = "<group>"; };
 		DEEC8EB517ECE0E400529EB8 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
 		DEEC8EB617ECE0E400529EB8 /* EKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListViewController.m; sourceTree = "<group>"; };
 		DEEE937A17DFC4D8005EE731 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		DE518B8317DE880000B1206A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE518B8217DE880000B1206A /* iSayNo.app */,
+				DE518B8217DE880000B1206A /* iKnowE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,10 +106,10 @@
 		DE518B8C17DE880000B1206A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DE518B8D17DE880000B1206A /* iSayNo-Info.plist */,
+				DE518B8D17DE880000B1206A /* iKnowE-Info.plist */,
 				DE518B8E17DE880000B1206A /* InfoPlist.strings */,
 				DE518B9117DE880000B1206A /* main.m */,
-				DE518B9317DE880000B1206A /* iSayNo-Prefix.pch */,
+				DE518B9317DE880000B1206A /* iKnowE-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE518B8117DE880000B1206A /* iSayNo */ = {
+		DE518B8117DE880000B1206A /* iKnowE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE518BA517DE880000B1206A /* Build configuration list for PBXNativeTarget "iSayNo" */;
+			buildConfigurationList = DE518BA517DE880000B1206A /* Build configuration list for PBXNativeTarget "iKnowE" */;
 			buildPhases = (
 				76144D8A16014ED6AEC67C2B /* Check Pods Manifest.lock */,
 				DE518B7E17DE880000B1206A /* Sources */,
@@ -197,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = iSayNo;
+			name = iKnowE;
 			productName = iSayNo;
-			productReference = DE518B8217DE880000B1206A /* iSayNo.app */;
+			productReference = DE518B8217DE880000B1206A /* iKnowE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = EvgenyKarkan;
 			};
-			buildConfigurationList = DE518B7D17DE880000B1206A /* Build configuration list for PBXProject "iSayNo" */;
+			buildConfigurationList = DE518B7D17DE880000B1206A /* Build configuration list for PBXProject "iKnowE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,7 +224,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE518B8117DE880000B1206A /* iSayNo */,
+				DE518B8117DE880000B1206A /* iKnowE */,
 			);
 		};
 /* End PBXProject section */
@@ -368,10 +368,10 @@
 			baseConfigurationReference = 552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iSayNo/iSayNo-Prefix.pch";
-				INFOPLIST_FILE = "iSayNo/iSayNo-Info.plist";
+				GCC_PREFIX_HEADER = "iSayNo/iKnowE-Prefix.pch";
+				INFOPLIST_FILE = "iSayNo/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iKnowE;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -381,10 +381,10 @@
 			baseConfigurationReference = 552F8197B4FF47658BCEFA5A /* Pods-iSayNo.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iSayNo/iSayNo-Prefix.pch";
-				INFOPLIST_FILE = "iSayNo/iSayNo-Info.plist";
+				GCC_PREFIX_HEADER = "iSayNo/iKnowE-Prefix.pch";
+				INFOPLIST_FILE = "iSayNo/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iKnowE;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -392,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE518B7D17DE880000B1206A /* Build configuration list for PBXProject "iSayNo" */ = {
+		DE518B7D17DE880000B1206A /* Build configuration list for PBXProject "iKnowE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE518BA317DE880000B1206A /* Debug */,
@@ -401,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE518BA517DE880000B1206A /* Build configuration list for PBXNativeTarget "iSayNo" */ = {
+		DE518BA517DE880000B1206A /* Build configuration list for PBXNativeTarget "iKnowE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE518BA617DE880000B1206A /* Debug */,

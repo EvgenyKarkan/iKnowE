@@ -52,6 +52,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	}
 	if ([self.data count] > indexPath.row) {
+		cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20.0f];
 		cell.textLabel.text = ((EKAdditiveDescription *)self.data[indexPath.row]).code;
 	}
     

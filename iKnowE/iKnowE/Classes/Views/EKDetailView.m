@@ -20,8 +20,8 @@
 		[self addSubview:self.navigationBar];
 		
 		self.foo = [[UITextView alloc] init];
-		self.foo.textColor = [UIColor blackColor];
-
+		self.foo.userInteractionEnabled = NO;
+		self.foo.font = [UIFont fontWithName:@"HelveticaNeue" size:20.0f];
 		self.foo.backgroundColor = [UIColor orangeColor];
 		[self addSubview:self.foo];
     }
@@ -33,7 +33,7 @@
 	[super layoutSubviews];
 	
 	self.navigationBar.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
-	self.foo.frame = CGRectMake(10.0f, 54.0f, self.frame.size.width - 20.0f, self.frame.size.height-64);
+	self.foo.frame = CGRectMake(10.0f, 54.0f, self.frame.size.width - 20.0f, self.frame.size.height - 64.0f);
 }
 
 @end

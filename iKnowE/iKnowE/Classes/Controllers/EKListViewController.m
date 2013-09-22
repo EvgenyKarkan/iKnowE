@@ -11,10 +11,8 @@
 #import "EKListViewTableProvider.h"
 #import "EKPlistDataProvider.h"
 #import "EKAdditiveDescription.h"
-#import "EKDetailViewController.h"
 
-
-@interface EKListViewController () 
+@interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate>
 
 @property (nonatomic, strong) EKListView *listView;
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
@@ -37,11 +35,49 @@
 {
 	[super viewDidLoad];
 	
-	self.dataProvider = [[EKListViewTableProvider alloc] init];
+	self.dataProvider = [[EKListViewTableProvider alloc] initWithDelegate:self];
 	self.listView.tableView.delegate = self.dataProvider;
 	self.listView.tableView.dataSource = self.dataProvider;
 	
 	[self.dataProvider feedDataSourceWithData:[EKPlistDataProvider additiveDescriptions]];
+	
+	
+	self.listView.searchBar.delegate = self;
+}
+
+#pragma mark - UISearchBarDelegate stuff
+
+- (void)searchBar:(UISearchBar *)theSearchBar textDidChange:(NSString *)searchText
+{
+	if ([self.dataProvider.searchData count] > 0) {
+		[self.dataProvider.searchData removeAllObjects];
+	}
+	if ([searchText length] > 0) {
+		self.dataProvider.search = YES;
+		for (NSUInteger i = 0; i < [self.dataProvider.usualData count]; i++) {
+			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString : searchText options : NSCaseInsensitiveSearch];
+			if (titleResultsRange.length > 0) {
+				[self.dataProvider.searchData addObject:[self.dataProvider.usualData objectAtIndex:i]];
+			}
+		}
+	}
+	else {
+		self.dataProvider.search = NO;
+	}
+	
+	[self.listView.tableView reloadData];
+	self.listView.searchBar.showsCancelButton = YES;
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+	self.listView.searchBar.text = @"";
+	[self.listView.searchBar resignFirstResponder];
+	self.listView.searchBar.showsCancelButton = NO;
+	
+	[self.dataProvider.searchData removeAllObjects];
+	self.dataProvider.search = NO;
+	[self.listView.tableView reloadData];
 }
 
 @end

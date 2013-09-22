@@ -10,13 +10,13 @@
 #import "EKAdditiveDescription.h"
 #import "EKDetailViewController.h"
 #import "EKAppDelegate.h"
+#import "EKListViewController.h"
 
 static NSString * const kITReuseIdentifier = @"defaultCell";
 
 @interface EKListViewTableProvider ()
 
-@property (nonatomic, strong) NSArray *data;
-@property (nonatomic, strong) EKDetailViewController *det;
+@property (nonatomic, strong) EKAppDelegate *appDelegate;
 
 @end
 
@@ -30,9 +30,11 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	self = [super init];
 	if (self) {
 		self.delegate = delegate;
-		self.data = [[NSArray alloc] init];
+		self.usualData = [[NSArray alloc] init];
+		self.searchData = [[NSMutableArray alloc] init];
+		self.appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
 	}
-    
+	
 	return self;
 }
 
@@ -40,7 +42,16 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.data count];
+	NSUInteger number = 0;
+	
+	if (self.search == YES) {
+		number = [self.searchData count];
+	}
+	else {
+		number = [self.usualData count];
+	}
+	
+	return number;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -51,11 +62,13 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		cell.selectionStyle = UITableViewCellSelectionStyleGray;
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	}
-	if ([self.data count] > indexPath.row) {
-		cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20.0f];
-		cell.textLabel.text = ((EKAdditiveDescription *)self.data[indexPath.row]).code;
+	if (self.search == YES) {
+		cell.textLabel.text = ((EKAdditiveDescription *)self.searchData[indexPath.row]).code;
 	}
-    
+	else {
+		cell.textLabel.text = ((EKAdditiveDescription *)self.usualData[indexPath.row]).code;
+	}
+	
 	return cell;
 }
 
@@ -66,10 +79,15 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	EKAppDelegate *appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
-	self.delegate = appDelegate.splitViewController.viewControllers[1];
+	self.delegate = self.appDelegate.splitViewController.viewControllers[1];
 	
-	[self.delegate cellDidPressWithData:self.data withIndexPath:indexPath];
+	if (self.search) {
+		[self.delegate cellDidPressWithData:self.searchData withIndexPath:indexPath];
+	}
+	else {
+		[self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath];
+	}
+	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
@@ -77,7 +95,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (void)feedDataSourceWithData:(NSArray *)data
 {
-	self.data = data;
+	self.usualData = data;
 }
 
 @end

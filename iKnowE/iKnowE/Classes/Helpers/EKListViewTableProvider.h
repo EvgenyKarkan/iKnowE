@@ -10,6 +10,7 @@
 
 @protocol EKListViewTableDelegate <NSObject>
 
+@optional
 - (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath;
 
 @end
@@ -18,13 +19,12 @@
 @interface EKListViewTableProvider : NSObject <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, assign) id <EKListViewTableDelegate> delegate;
+@property (nonatomic, assign) BOOL search;
+@property (nonatomic, strong) NSArray *usualData;
+@property (nonatomic, strong) NSMutableArray *searchData;
 
 - (id)initWithDelegate:(id <EKListViewTableDelegate> )delegate;
 - (void)feedDataSourceWithData:(NSArray *)data;
 
 @end
-
-
-
-
 

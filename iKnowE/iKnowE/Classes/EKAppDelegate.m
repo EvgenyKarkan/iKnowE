@@ -10,11 +10,6 @@
 #import "EKListViewController.h"
 #import "EKDetailViewController.h"
 
-@interface EKAppDelegate ()
-
-@property (nonatomic, strong) UISplitViewController *splitViewController;
-
-@end
 
 @implementation EKAppDelegate
 

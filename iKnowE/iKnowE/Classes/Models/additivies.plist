@@ -275,6 +275,14 @@ Not listed in Australia.   Avoid it.</string>
 	</dict>
 	<dict>
 		<key>danger</key>
+		<string>Lycopene is a natural red colour derived from tomatoes. Not Listed In Australia. Avoid it. Banned in some countries.</string>
+		<key>chemicalName</key>
+		<string>Lycopene</string>
+		<key>code</key>
+		<string>E160(d)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
 		<string>This is a synthetic yellow-red colourant. No adverse effects are known. Typical products include processed cheese.</string>
 		<key>chemicalName</key>
 		<string>Beta-apo-8&apos;-carotenal (C 30)</string>
@@ -546,14 +554,6 @@ Pigment Rubine</string>
 		<string>Natamycin, Pimaracin</string>
 		<key>code</key>
 		<string>E235</string>
-	</dict>
-	<dict>
-		<key>danger</key>
-		<string>Lycopene is a natural red colour derived from tomatoes. Not Listed In Australia. Avoid it. Banned in some countries.</string>
-		<key>chemicalName</key>
-		<string>Lycopene</string>
-		<key>code</key>
-		<string>E160(d)</string>
 	</dict>
 	<dict>
 		<key>danger</key>

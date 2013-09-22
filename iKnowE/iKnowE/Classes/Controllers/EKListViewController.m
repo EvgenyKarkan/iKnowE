@@ -36,18 +36,22 @@
 	[super viewDidLoad];
 	
 	self.dataProvider = [[EKListViewTableProvider alloc] initWithDelegate:self];
+	
 	self.listView.tableView.delegate = self.dataProvider;
 	self.listView.tableView.dataSource = self.dataProvider;
+	self.listView.searchBar.delegate = self;
 	
 	[self.dataProvider feedDataSourceWithData:[EKPlistDataProvider additiveDescriptions]];
 	
-	
-	self.listView.searchBar.delegate = self;
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(onKeyboardHide:)
+												 name:UIKeyboardWillHideNotification
+											   object:nil];
 }
 
 #pragma mark - UISearchBarDelegate stuff
 
-- (void)searchBar:(UISearchBar *)theSearchBar textDidChange:(NSString *)searchText
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
 	if ([self.dataProvider.searchData count] > 0) {
 		[self.dataProvider.searchData removeAllObjects];
@@ -55,7 +59,7 @@
 	if ([searchText length] > 0) {
 		self.dataProvider.search = YES;
 		for (NSUInteger i = 0; i < [self.dataProvider.usualData count]; i++) {
-			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString : searchText options : NSCaseInsensitiveSearch];
+			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString:searchText options:NSCaseInsensitiveSearch];
 			if (titleResultsRange.length > 0) {
 				[self.dataProvider.searchData addObject:[self.dataProvider.usualData objectAtIndex:i]];
 			}
@@ -78,6 +82,18 @@
 	[self.dataProvider.searchData removeAllObjects];
 	self.dataProvider.search = NO;
 	[self.listView.tableView reloadData];
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+	[[searchBar valueForKey:@"_searchField"] resignFirstResponder];
+}
+
+#pragma mark - Listening to UIKeybord notification 
+
+- (void)onKeyboardHide:(NSNotification *)notification
+{
+	self.listView.searchBar.showsCancelButton = NO;
 }
 
 @end

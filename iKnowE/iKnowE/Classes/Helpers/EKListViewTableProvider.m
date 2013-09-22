@@ -8,13 +8,15 @@
 
 #import "EKListViewTableProvider.h"
 #import "EKAdditiveDescription.h"
+#import "EKDetailViewController.h"
+#import "EKAppDelegate.h"
 
 static NSString * const kITReuseIdentifier = @"defaultCell";
 
 @interface EKListViewTableProvider ()
 
-@property (nonatomic, assign) id <EKListViewTableDelegate> delegate;
 @property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) EKDetailViewController *det;
 
 @end
 
@@ -63,7 +65,10 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	[self.delegate cellDidPressWithData:self.data  withIndexPath:indexPath];
+	EKAppDelegate *appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
+	self.delegate = appDelegate.splitViewController.viewControllers[1];
+	
+	[self.delegate cellDidPressWithData:self.data withIndexPath:indexPath];
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

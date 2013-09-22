@@ -20,10 +20,10 @@
 	EKListViewController *listViewController = [[EKListViewController alloc] init];
 	EKDetailViewController *detailViewController = [[EKDetailViewController alloc] init];
 	
-	UISplitViewController *splitViewController = [[UISplitViewController alloc] init];
-	splitViewController.viewControllers = @[listViewController, detailViewController];
+	self.splitViewController = [[UISplitViewController alloc] init];
+	self.splitViewController.viewControllers = @[listViewController, detailViewController];
 	
-	self.window.rootViewController = splitViewController;
+	self.window.rootViewController = self.splitViewController;
 	[self.window makeKeyAndVisible];
 	
     return YES;

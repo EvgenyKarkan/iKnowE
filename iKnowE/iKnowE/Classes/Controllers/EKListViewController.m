@@ -10,8 +10,11 @@
 #import "EKListView.h"
 #import "EKListViewTableProvider.h"
 #import "EKPlistDataProvider.h"
+#import "EKAdditiveDescription.h"
+#import "EKDetailViewController.h"
 
-@interface EKListViewController () <EKListViewTableDelegate>
+
+@interface EKListViewController () 
 
 @property (nonatomic, strong) EKListView *listView;
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
@@ -26,26 +29,19 @@
 - (void)loadView
 {
 	EKListView *view = [[EKListView alloc] init];
-    self.view = view;
-    self.listView = view;
+	self.view = view;
+	self.listView = view;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	
-	self.dataProvider = [[EKListViewTableProvider alloc] initWithDelegate:self];
-    self.listView.tableView.delegate = self.dataProvider;
-    self.listView.tableView.dataSource = self.dataProvider;
-    
-    [self.dataProvider feedDataSourceWithData:[EKPlistDataProvider additiveDescriptions]];
-}
-
-#pragma mark - EKListViewTableDelegate stuff
-
-- (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath
-{
+	self.dataProvider = [[EKListViewTableProvider alloc] init];
+	self.listView.tableView.delegate = self.dataProvider;
+	self.listView.tableView.dataSource = self.dataProvider;
 	
+	[self.dataProvider feedDataSourceWithData:[EKPlistDataProvider additiveDescriptions]];
 }
 
 @end

@@ -17,6 +17,8 @@
 
 @interface EKListViewTableProvider : NSObject <UITableViewDelegate, UITableViewDataSource>
 
+@property (nonatomic, assign) id <EKListViewTableDelegate> delegate;
+
 - (id)initWithDelegate:(id <EKListViewTableDelegate> )delegate;
 - (void)feedDataSourceWithData:(NSArray *)data;
 

@@ -25,6 +25,7 @@
 		DE78634617EF21B2001CBA06 /* EKListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634517EF21B2001CBA06 /* EKListView.m */; };
 		DE78634917EF2C74001CBA06 /* EKListViewTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */; };
 		DE78634C17EF2CAD001CBA06 /* EKAdditiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634B17EF2CAD001CBA06 /* EKAdditiveDescription.m */; };
+		DE78634F17EF3F99001CBA06 /* EKDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634E17EF3F99001CBA06 /* EKDetailView.m */; };
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,8 @@
 		DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListViewTableProvider.m; sourceTree = "<group>"; };
 		DE78634A17EF2CAD001CBA06 /* EKAdditiveDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAdditiveDescription.h; sourceTree = "<group>"; };
 		DE78634B17EF2CAD001CBA06 /* EKAdditiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAdditiveDescription.m; sourceTree = "<group>"; };
+		DE78634D17EF3F99001CBA06 /* EKDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailView.h; sourceTree = "<group>"; };
+		DE78634E17EF3F99001CBA06 /* EKDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailView.m; sourceTree = "<group>"; };
 		DE834C4C17EE48C6000714A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -141,6 +144,8 @@
 			children = (
 				DE78634417EF21B2001CBA06 /* EKListView.h */,
 				DE78634517EF21B2001CBA06 /* EKListView.m */,
+				DE78634D17EF3F99001CBA06 /* EKDetailView.h */,
+				DE78634E17EF3F99001CBA06 /* EKDetailView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				DE78634617EF21B2001CBA06 /* EKListView.m in Sources */,
 				DE78634917EF2C74001CBA06 /* EKListViewTableProvider.m in Sources */,
 				DE78634C17EF2CAD001CBA06 /* EKAdditiveDescription.m in Sources */,
+				DE78634F17EF3F99001CBA06 /* EKDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

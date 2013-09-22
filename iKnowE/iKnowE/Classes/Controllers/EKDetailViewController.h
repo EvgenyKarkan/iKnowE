@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EKListViewTableProvider.h"
 
-@interface EKDetailViewController : UIViewController
+@interface EKDetailViewController : UIViewController <EKListViewTableDelegate>
 
 @end

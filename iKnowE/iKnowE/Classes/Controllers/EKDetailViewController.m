@@ -1,6 +1,6 @@
 //
 //  EKViewController.m
-//  iSayNo
+//  iKnowE
 //
 //  Created by Evgeny Karkan on 10.09.13.
 //  Copyright (c) 2013 EvgenyKarkan. All rights reserved.

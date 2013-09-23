@@ -19,6 +19,8 @@
 		DE1B08FC17EE0C6700164B62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */; };
 		DE1B08FD17EE0C6700164B62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F017EE0C6600164B62 /* Default.png */; };
 		DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F117EE0C6600164B62 /* Default@2x.png */; };
+		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
+		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
@@ -53,6 +55,9 @@
 		DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DE1B08F017EE0C6600164B62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DE1B08F117EE0C6600164B62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE44991417F0DE9C0091519D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DE44991617F0DEE90091519D /* EKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataProvider.h; sourceTree = "<group>"; };
+		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */,
 				DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */,
 				DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */,
 				DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */,
@@ -128,6 +134,8 @@
 		DE1B08E117EE0C6600164B62 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DE44991617F0DEE90091519D /* EKCoreDataProvider.h */,
+				DE44991717F0DEE90091519D /* EKCoreDataProvider.m */,
 				DE1B08E217EE0C6600164B62 /* EKPlistDataProvider.h */,
 				DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */,
 				DE78634717EF2C74001CBA06 /* EKListViewTableProvider.h */,
@@ -201,6 +209,7 @@
 		DE518B8417DE880000B1206A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DE44991417F0DE9C0091519D /* CoreData.framework */,
 				DE834C4C17EE48C6000714A6 /* QuartzCore.framework */,
 				DE518B8517DE880000B1206A /* UIKit.framework */,
 				DE518B8717DE880000B1206A /* Foundation.framework */,
@@ -326,6 +335,7 @@
 				DE78634917EF2C74001CBA06 /* EKListViewTableProvider.m in Sources */,
 				DE78634C17EF2CAD001CBA06 /* EKAdditiveDescription.m in Sources */,
 				DE78634F17EF3F99001CBA06 /* EKDetailView.m in Sources */,
+				DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

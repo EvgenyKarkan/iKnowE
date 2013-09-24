@@ -40,17 +40,26 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 #pragma mark - Tableview API
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+
 - (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-	NSUInteger number = 0;
-	
-	if (self.search == YES) {
-		number = [self.searchData count];
-	}
+    NSUInteger number = 0;
+    
+    if (section == 1) {
+        if (self.search == YES) {
+            number = [self.searchData count];
+        }
+        else {
+            number = [self.usualData count];
+        }
+    }
 	else {
-		number = [self.usualData count];
-	}
-	
+        number = 3;
+    }
 	return number;
 }
 
@@ -89,6 +98,32 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	}
 	
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.section == 1) {
+
+            return NO;
+        }
+    
+    
+    return YES;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 2;
+}
+
+- (BOOL)tableView:(UITableView *)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return NO;
+}
+
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewCellEditingStyleDelete;
 }
 
 #pragma mark - Public API

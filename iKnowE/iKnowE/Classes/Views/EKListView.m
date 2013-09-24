@@ -7,41 +7,63 @@
 //
 
 #import "EKListView.h"
+#import "EKNavigationBarButtonView.h"
+
+@interface EKListView ()
+
+@property (nonatomic, strong) UIButton *left;
+@property (nonatomic, strong) UIButton *right;
+
+@end
 
 @implementation EKListView;
 
 - (id)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:frame];
-    if (self) {
+	self = [super initWithFrame:frame];
+	if (self) {
 		self.backgroundColor = [UIColor grayColor];
-        self.navigationBar = [[UINavigationBar alloc] init];
-		[self addSubview:self.navigationBar];
-		
+        
+		self.topView = [[UIView alloc] init];
+		self.topView.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.5f];
+		[self addSubview:self.topView];
+        
+		self.left = [UIButton buttonWithType:UIButtonTypeContactAdd];
+        [self.left addTarget:self action:@selector(edit) forControlEvents:UIControlEventTouchUpInside];
+		[self.topView addSubview:self.left];
+        
+		self.right = [UIButton buttonWithType:UIButtonTypeContactAdd];
+		[self.topView addSubview:self.right];
+        
 		self.searchBar = [[UISearchBar alloc] init];
 		[self addSubview:self.searchBar];
-		
+        
 		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
 		self.tableView.backgroundView = nil;
 		self.tableView.backgroundColor = [UIColor grayColor];
 		[self addSubview:self.tableView];
-		
+        
 		[self customizeSearchBar];
-    }
-    return self;
+	}
+	return self;
 }
 
 - (void)layoutSubviews
 {
 	[super layoutSubviews];
-	
-	self.navigationBar.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
-	
-	self.searchBar.frame = CGRectMake(0.0f, self.navigationBar.frame.size.height, self.frame.size.width, 44.0f);
-	
-	self.tableView.frame = CGRectMake(0.0f, self.navigationBar.frame.size.height + self.searchBar.frame.size.height,
-									  self.frame.size.width, self.frame.size.height - (self.navigationBar.frame.size.height + self.searchBar.frame.size.height));
+    
+	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
+    
+	self.left.frame = CGRectMake(5.0f, 8.0f, 30, 30);
+	self.right.frame = CGRectMake(285, 8, 30, 30);
+    
+	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
+    
+	self.tableView.frame = CGRectMake(0.0f, self.topView.frame.size.height + self.searchBar.frame.size.height,
+	                                  self.frame.size.width, self.frame.size.height - (self.topView.frame.size.height + self.searchBar.frame.size.height));
 }
+
+#pragma mark - Customize UI
 
 - (void)customizeSearchBar
 {
@@ -67,5 +89,13 @@
 	}
 }
 
+
+- (void)edit
+{
+    NSLog(@"%d %s",__LINE__, __PRETTY_FUNCTION__);
+    [self.tableView setEditing:YES animated:YES];
+    
+
+}
 
 @end

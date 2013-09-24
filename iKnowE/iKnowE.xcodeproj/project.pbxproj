@@ -22,6 +22,8 @@
 		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
 		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
 		DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */; };
+		DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */; };
+		DE4B783B17F20ACD003F96F5 /* reject@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783917F20ACD003F96F5 /* reject@2x.png */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
@@ -61,6 +63,8 @@
 		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
 		DE4B783517F1FD82003F96F5 /* EKNavigationBarButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKNavigationBarButtonView.h; sourceTree = "<group>"; };
 		DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKNavigationBarButtonView.m; sourceTree = "<group>"; };
+		DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cnacel-bt@2x.png"; sourceTree = "<group>"; };
+		DE4B783917F20ACD003F96F5 /* reject@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reject@2x.png"; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +186,8 @@
 		DE1B08EE17EE0C6600164B62 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */,
+				DE4B783917F20ACD003F96F5 /* reject@2x.png */,
 				DE78635017EF884F001CBA06 /* search_background.png */,
 				DE78635117EF884F001CBA06 /* search_background@2x.png */,
 				DE78635217EF884F001CBA06 /* search.png */,
@@ -288,6 +294,8 @@
 				DE78635517EF884F001CBA06 /* search_background@2x.png in Resources */,
 				DE78635617EF884F001CBA06 /* search.png in Resources */,
 				DE78635717EF884F001CBA06 /* search@2x.png in Resources */,
+				DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */,
+				DE4B783B17F20ACD003F96F5 /* reject@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

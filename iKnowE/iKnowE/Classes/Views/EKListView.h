@@ -10,7 +10,7 @@
 
 @interface EKListView : UIView
 
-@property (nonatomic, strong) UINavigationBar *navigationBar;
+@property (nonatomic, strong) UIView *topView;
 @property (nonatomic, strong) UISearchBar *searchBar;
 @property (nonatomic, strong) UITableView *tableView;
 

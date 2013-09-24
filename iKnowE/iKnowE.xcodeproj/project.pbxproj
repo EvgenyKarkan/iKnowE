@@ -21,6 +21,7 @@
 		DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F117EE0C6600164B62 /* Default@2x.png */; };
 		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
 		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
+		DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
@@ -58,6 +59,8 @@
 		DE44991417F0DE9C0091519D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DE44991617F0DEE90091519D /* EKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataProvider.h; sourceTree = "<group>"; };
 		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
+		DE4B783517F1FD82003F96F5 /* EKNavigationBarButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKNavigationBarButtonView.h; sourceTree = "<group>"; };
+		DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKNavigationBarButtonView.m; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -158,6 +161,8 @@
 		DE1B08E717EE0C6600164B62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DE4B783517F1FD82003F96F5 /* EKNavigationBarButtonView.h */,
+				DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */,
 				DE78634417EF21B2001CBA06 /* EKListView.h */,
 				DE78634517EF21B2001CBA06 /* EKListView.m */,
 				DE78634D17EF3F99001CBA06 /* EKDetailView.h */,
@@ -336,6 +341,7 @@
 				DE78634C17EF2CAD001CBA06 /* EKAdditiveDescription.m in Sources */,
 				DE78634F17EF3F99001CBA06 /* EKDetailView.m in Sources */,
 				DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */,
+				DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

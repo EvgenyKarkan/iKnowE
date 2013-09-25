@@ -30,7 +30,9 @@
 		self.topView.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.5f];
 		[self addSubview:self.topView];
         
-		self.left = [UIButton buttonWithType:UIButtonTypeContactAdd];
+		self.left = [UIButton buttonWithType:UIButtonTypeCustom];
+        [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
+        [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
         [self.left addTarget:self action:@selector(edit) forControlEvents:UIControlEventTouchUpInside];
 		[self.topView addSubview:self.left];
         
@@ -56,7 +58,7 @@
     
 	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
     
-	self.left.frame = CGRectMake(5.0f, 8.0f, 30, 30);
+	self.left.frame = CGRectMake(5.0f, 8.0f, 60, 30);
 	self.right.frame = CGRectMake(285, 8, 30, 30);
     
 	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
@@ -96,9 +98,33 @@
 {
 	if (!self.isTableEditing) {
 		[self.tableView setEditing:YES animated:YES];
+		[UIView animateWithDuration:0.15f
+		                 animations: ^{
+                             self.left.alpha = 0.0f;
+                         } completion: ^(BOOL finished) {
+							 [UIView animateWithDuration:0.15f
+                                              animations: ^{
+                                                  [self.left setImage:[UIImage imageNamed:@"reject"] forState:UIControlStateHighlighted];
+                                                  [self.left setImage:[UIImage imageNamed:@"reject"] forState:UIControlStateNormal];
+                                                  self.left.alpha = 1.0f;
+                                              } completion:nil];
+                         }];
+        
 	}
 	else {
 		[self.tableView setEditing:NO animated:YES];
+        [UIView animateWithDuration:0.15f
+		                 animations: ^{
+                             self.left.alpha = 0.0f;
+                         } completion: ^(BOOL finished) {
+							 [UIView animateWithDuration:0.15f
+                                              animations: ^{
+                                                  [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
+                                                  [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
+                                                  self.left.alpha = 1.0f;
+                                              } completion:nil];
+                         }];
+
 	}
     
 	self.isTableEditing = !self.isTableEditing;

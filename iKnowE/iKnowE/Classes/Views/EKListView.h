@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol EKListViewAddEDelegate <NSObject>
+
+- (void)addButtonPressed;
+
+@end
+
 @interface EKListView : UIView
 
 @property (nonatomic, strong) UIView *topView;
 @property (nonatomic, strong) UISearchBar *searchBar;
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, assign) id<EKListViewAddEDelegate> delegate;
 
 @end

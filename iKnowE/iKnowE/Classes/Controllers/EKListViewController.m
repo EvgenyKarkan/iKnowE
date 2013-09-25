@@ -11,8 +11,9 @@
 #import "EKListViewTableProvider.h"
 #import "EKPlistDataProvider.h"
 #import "EKAdditiveDescription.h"
+#import "EKAddEViewController.h"
 
-@interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate>
+@interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate, EKListViewAddEDelegate>
 
 @property (nonatomic, strong) EKListView *listView;
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
@@ -40,6 +41,7 @@
 	self.listView.tableView.delegate = self.dataProvider;
 	self.listView.tableView.dataSource = self.dataProvider;
 	self.listView.searchBar.delegate = self;
+    self.listView.delegate = self;
 	
 	[self.dataProvider feedDataSourceWithData:[EKPlistDataProvider additiveDescriptions]];
 	
@@ -94,6 +96,15 @@
 - (void)onKeyboardHide:(NSNotification *)notification
 {
 	self.listView.searchBar.showsCancelButton = NO;
+}
+
+#pragma mark - EKListViewAddEDelegate stuff
+
+- (void)addButtonPressed
+{
+    EKAddEViewController *addEVC = [[EKAddEViewController alloc] init];
+    [addEVC setModalPresentationStyle:UIModalPresentationFormSheet];
+    [self presentViewController:addEVC animated:YES completion:nil];
 }
 
 @end

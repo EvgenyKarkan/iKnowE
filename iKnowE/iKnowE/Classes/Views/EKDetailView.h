@@ -13,6 +13,4 @@
 @property (nonatomic, strong) UINavigationBar *navigationBar;
 @property (nonatomic, strong) UITextView *foo;
 
-
-
 @end

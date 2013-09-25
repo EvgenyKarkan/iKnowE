@@ -13,8 +13,10 @@
 
 @property (nonatomic, strong) UIButton *left;
 @property (nonatomic, strong) UIButton *right;
+@property (nonatomic, assign) BOOL isTableEditing;
 
 @end
+
 
 @implementation EKListView;
 
@@ -92,10 +94,14 @@
 
 - (void)edit
 {
-    NSLog(@"%d %s",__LINE__, __PRETTY_FUNCTION__);
-    [self.tableView setEditing:YES animated:YES];
+	if (!self.isTableEditing) {
+		[self.tableView setEditing:YES animated:YES];
+	}
+	else {
+		[self.tableView setEditing:NO animated:YES];
+	}
     
-
+	self.isTableEditing = !self.isTableEditing;
 }
 
 @end

@@ -100,15 +100,12 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (indexPath.section == 1) {
-
-            return NO;
-        }
-    
-    
-    return YES;
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	if (indexPath.section == 1) {
+		return NO;
+	}
+	return YES;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -124,13 +121,6 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return UITableViewCellEditingStyleDelete;
-}
-
-#pragma mark - Public API
-
-- (void)feedDataSourceWithData:(NSArray *)data
-{
-	self.usualData = data;
 }
 
 @end

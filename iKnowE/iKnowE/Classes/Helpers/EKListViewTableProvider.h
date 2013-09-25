@@ -24,7 +24,6 @@
 @property (nonatomic, strong) NSMutableArray *searchData;
 
 - (id)initWithDelegate:(id <EKListViewTableDelegate> )delegate;
-- (void)feedDataSourceWithData:(NSArray *)data;
 
 @end
 

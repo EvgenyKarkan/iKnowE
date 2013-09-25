@@ -52,6 +52,7 @@ static id _sharedInstance;
                                                         reason:@"Class instance is singleton. It's not possible to call +new method directly. Use +sharedInstance instead"
                                                       userInfo:nil];
     [exception raise];
+    
     return nil;
 }
 

@@ -42,8 +42,8 @@
 	self.listView.tableView.dataSource = self.dataProvider;
 	self.listView.searchBar.delegate = self;
     self.listView.delegate = self;
-	
-	[self.dataProvider feedDataSourceWithData:[EKPlistDataProvider additiveDescriptions]];
+
+    self.dataProvider.usualData = [EKPlistDataProvider additiveDescriptions];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self
 											 selector:@selector(onKeyboardHide:)

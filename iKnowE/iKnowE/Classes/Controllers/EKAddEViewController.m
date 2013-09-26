@@ -29,15 +29,15 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    [self.addView.left addTarget:self action:@selector(cancelPressed) forControlEvents:UIControlEventTouchUpInside];
+	[super viewDidLoad];
+	[self.addView.left addTarget:self action:@selector(cancelPressed) forControlEvents:UIControlEventTouchUpInside];
 }
 
 #pragma mark - Actions
 
 - (void)cancelPressed
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+	[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

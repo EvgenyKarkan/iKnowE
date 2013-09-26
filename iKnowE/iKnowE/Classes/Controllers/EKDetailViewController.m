@@ -65,9 +65,8 @@
                          self.splitButton.alpha = 1.0f;
                      } completion: ^(BOOL finished) {
                          [self.detailView addSubview:self.splitButton];
+                         self.masterPopoverController = pc;
                      }];
-    
-	self.masterPopoverController = pc;
 }
 
 - (void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem
@@ -77,9 +76,8 @@
                          self.splitButton.alpha = 0.0f;
                      } completion: ^(BOOL finished) {
                          [self.splitButton removeFromSuperview];
+                         self.masterPopoverController = nil;
                      }];
-    
-	self.masterPopoverController = nil;
 }
 
 #pragma mark - Provide button for splitViewController

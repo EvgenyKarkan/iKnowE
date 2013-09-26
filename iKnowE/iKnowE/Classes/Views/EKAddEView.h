@@ -10,4 +10,7 @@
 
 @interface EKAddEView : UIView
 
+@property (nonatomic, strong) UIView *topView;
+@property (nonatomic, strong) UIButton *left;
+
 @end

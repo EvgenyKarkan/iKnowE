@@ -31,7 +31,6 @@
 		[self addSubview:self.topView];
         
 		self.left = [UIButton buttonWithType:UIButtonTypeCustom];
-        self.left.titleLabel.text = @"Edit";
         [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
         [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
         [self.left addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];

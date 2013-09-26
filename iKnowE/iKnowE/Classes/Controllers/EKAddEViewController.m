@@ -7,33 +7,37 @@
 //
 
 #import "EKAddEViewController.h"
+#import "EKAddEView.h"
 
 @interface EKAddEViewController ()
 
+@property (nonatomic, strong) EKAddEView *addView;
+
 @end
 
-@implementation EKAddEViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+@implementation EKAddEViewController;
+
+#pragma mark - Life cycle
+
+- (void)loadView
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-        self.view.backgroundColor = [UIColor redColor];
-    }
-    return self;
+	EKAddEView *view = [[EKAddEView alloc] init];
+	self.view = view;
+	self.addView = view;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [self.addView.left addTarget:self action:@selector(cancelPressed) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void)didReceiveMemoryWarning
+#pragma mark - Actions
+
+- (void)cancelPressed
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

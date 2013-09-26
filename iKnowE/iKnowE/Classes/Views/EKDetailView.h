@@ -10,7 +10,8 @@
 
 @interface EKDetailView : UIView
 
-@property (nonatomic, strong) UINavigationBar *navigationBar;
+@property (nonatomic, strong) UINavigationItem *buttonCarrier;
+@property (nonatomic, strong) UIView *topView;
 @property (nonatomic, strong) UITextView *foo;
 
 @end

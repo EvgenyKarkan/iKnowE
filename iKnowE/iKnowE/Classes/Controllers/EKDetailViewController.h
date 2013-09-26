@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "EKListViewTableProvider.h"
 
-@interface EKDetailViewController : UIViewController <EKListViewTableDelegate>
+@interface EKDetailViewController : UIViewController <EKListViewTableDelegate, UISplitViewControllerDelegate>
 
 @end

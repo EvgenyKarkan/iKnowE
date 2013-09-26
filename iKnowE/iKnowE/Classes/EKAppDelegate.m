@@ -22,12 +22,12 @@
 	
 	self.splitViewController = [[UISplitViewController alloc] init];
 	self.splitViewController.viewControllers = @[listViewController, detailViewController];
-	
+    self.splitViewController.delegate = detailViewController;
+    
 	self.window.rootViewController = self.splitViewController;
 	[self.window makeKeyAndVisible];
 	
     return YES;
 }
 							
-
 @end

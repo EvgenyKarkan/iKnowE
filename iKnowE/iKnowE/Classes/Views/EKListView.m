@@ -31,6 +31,7 @@
 		[self addSubview:self.topView];
         
 		self.left = [UIButton buttonWithType:UIButtonTypeCustom];
+        self.left.titleLabel.text = @"Edit";
         [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
         [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
         [self.left addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
@@ -59,8 +60,8 @@
     
 	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
     
-	self.left.frame = CGRectMake(5.0f, 8.0f, 60, 30);
-	self.right.frame = CGRectMake(285, 8, 30, 30);
+	self.left.frame = CGRectMake(5.0f, 7.0f, 60.0f, 30.0f);
+	self.right.frame = CGRectMake(285.0f, 7.0f, 30.0f, 30.0f);
     
 	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
     

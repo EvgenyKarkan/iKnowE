@@ -41,6 +41,7 @@
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFC17F5D84A007BBB30 /* Additive.m */; };
+		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,8 @@
 		DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAttributedStringUtil.m; sourceTree = "<group>"; };
 		DEB4CFFB17F5D84A007BBB30 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
 		DEB4CFFC17F5D84A007BBB30 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
+		DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextField.h; sourceTree = "<group>"; };
+		DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,8 @@
 				DE78634E17EF3F99001CBA06 /* EKDetailView.m */,
 				DE763D4717F36745009BB3BE /* EKAddEView.h */,
 				DE763D4817F36745009BB3BE /* EKAddEView.m */,
+				DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */,
+				DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
 				DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */,
 				DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */,
+				DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -42,6 +42,7 @@
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFC17F5D84A007BBB30 /* Additive.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
+		DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4D00217F5EA1E007BBB30 /* EKTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +100,8 @@
 		DEB4CFFC17F5D84A007BBB30 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
 		DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextField.h; sourceTree = "<group>"; };
 		DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextField.m; sourceTree = "<group>"; };
+		DEB4D00117F5EA1D007BBB30 /* EKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextView.h; sourceTree = "<group>"; };
+		DEB4D00217F5EA1E007BBB30 /* EKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,8 @@
 				DE763D4817F36745009BB3BE /* EKAddEView.m */,
 				DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */,
 				DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */,
+				DEB4D00117F5EA1D007BBB30 /* EKTextView.h */,
+				DEB4D00217F5EA1E007BBB30 /* EKTextView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -384,6 +389,7 @@
 				DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */,
 				DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */,
 				DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */,
+				DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

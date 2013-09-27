@@ -8,6 +8,7 @@
 
 #import "EKListView.h"
 #import "EKNavigationBarButtonView.h"
+#import "EKAttributedStringUtil.h"
 
 @interface EKListView ()
 
@@ -31,8 +32,10 @@
 		[self addSubview:self.topView];
         
 		self.left = [UIButton buttonWithType:UIButtonTypeCustom];
-        [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
-        [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
+        [self.left setTitle:@"Edit" forState:UIControlStateNormal];
+        self.left.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        
+        [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
         [self.left addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
 		[self.topView addSubview:self.left];
         
@@ -59,7 +62,7 @@
     
 	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
     
-	self.left.frame = CGRectMake(5.0f, 7.0f, 60.0f, 30.0f);
+	self.left.frame = CGRectMake(10.0f, 7.0f, 60.0f, 30.0f);
 	self.right.frame = CGRectMake(285.0f, 7.0f, 30.0f, 30.0f);
     
 	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
@@ -106,8 +109,8 @@
                          } completion: ^(BOOL finished) {
                              [UIView animateWithDuration:0.15f
                                               animations: ^{
-                                                  [self.left setImage:[UIImage imageNamed:@"reject"] forState:UIControlStateHighlighted];
-                                                  [self.left setImage:[UIImage imageNamed:@"reject"] forState:UIControlStateNormal];
+                                                  [self.left setTitle:@"Done" forState:UIControlStateNormal];
+                                                  [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Done"] forState:UIControlStateHighlighted];
                                                   self.left.alpha = 1.0f;
                                               } completion:nil];
                          }];
@@ -120,8 +123,8 @@
                          } completion: ^(BOOL finished) {
                              [UIView animateWithDuration:0.15f
                                               animations: ^{
-                                                  [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
-                                                  [self.left setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
+                                                  [self.left setTitle:@"Edit" forState:UIControlStateNormal];
+                                                  [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
                                                   self.left.alpha = 1.0f;
                                               } completion:nil];
                          }];

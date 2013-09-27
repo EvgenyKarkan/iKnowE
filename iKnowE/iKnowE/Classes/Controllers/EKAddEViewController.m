@@ -30,7 +30,7 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	[self.addView.left addTarget:self action:@selector(cancelPressed) forControlEvents:UIControlEventTouchUpInside];
+	[self.addView.leftButton addTarget:self action:@selector(cancelPressed) forControlEvents:UIControlEventTouchUpInside];
 }
 
 #pragma mark - Actions

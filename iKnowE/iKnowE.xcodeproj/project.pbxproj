@@ -116,7 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				DE1B08D917EE0C6600164B62 /* Classes */,
-				DE1B08ED17EE0C6600164B62 /* Recourses */,
+				DE1B08ED17EE0C6600164B62 /* Resourses */,
 				DE1B08E817EE0C6600164B62 /* InfoPlist.strings */,
 				DE1B08EA17EE0C6600164B62 /* iKnowE-Info.plist */,
 				DE1B08EB17EE0C6600164B62 /* iKnowE-Prefix.pch */,
@@ -193,12 +193,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		DE1B08ED17EE0C6600164B62 /* Recourses */ = {
+		DE1B08ED17EE0C6600164B62 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
 				DE1B08EE17EE0C6600164B62 /* Images */,
 			);
-			path = Recourses;
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 		DE1B08EE17EE0C6600164B62 /* Images */ = {

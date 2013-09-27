@@ -40,6 +40,7 @@
 		DE78635717EF884F001CBA06 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635317EF884F001CBA06 /* search@2x.png */; };
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
+		DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFC17F5D84A007BBB30 /* Additive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,8 @@
 		DE834C4C17EE48C6000714A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAttributedStringUtil.h; sourceTree = "<group>"; };
 		DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAttributedStringUtil.m; sourceTree = "<group>"; };
+		DEB4CFFB17F5D84A007BBB30 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
+		DEB4CFFC17F5D84A007BBB30 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				DE1B08E517EE0C6600164B62 /* additivies.plist */,
 				DE1B08E617EE0C6600164B62 /* categories.plist */,
 				DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */,
+				DEB4CFFB17F5D84A007BBB30 /* Additive.h */,
+				DEB4CFFC17F5D84A007BBB30 /* Additive.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */,
 				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
 				DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */,
+				DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

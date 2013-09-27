@@ -19,6 +19,7 @@
 		DE1B08FC17EE0C6700164B62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */; };
 		DE1B08FD17EE0C6700164B62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F017EE0C6600164B62 /* Default.png */; };
 		DE1B08FE17EE0C6700164B62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08F117EE0C6600164B62 /* Default@2x.png */; };
+		DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */; };
 		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
 		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
 		DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */; };
@@ -60,6 +61,7 @@
 		DE1B08EF17EE0C6600164B62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DE1B08F017EE0C6600164B62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DE1B08F117EE0C6600164B62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE27EDA917F50295001A183E /* UserAdditive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserAdditive.xcdatamodel; sourceTree = "<group>"; };
 		DE44991417F0DE9C0091519D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DE44991617F0DEE90091519D /* EKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataProvider.h; sourceTree = "<group>"; };
 		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				DE78634B17EF2CAD001CBA06 /* EKAdditiveDescription.m */,
 				DE1B08E517EE0C6600164B62 /* additivies.plist */,
 				DE1B08E617EE0C6600164B62 /* categories.plist */,
+				DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */,
 				DE763D4617F35FA0009BB3BE /* EKAddEViewController.m in Sources */,
 				DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */,
+				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +489,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE27EDA917F50295001A183E /* UserAdditive.xcdatamodel */,
+			);
+			currentVersion = DE27EDA917F50295001A183E /* UserAdditive.xcdatamodel */;
+			path = UserAdditive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DE518B7A17DE880000B1206A /* Project object */;
 }

@@ -72,7 +72,7 @@
 }
 
 #pragma mark - Customize UI
-
+#warning lot of magic
 - (void)customizeSearchBar
 {
 //	for (UIView *subview in[self.searchBar subviews]) {

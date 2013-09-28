@@ -34,7 +34,7 @@
 	[super layoutSubviews];
 	
     self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
-	self.foo.frame = CGRectMake(10.0f, 54.0f, self.frame.size.width - 20.0f, self.frame.size.height - 64.0f);
+	self.foo.frame = CGRectMake(10.0f, self.topView.frame.size.height + 10.0f, self.frame.size.width - 20.0f, self.frame.size.height - 64.0f);
 }
 
 @end

@@ -14,6 +14,7 @@
 
 + (NSArray *)additiveDescriptions
 {
+#warning magic
 	NSString *path = [[NSBundle mainBundle] pathForResource:@"additivies" ofType:@"plist"];
 	NSArray *raughDescriptions = [[NSArray alloc] initWithContentsOfFile:path];
 	NSMutableArray *result = [[NSMutableArray alloc] initWithCapacity:[raughDescriptions count]];

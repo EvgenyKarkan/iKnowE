@@ -57,7 +57,7 @@
         [self dismissViewControllerAnimated:YES completion:nil];
     }
 	else {
-            //compose HUD
+#warning compose HUD
 		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
 		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
                                                            delegate:nil
@@ -65,7 +65,6 @@
                                                   otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
         [errorView show];
 	}
-
 }
 
 #pragma mark - Key board notifications handling
@@ -81,6 +80,7 @@
 	                                             name:UIKeyboardWillHideNotification object:nil];
 }
 
+#warning magic
 - (void)keyboardWasShown:(NSNotification *)aNotification
 {
 	CGRect keyboardFrame = [[[aNotification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue];

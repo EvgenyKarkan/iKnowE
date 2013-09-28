@@ -9,7 +9,7 @@
 #import "EKAppDelegate.h"
 #import "EKListViewController.h"
 #import "EKDetailViewController.h"
-
+#import "EKCoreDataProvider.h"
 
 @implementation EKAppDelegate
 
@@ -29,5 +29,10 @@
 	
     return YES;
 }
-							
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    [[EKCoreDataProvider sharedInstance] saveContext];
+}
+
 @end

@@ -8,6 +8,7 @@
 
 #import "EKAttributedStringUtil.h"
 
+
 @implementation EKAttributedStringUtil
 
 + (NSAttributedString *)attributeStringWithString:(NSString *)string
@@ -17,6 +18,5 @@
     
     return newString;
 }
-
 
 @end

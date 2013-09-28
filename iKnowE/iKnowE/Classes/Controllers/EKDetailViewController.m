@@ -9,7 +9,6 @@
 #import "EKDetailViewController.h"
 #import "EKDetailView.h"
 #import "EKAdditiveDescription.h"
-#import "EKNavigationBarButtonView.h"
 
 @interface EKDetailViewController () 
 
@@ -84,6 +83,7 @@
 
 - (UIButton *)splitViewButton
 {
+#warning magic
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
 	[button setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
 	[button setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];

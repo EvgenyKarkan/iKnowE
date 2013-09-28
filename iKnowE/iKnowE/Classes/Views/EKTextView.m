@@ -9,16 +9,17 @@
 #import "EKTextView.h"
 
 @interface EKTextView ()
+
 - (void)_initialize;
 - (void)_updateShouldDrawPlaceholder;
 - (void)_textChanged:(NSNotification *)notification;
+
 @end
 
 
 @implementation EKTextView {
 	BOOL _shouldDrawPlaceholder;
 }
-
 
 #pragma mark - Accessors
 
@@ -29,7 +30,6 @@
 	[super setText:string];
 	[self _updateShouldDrawPlaceholder];
 }
-
 
 - (void)setPlaceholder:(NSString *)string {
 	if ([string isEqual:_placeholder]) {
@@ -47,7 +47,6 @@
 	[[NSNotificationCenter defaultCenter] removeObserver:self name:UITextViewTextDidChangeNotification object:self];
 }
 
-
 #pragma mark - UIView
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
@@ -57,14 +56,12 @@
 	return self;
 }
 
-
 - (id)initWithFrame:(CGRect)frame {
 	if ((self = [super initWithFrame:frame])) {
 		[self _initialize];
 	}
 	return self;
 }
-
 
 - (void)drawRect:(CGRect)rect {
 	[super drawRect:rect];
@@ -75,7 +72,6 @@
 	}
 }
 
-
 #pragma mark - Private
 
 - (void)_initialize {
@@ -85,7 +81,6 @@
 	_shouldDrawPlaceholder = NO;
 }
 
-
 - (void)_updateShouldDrawPlaceholder {
 	BOOL prev = _shouldDrawPlaceholder;
 	_shouldDrawPlaceholder = self.placeholder && self.placeholderTextColor && self.text.length == 0;
@@ -94,7 +89,6 @@
 		[self setNeedsDisplay];
 	}
 }
-
 
 - (void)_textChanged:(NSNotification *)notification {
 	[self _updateShouldDrawPlaceholder];

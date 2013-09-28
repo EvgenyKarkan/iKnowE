@@ -78,6 +78,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 			}
 		}
 		else {
+#warning add search
 			number = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count];
 		}
 	}

@@ -15,7 +15,6 @@
 
 @interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate, EKListViewAddEDelegate>
 
-
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
 
 @end
@@ -66,6 +65,7 @@
 				[self.dataProvider.searchData addObject:[self.dataProvider.usualData objectAtIndex:i]];
 			}
 		}
+#warning add search
 	}
 	else {
 		self.dataProvider.search = NO;

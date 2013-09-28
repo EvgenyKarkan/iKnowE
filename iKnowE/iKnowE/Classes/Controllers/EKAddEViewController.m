@@ -58,12 +58,12 @@
     }
 	else {
             //compose HUD
-//		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
-//		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
-//                                                           delegate:nil
-//                                                  cancelButtonTitle:nil
-//                                                  otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
-//        [errorView show];
+		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
+		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
+                                                           delegate:nil
+                                                  cancelButtonTitle:nil
+                                                  otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
+        [errorView show];
 	}
 
 }
@@ -105,6 +105,8 @@
 	                                            self.addView.scrollView.frame.size.width - 40.0f,
 	                                            self.addView.scrollView.frame.size.height - 20.0f - self.addView.eCodeField.frame.size.height - self.addView.nameField.frame.size.height - 60.0f);
 }
+
+#pragma mark - Input validation
 
 - (BOOL)validateAllInput
 {

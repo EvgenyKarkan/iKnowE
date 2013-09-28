@@ -11,6 +11,8 @@
 #import "EKDetailViewController.h"
 #import "EKAppDelegate.h"
 #import "EKListViewController.h"
+#import "EKCoreDataProvider.h"
+#import "Additive.h"
 
 static NSString * const kITReuseIdentifier = @"defaultCell";
 
@@ -42,25 +44,45 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;
+    NSInteger number = 0;
+    
+    if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0) {
+        number = 2;
+    }
+    else {
+        number = 1;
+    }
+    
+    return number;
 }
 
 - (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     NSUInteger number = 0;
     
-    if (section == 1) {
-        if (self.search == YES) {
-            number = [self.searchData count];
-        }
-        else {
-            number = [self.usualData count];
-        }
-    }
+	if ([self numberOfSectionsInTableView:tableView] == 1) {
+		if (self.search == YES) {
+			number = [self.searchData count];
+		}
+		else {
+			number = [self.usualData count];
+		}
+	}
 	else {
-        number = 3;
-    }
-	return number;
+		if (section == 1) {
+			if (self.search == YES) {
+				number = [self.searchData count];
+			}
+			else {
+				number = [self.usualData count];
+			}
+		}
+		else {
+			number = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count];
+		}
+	}
+    
+    return number;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -78,6 +100,10 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		cell.textLabel.text = ((EKAdditiveDescription *)self.usualData[indexPath.row]).code;
 	}
 	
+    if ((indexPath.section == 0) && ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0)) {
+        cell.textLabel.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][indexPath.row]).ecode;
+    }
+    
 	return cell;
 }
 

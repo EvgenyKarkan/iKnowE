@@ -25,7 +25,7 @@
 {
 	self = [super initWithFrame:frame];
 	if (self) {
-		self.backgroundColor = [UIColor grayColor];
+		self.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
         
 		self.topView = [[UIView alloc] init];
 		self.topView.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.5f];
@@ -48,7 +48,7 @@
         
 		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
 		self.tableView.backgroundView = nil;
-		self.tableView.backgroundColor = [UIColor grayColor];
+		self.tableView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
 		[self addSubview:self.tableView];
         
 		[self customizeSearchBar];

@@ -27,7 +27,7 @@
 	<key>UIInterfaceOrientation</key>
 	<string>UIInterfaceOrientationLandscapeLeft</string>
 	<key>UIMainStoryboardFile</key>
-	<string>MainStoryboard</string>
+	<string></string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

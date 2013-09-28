@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EKListView.h"
 
 @interface EKListViewController : UIViewController
+
+@property (nonatomic, strong) EKListView *listView;
 
 @end

@@ -13,11 +13,11 @@
 @interface EKAddEView : UIView
 
 @property (nonatomic, strong) UIView *topView;
-@property (nonatomic, strong) UIButton *leftButton;
+@property (nonatomic, strong) UIButton *cancelButton;
 @property (nonatomic, strong) UIButton *saveButton;
 @property (nonatomic, strong) UIScrollView *scrollView;
-@property (nonatomic, strong) EKTextField *eCode;
-@property (nonatomic, strong) EKTextField *name;
-@property (nonatomic, strong) EKTextView *information;
+@property (nonatomic, strong) EKTextField *eCodeField;
+@property (nonatomic, strong) EKTextField *nameField;
+@property (nonatomic, strong) EKTextView *informationField;
 
 @end

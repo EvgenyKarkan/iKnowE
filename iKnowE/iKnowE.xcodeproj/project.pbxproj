@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB711FF645704458B029D483 /* libPods-iKnowE.a */; };
+		DE0F155E17F788B000DF4778 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0F155D17F788B000DF4778 /* Additive.m */; };
 		DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */; };
 		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
 		DE1B08F517EE0C6700164B62 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */; };
@@ -40,7 +41,6 @@
 		DE78635717EF884F001CBA06 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635317EF884F001CBA06 /* search@2x.png */; };
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
-		DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFC17F5D84A007BBB30 /* Additive.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
 		DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4D00217F5EA1E007BBB30 /* EKTextView.m */; };
 /* End PBXBuildFile section */
@@ -48,6 +48,8 @@
 /* Begin PBXFileReference section */
 		C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iKnowE.xcconfig"; path = "Pods/Pods-iKnowE.xcconfig"; sourceTree = "<group>"; };
 		DB711FF645704458B029D483 /* libPods-iKnowE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iKnowE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0F155C17F788B000DF4778 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
+		DE0F155D17F788B000DF4778 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
 		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
 		DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailViewController.m; sourceTree = "<group>"; };
 		DE1B08DD17EE0C6600164B62 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
@@ -96,8 +98,6 @@
 		DE834C4C17EE48C6000714A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAttributedStringUtil.h; sourceTree = "<group>"; };
 		DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAttributedStringUtil.m; sourceTree = "<group>"; };
-		DEB4CFFB17F5D84A007BBB30 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
-		DEB4CFFC17F5D84A007BBB30 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
 		DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextField.h; sourceTree = "<group>"; };
 		DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextField.m; sourceTree = "<group>"; };
 		DEB4D00117F5EA1D007BBB30 /* EKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextView.h; sourceTree = "<group>"; };
@@ -183,8 +183,8 @@
 				DE1B08E517EE0C6600164B62 /* additivies.plist */,
 				DE1B08E617EE0C6600164B62 /* categories.plist */,
 				DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */,
-				DEB4CFFB17F5D84A007BBB30 /* Additive.h */,
-				DEB4CFFC17F5D84A007BBB30 /* Additive.m */,
+				DE0F155C17F788B000DF4778 /* Additive.h */,
+				DE0F155D17F788B000DF4778 /* Additive.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -387,9 +387,9 @@
 				DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */,
 				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
 				DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */,
-				DEB4CFFD17F5D84A007BBB30 /* Additive.m in Sources */,
 				DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */,
 				DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */,
+				DE0F155E17F788B000DF4778 /* Additive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

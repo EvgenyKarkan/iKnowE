@@ -15,7 +15,7 @@
 
 @interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate, EKListViewAddEDelegate>
 
-@property (nonatomic, strong) EKListView *listView;
+
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
 
 @end

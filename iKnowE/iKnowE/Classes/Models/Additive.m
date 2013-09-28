@@ -2,7 +2,7 @@
 //  Additive.m
 //  iKnowE
 //
-//  Created by Evgeny Karkan on 27.09.13.
+//  Created by Evgeny Karkan on 29.09.13.
 //  Copyright (c) 2013 EvgenyKarkan. All rights reserved.
 //
 
@@ -12,7 +12,7 @@
 @implementation Additive
 
 @dynamic ecode;
-@dynamic name;
 @dynamic information;
+@dynamic name;
 
 @end

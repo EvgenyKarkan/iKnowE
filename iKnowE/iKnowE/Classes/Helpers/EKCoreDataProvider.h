@@ -10,10 +10,10 @@
 
 @interface EKCoreDataProvider : NSObject
 
-@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
-
 + (EKCoreDataProvider *)sharedInstance;
-+ (void)saveContext;
-- (NSFetchRequest *)requestWithEntityName:(NSString *)entityName;
+
+- (void)saveEntityWithName:(NSString *)name withData:(NSArray *)data;
+- (void)saveContext;
+- (NSArray *)fetchedEntitiesForEntityName:(NSString *)name;
 
 @end

@@ -7,9 +7,11 @@
 //
 
 #import "EKCoreDataProvider.h"
+#import "Additive.h"
 
 @interface EKCoreDataProvider ()
 
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSManagedObjectModel *managedObjectModel;
 @property (nonatomic, strong) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
@@ -77,7 +79,7 @@ static id _sharedInstance;
 	if (_managedObjectModel != nil) {
 		return _managedObjectModel;
 	}
-	NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"LTFE" withExtension:@"momd"];
+	NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"UserAdditive" withExtension:@"momd"];
 	_managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
 	return _managedObjectModel;
 }
@@ -88,10 +90,10 @@ static id _sharedInstance;
 		return _persistentStoreCoordinator;
 	}
     
-	NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"LTFE.sqlite"];
+	NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"iKnowE.sqlite"];
     
 	NSError *error = nil;
-	_persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+	_persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[[EKCoreDataProvider sharedInstance] managedObjectModel]];
 	if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		abort();
@@ -102,11 +104,35 @@ static id _sharedInstance;
 
 #pragma mark - Public API
 
-+ (void)saveContext
+- (void)saveEntityWithName:(NSString *)name withData:(NSArray *)data
 {
-	EKCoreDataProvider *providerInstance = [self sharedInstance];
+	Additive *additive = [NSEntityDescription insertNewObjectForEntityForName:name inManagedObjectContext:[[EKCoreDataProvider sharedInstance] managedObjectContext]];
+	if (additive != nil) {
+		NSError *savingError = nil;
+		additive.ecode = data[0];
+		additive.name = data[1];
+		additive.information = data[2];
+        
+		[[[EKCoreDataProvider sharedInstance] managedObjectContext] save:&savingError];
+        
+		NSAssert(savingError == nil, @"Error occurs during saving to context %@", [savingError localizedDescription]);
+	}
+    
+	else {
+            //no entity was returned add error HUD
+//		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
+//		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
+//		                                                   delegate:nil
+//		                                          cancelButtonTitle:nil
+//		                                          otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
+//		[errorView show];
+	}
+}
+
+- (void)saveContext
+{
 	NSError *error = nil;
-	NSManagedObjectContext *managedObjectContext = [providerInstance managedObjectContext];
+	NSManagedObjectContext *managedObjectContext = [[EKCoreDataProvider sharedInstance] managedObjectContext];
 	if (managedObjectContext != nil) {
 		if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
 			NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
@@ -115,13 +141,31 @@ static id _sharedInstance;
 	}
 }
 
+- (NSArray *)fetchedEntitiesForEntityName:(NSString *)name
+{
+	NSError *error = nil;
+	NSArray *entities = [[[EKCoreDataProvider sharedInstance] managedObjectContext] executeFetchRequest:[[EKCoreDataProvider sharedInstance] requestWithEntityName:name]
+	                                                                                              error:&error];
+    
+	NSAssert(entities != nil, @"Fetched array should not be nil");
+    
+	return entities;
+}
+
 - (NSFetchRequest *)requestWithEntityName:(NSString *)entityName
 {
-	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc]init];
-	NSEntityDescription *entity = [NSEntityDescription entityForName:entityName
-	                                          inManagedObjectContext:self.managedObjectContext];
-	[fetchRequest setEntity:entity];
-	
+	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+	NSEntityDescription *entityDescription = [NSEntityDescription entityForName:entityName
+	                                                     inManagedObjectContext:self.managedObjectContext];
+    
+	if (entityDescription != nil) {
+		[fetchRequest setEntity:entityDescription];
+	}
+	else {
+		NSAssert(entityDescription != nil, @"EntityDescription should not be nil");
+	}
+    
+
 	return fetchRequest;
 }
 

@@ -12,6 +12,8 @@
 #import "EKPlistDataProvider.h"
 #import "EKAdditiveDescription.h"
 #import "EKAddEViewController.h"
+#import "EKCoreDataProvider.h"
+#import "Additive.h"
 
 @interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate, EKListViewAddEDelegate>
 
@@ -54,18 +56,27 @@
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
-	if ([self.dataProvider.searchData count] > 0) {
-		[self.dataProvider.searchData removeAllObjects];
+	if (([self.dataProvider.searchPlistData count] > 0) || ([self.dataProvider.searchCoreDataData count] > 0)) {
+		[self.dataProvider.searchPlistData removeAllObjects];
+        [self.dataProvider.searchCoreDataData removeAllObjects];
 	}
-	if ([searchText length] > 0) {
+   	if ([searchText length] > 0) {
 		self.dataProvider.search = YES;
 		for (NSUInteger i = 0; i < [self.dataProvider.usualData count]; i++) {
 			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString:searchText options:NSCaseInsensitiveSearch];
 			if (titleResultsRange.length > 0) {
-				[self.dataProvider.searchData addObject:[self.dataProvider.usualData objectAtIndex:i]];
+				[self.dataProvider.searchPlistData addObject:[self.dataProvider.usualData objectAtIndex:i]];
 			}
 		}
-#warning add search
+		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0) {
+			for (NSUInteger i = 0; i < [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count]; i++) {
+				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][i]).ecode rangeOfString:searchText
+                                                                                                                                          options:NSCaseInsensitiveSearch];
+				if (range.length > 0) {
+					[self.dataProvider.searchCoreDataData addObject:[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][i]];
+				}
+			}
+		}
 	}
 	else {
 		self.dataProvider.search = NO;
@@ -79,10 +90,12 @@
 {
 	self.listView.searchBar.text = @"";
 	[self.listView.searchBar resignFirstResponder];
-	self.listView.searchBar.showsCancelButton = NO;
-	
-	[self.dataProvider.searchData removeAllObjects];
+    self.listView.searchBar.showsCancelButton = NO;
+    
+	[self.dataProvider.searchPlistData removeAllObjects];
+    [self.dataProvider.searchCoreDataData removeAllObjects];
 	self.dataProvider.search = NO;
+    
 	[self.listView.tableView reloadData];
 }
 

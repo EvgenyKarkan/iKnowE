@@ -148,7 +148,7 @@ static id _sharedInstance;
 	                                                                                              error:&error];
     
 	NSAssert(entities != nil, @"Fetched array should not be nil");
-    
+
 	return entities;
 }
 

@@ -82,6 +82,8 @@
                                                   otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
         [errorView show];
 	}
+    [((EKAppDelegate *)[[UIApplication sharedApplication] delegate]).splitViewController.viewControllers[0] viewWillAppear:YES];
+
 }
 
 #pragma mark - Key board notifications handling

@@ -21,7 +21,8 @@
 @property (nonatomic, assign) id <EKListViewTableDelegate> delegate;
 @property (nonatomic, assign) BOOL search;
 @property (nonatomic, strong) NSArray *usualData;
-@property (nonatomic, strong) NSMutableArray *searchData;
+@property (nonatomic, strong) NSMutableArray *searchPlistData;
+@property (nonatomic, strong) NSMutableArray *searchCoreDataData;
 
 - (id)initWithDelegate:(id <EKListViewTableDelegate> )delegate;
 

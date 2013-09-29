@@ -33,7 +33,8 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	if (self) {
 		self.delegate = delegate;
 		self.usualData = [[NSArray alloc] init];
-		self.searchData = [[NSMutableArray alloc] init];
+		self.searchPlistData = [[NSMutableArray alloc] init];
+        self.searchCoreDataData = [[NSMutableArray alloc] init];
 		self.appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
 	}
 	
@@ -55,14 +56,33 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     
     return number;
 }
+#warning magic
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+	NSString *title = nil;
+    
+	if ([tableView numberOfSections] == 1) {
+		title = @"Default data";
+	}
+	else {
+		if (section == 0) {
+			title = @"User data";
+		}
+		else {
+			title = @"Default data";
+		}
+	}
+    
+	return title;
+}
 
 - (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSUInteger number = 0;
+	NSUInteger number = 0;
     
 	if ([self numberOfSectionsInTableView:tableView] == 1) {
 		if (self.search == YES) {
-			number = [self.searchData count];
+			number = [self.searchPlistData count];
 		}
 		else {
 			number = [self.usualData count];
@@ -71,19 +91,23 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	else {
 		if (section == 1) {
 			if (self.search == YES) {
-				number = [self.searchData count];
+				number = [self.searchPlistData count];
 			}
 			else {
 				number = [self.usualData count];
 			}
 		}
 		else {
-#warning add search
-			number = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count];
+			if (self.search == YES) {
+				number = [self.searchCoreDataData count];
+			}
+			else {
+				number = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count];
+			}
 		}
 	}
     
-    return number;
+	return number;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -94,16 +118,36 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		cell.selectionStyle = UITableViewCellSelectionStyleGray;
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	}
-	if (self.search == YES) {
-		cell.textLabel.text = ((EKAdditiveDescription *)self.searchData[indexPath.row]).code;
+	if ([tableView numberOfSections] == 1) {
+		if (self.search) {
+			NSAssert([self.searchPlistData count] > 0, @"SearchPlistData array should have at least one object");
+			cell.textLabel.text = ((EKAdditiveDescription *)self.searchPlistData[indexPath.row]).code;
+		}
+		else {
+			cell.textLabel.text = ((EKAdditiveDescription *)self.usualData[indexPath.row]).code;
+		}
 	}
 	else {
-		cell.textLabel.text = ((EKAdditiveDescription *)self.usualData[indexPath.row]).code;
+		if (self.search) {
+			if (indexPath.section == 0) {
+				NSAssert([self.searchCoreDataData count] > 0, @"SearchCoreDataData array should have at least one object");
+				cell.textLabel.text = ((Additive *)self.searchCoreDataData[indexPath.row]).ecode;
+			}
+			else {
+				NSAssert([self.searchPlistData count] > 0, @"SearchPlistData array should have at least one object");
+				cell.textLabel.text = ((EKAdditiveDescription *)self.searchPlistData[indexPath.row]).code;
+			}
+		}
+		else {
+			if (indexPath.section == 0) {
+				NSAssert([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0, @"Fetched array should have at least one entity");
+				cell.textLabel.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][indexPath.row]).ecode;
+			}
+			else {
+				cell.textLabel.text = ((EKAdditiveDescription *)self.usualData[indexPath.row]).code;
+			}
+		}
 	}
-	
-    if ((indexPath.section == 0) && ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0)) {
-        cell.textLabel.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][indexPath.row]).ecode;
-    }
     
 	return cell;
 }
@@ -118,7 +162,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	self.delegate = self.appDelegate.splitViewController.viewControllers[1];
 	
 	if (self.search) {
-		[self.delegate cellDidPressWithData:self.searchData withIndexPath:indexPath];
+		[self.delegate cellDidPressWithData:self.searchPlistData withIndexPath:indexPath];
 	}
 	else {
 		[self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath];

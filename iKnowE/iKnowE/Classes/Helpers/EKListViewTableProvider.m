@@ -83,9 +83,20 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)];
-    view.backgroundColor = [[UIColor greenColor] colorWithAlphaComponent:0.5f];
-    return view;
+    if ([tableView numberOfSections] == 2) {
+        if (section == 1) {
+            self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"Default data"];
+            [self.headerView addTarget:self addAction:@selector(scrollToSectionTop)];
+        }
+        else {
+            self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"User data"];
+        }
+    }
+    else {
+        self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"Default data"];
+    }
+
+    return self.headerView;
 }
 
 - (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -204,6 +215,15 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return UITableViewCellEditingStyleDelete;
+}
+
+#pragma mark - Tap on header view action
+
+- (void)scrollToSectionTop
+{
+	[((EKListViewController *)self.appDelegate.splitViewController.viewControllers[0]).listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:1]
+                                                                                                                atScrollPosition:UITableViewScrollPositionTop
+                                                                                                                        animated:YES];
 }
 
 @end

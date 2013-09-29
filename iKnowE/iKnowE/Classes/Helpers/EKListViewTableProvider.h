@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EKTableSectionHeaderView.h"
 
 @protocol EKListViewTableDelegate <NSObject>
 
@@ -23,6 +24,7 @@
 @property (nonatomic, strong) NSArray *usualData;
 @property (nonatomic, strong) NSMutableArray *searchPlistData;
 @property (nonatomic, strong) NSMutableArray *searchCoreDataData;
+@property (nonatomic, strong) EKTableSectionHeaderView *headerView;
 
 - (id)initWithDelegate:(id <EKListViewTableDelegate> )delegate;
 

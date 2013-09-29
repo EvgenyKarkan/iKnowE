@@ -7,7 +7,6 @@
 //
 
 #import "EKListView.h"
-#import "EKNavigationBarButtonView.h"
 #import "EKAttributedStringUtil.h"
 
 @interface EKListView ()
@@ -48,6 +47,7 @@
         
 		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
 		self.tableView.backgroundView = nil;
+        self.tableView.bounces = NO;
 		self.tableView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
 		[self addSubview:self.tableView];
         

@@ -12,6 +12,9 @@
 #import "EKAppDelegate.h"
 #import "EKListViewController.h"
 
+static CGFloat const kEKLow = 20.0f;
+static CGFloat const kEKBig = 235.0f;
+
 @interface EKAddEViewController ()
 
 @property (nonatomic, strong) EKAddEView *addView;
@@ -97,7 +100,6 @@
 	                                             name:UIKeyboardWillHideNotification object:nil];
 }
 
-#warning magic
 - (void)keyboardWasShown:(NSNotification *)aNotification
 {
 	CGRect keyboardFrame = [[[aNotification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue];
@@ -106,10 +108,10 @@
 	CGFloat margin;
     
 	if ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) {
-		margin = 20.0f;
+		margin = kEKLow;
 	}
 	else {
-		margin = 235.0f;
+		margin = kEKBig;
 	}
     
 	[self.addView.informationField setFrame:CGRectMake(20.0f, self.addView.nameField.frame.origin.y + self.addView.nameField.frame.size.height + 20.0f,

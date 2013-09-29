@@ -23,7 +23,6 @@
 		DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */; };
 		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
 		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
-		DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */; };
 		DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */; };
 		DE4B783B17F20ACD003F96F5 /* reject@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783917F20ACD003F96F5 /* reject@2x.png */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
@@ -43,6 +42,7 @@
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
 		DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4D00217F5EA1E007BBB30 /* EKTextView.m */; };
+		DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +71,6 @@
 		DE44991417F0DE9C0091519D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DE44991617F0DEE90091519D /* EKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataProvider.h; sourceTree = "<group>"; };
 		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
-		DE4B783517F1FD82003F96F5 /* EKNavigationBarButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKNavigationBarButtonView.h; sourceTree = "<group>"; };
-		DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKNavigationBarButtonView.m; sourceTree = "<group>"; };
 		DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cnacel-bt@2x.png"; sourceTree = "<group>"; };
 		DE4B783917F20ACD003F96F5 /* reject@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reject@2x.png"; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +101,8 @@
 		DEB4D00117F5EA1D007BBB30 /* EKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextView.h; sourceTree = "<group>"; };
 		DEB4D00217F5EA1E007BBB30 /* EKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextView.m; sourceTree = "<group>"; };
 		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionHeaderView.h; sourceTree = "<group>"; };
+		DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSectionHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,8 +194,6 @@
 		DE1B08E717EE0C6600164B62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DE4B783517F1FD82003F96F5 /* EKNavigationBarButtonView.h */,
-				DE4B783617F1FD82003F96F5 /* EKNavigationBarButtonView.m */,
 				DE78634417EF21B2001CBA06 /* EKListView.h */,
 				DE78634517EF21B2001CBA06 /* EKListView.m */,
 				DE78634D17EF3F99001CBA06 /* EKDetailView.h */,
@@ -206,6 +204,8 @@
 				DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */,
 				DEB4D00117F5EA1D007BBB30 /* EKTextView.h */,
 				DEB4D00217F5EA1E007BBB30 /* EKTextView.m */,
+				DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */,
+				DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -384,7 +384,6 @@
 				DE78634C17EF2CAD001CBA06 /* EKAdditiveDescription.m in Sources */,
 				DE78634F17EF3F99001CBA06 /* EKDetailView.m in Sources */,
 				DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */,
-				DE4B783717F1FD82003F96F5 /* EKNavigationBarButtonView.m in Sources */,
 				DE763D4617F35FA0009BB3BE /* EKAddEViewController.m in Sources */,
 				DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */,
 				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
@@ -392,6 +391,7 @@
 				DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */,
 				DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */,
 				DE0F155E17F788B000DF4778 /* Additive.m in Sources */,
+				DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -217,13 +217,16 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     return UITableViewCellEditingStyleDelete;
 }
 
-#pragma mark - Tap on header view action
+#pragma mark - Delegated stuff
 
 - (void)scrollToSectionTop
 {
-	[((EKListViewController *)self.appDelegate.splitViewController.viewControllers[0]).listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:1]
-                                                                                                                atScrollPosition:UITableViewScrollPositionTop
-                                                                                                                        animated:YES];
+	if (self.delegate) {
+		[self.delegate sectionHeaderDidTap];
+	}
+	else {
+		NSAssert(self.delegate != nil, @"Delegate should not be nil");
+	}
 }
 
 @end

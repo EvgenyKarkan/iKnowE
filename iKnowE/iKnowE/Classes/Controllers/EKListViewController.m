@@ -120,4 +120,13 @@
     [self presentViewController:addEVC animated:YES completion:nil];
 }
 
+#pragma mark - EKListViewTableDelegate stuff 
+
+- (void)sectionHeaderDidTap
+{
+	[self.listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:1]
+	                               atScrollPosition:UITableViewScrollPositionTop
+	                                       animated:YES];
+}
+
 @end

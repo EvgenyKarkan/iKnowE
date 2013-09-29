@@ -51,25 +51,27 @@
         NSArray *array = @[self.addView.eCodeField.text, self.addView.nameField.text, self.addView.informationField.text];
         [[EKCoreDataProvider sharedInstance] saveEntityWithName:@"Additive" withData:array];
         
-		EKAppDelegate *appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
-		[UIView animateWithDuration:0.2f
-		                 animations: ^{
-                             ((EKListViewController *)appDelegate.splitViewController.viewControllers[0]).listView.tableView.alpha = 0.2f;
-                         } completion: ^(BOOL finished) {
-                             if (finished) {
-                                 [UIView animateWithDuration:0.2f
-                                                  animations: ^{
-                                                      [((EKListViewController *)appDelegate.splitViewController.viewControllers[0]).listView.tableView reloadData];
-                                                  } completion: ^(BOOL finished) {
-                                                      if (finished) {
-                                                          ((EKListViewController *)appDelegate.splitViewController.viewControllers[0]).listView.tableView.alpha = 1.0f;
-                                                      }
-                                                  }];
-                             }
-                         }];
+        EKAppDelegate *appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
         
-        [appDelegate.splitViewController.viewControllers[0] viewWillAppear:YES];
-        [self dismissViewControllerAnimated:YES completion:nil];
+        __weak EKListViewController *weakListViewController = (EKListViewController *)appDelegate.splitViewController.viewControllers[0];
+        
+        [self dismissViewControllerAnimated:YES completion:^{
+            [UIView animateWithDuration:0.2f
+                             animations: ^{
+                                 weakListViewController.listView.tableView.alpha = 0.2f;
+                             } completion: ^(BOOL finished) {
+                                 if (finished) {
+                                     [UIView animateWithDuration:0.2f
+                                                      animations: ^{
+                                                          [weakListViewController.listView.tableView reloadData];
+                                                      } completion: ^(BOOL finished) {
+                                                          if (finished) {
+                                                              weakListViewController.listView.tableView.alpha = 1.0f;
+                                                          }
+                                                      }];
+                                 }
+                             }];
+        }];
     }
 	else {
 #warning compose HUD

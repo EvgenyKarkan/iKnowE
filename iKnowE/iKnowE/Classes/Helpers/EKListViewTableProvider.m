@@ -57,23 +57,35 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     return number;
 }
 #warning magic
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+//{
+//	NSString *title = nil;
+//    
+//	if ([tableView numberOfSections] == 1) {
+//		title = @"Default data";
+//	}
+//	else {
+//		if (section == 0) {
+//			title = @"User data";
+//		}
+//		else {
+//			title = @"Default data";
+//		}
+//	}
+//    
+//	return title;
+//}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-	NSString *title = nil;
-    
-	if ([tableView numberOfSections] == 1) {
-		title = @"Default data";
-	}
-	else {
-		if (section == 0) {
-			title = @"User data";
-		}
-		else {
-			title = @"Default data";
-		}
-	}
-    
-	return title;
+    return 22;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 44.0f)];
+    view.backgroundColor = [[UIColor greenColor] colorWithAlphaComponent:0.5f];
+    return view;
 }
 
 - (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

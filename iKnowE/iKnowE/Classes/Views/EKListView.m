@@ -46,7 +46,7 @@
 		self.searchBar = [[UISearchBar alloc] init];
 		[self addSubview:self.searchBar];
         
-		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
 		self.tableView.backgroundView = nil;
 		self.tableView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
 		[self addSubview:self.tableView];

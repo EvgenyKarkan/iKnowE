@@ -40,7 +40,6 @@
 	[self _updateShouldDrawPlaceholder];
 }
 
-
 #pragma mark - NSObject
 
 - (void)dealloc {

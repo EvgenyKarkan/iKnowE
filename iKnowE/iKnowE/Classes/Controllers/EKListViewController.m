@@ -68,12 +68,12 @@
 				[self.dataProvider.searchPlistData addObject:[self.dataProvider.usualData objectAtIndex:i]];
 			}
 		}
-		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0) {
-			for (NSUInteger i = 0; i < [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count]; i++) {
-				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][i]).ecode rangeOfString:searchText
+		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
+			for (NSUInteger i = 0; i < [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count]; i++) {
+				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]).ecode rangeOfString:searchText
                                                                                                                                           options:NSCaseInsensitiveSearch];
 				if (range.length > 0) {
-					[self.dataProvider.searchCoreDataData addObject:[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][i]];
+					[self.dataProvider.searchCoreDataData addObject:[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]];
 				}
 			}
 		}

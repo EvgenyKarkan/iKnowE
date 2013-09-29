@@ -47,7 +47,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 {
     NSInteger number = 0;
     
-    if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0) {
+    if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
         number = 2;
     }
     else {
@@ -114,7 +114,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 				number = [self.searchCoreDataData count];
 			}
 			else {
-				number = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count];
+				number = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count];
 			}
 		}
 	}
@@ -152,8 +152,8 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		}
 		else {
 			if (indexPath.section == 0) {
-				NSAssert([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"] count] > 0, @"Fetched array should have at least one entity");
-				cell.textLabel.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:@"Additive"][indexPath.row]).ecode;
+				NSAssert([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0, @"Fetched array should have at least one entity");
+				cell.textLabel.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][indexPath.row]).ecode;
 			}
 			else {
 				cell.textLabel.text = ((EKAdditiveDescription *)self.usualData[indexPath.row]).code;

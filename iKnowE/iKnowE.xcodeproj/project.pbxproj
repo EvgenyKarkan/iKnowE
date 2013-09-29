@@ -53,7 +53,7 @@
 		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
 		DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailViewController.m; sourceTree = "<group>"; };
 		DE1B08DD17EE0C6600164B62 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
-		DE1B08DE17EE0C6600164B62 /* EKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListViewController.m; sourceTree = "<group>"; };
+		DE1B08DE17EE0C6600164B62 /* EKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EKListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE1B08DF17EE0C6600164B62 /* EKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAppDelegate.h; sourceTree = "<group>"; };
 		DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
 		DE1B08E217EE0C6600164B62 /* EKPlistDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPlistDataProvider.h; sourceTree = "<group>"; };
@@ -80,13 +80,13 @@
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE518B8917DE880000B1206A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DE763D4417F35FA0009BB3BE /* EKAddEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAddEViewController.h; sourceTree = "<group>"; };
-		DE763D4517F35FA0009BB3BE /* EKAddEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAddEViewController.m; sourceTree = "<group>"; };
+		DE763D4517F35FA0009BB3BE /* EKAddEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EKAddEViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE763D4717F36745009BB3BE /* EKAddEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAddEView.h; sourceTree = "<group>"; };
 		DE763D4817F36745009BB3BE /* EKAddEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAddEView.m; sourceTree = "<group>"; };
 		DE78634417EF21B2001CBA06 /* EKListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListView.h; sourceTree = "<group>"; };
 		DE78634517EF21B2001CBA06 /* EKListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListView.m; sourceTree = "<group>"; };
 		DE78634717EF2C74001CBA06 /* EKListViewTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewTableProvider.h; sourceTree = "<group>"; };
-		DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListViewTableProvider.m; sourceTree = "<group>"; };
+		DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EKListViewTableProvider.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE78634A17EF2CAD001CBA06 /* EKAdditiveDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAdditiveDescription.h; sourceTree = "<group>"; };
 		DE78634B17EF2CAD001CBA06 /* EKAdditiveDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAdditiveDescription.m; sourceTree = "<group>"; };
 		DE78634D17EF3F99001CBA06 /* EKDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailView.h; sourceTree = "<group>"; };
@@ -102,6 +102,7 @@
 		DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextField.m; sourceTree = "<group>"; };
 		DEB4D00117F5EA1D007BBB30 /* EKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextView.h; sourceTree = "<group>"; };
 		DEB4D00217F5EA1E007BBB30 /* EKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextView.m; sourceTree = "<group>"; };
+		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,7 @@
 				DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */,
 				DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */,
 				DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */,
+				DED8648B17F8C09A0055D77A /* CommonConstants.h */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";

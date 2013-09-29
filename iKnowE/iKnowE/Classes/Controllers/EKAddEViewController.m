@@ -49,7 +49,7 @@
 {
     if ([self validateAllInput]) {
         NSArray *array = @[self.addView.eCodeField.text, self.addView.nameField.text, self.addView.informationField.text];
-        [[EKCoreDataProvider sharedInstance] saveEntityWithName:@"Additive" withData:array];
+        [[EKCoreDataProvider sharedInstance] saveEntityWithName:kEKEntityName withData:array];
         
         EKAppDelegate *appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
         

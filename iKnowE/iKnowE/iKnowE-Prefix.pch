@@ -14,4 +14,5 @@
 	#import <SVProgressHUD.h>
 	#import <QuartzCore/QuartzCore.h>
     #import <CoreData/CoreData.h>
+    #import "CommonConstants.h"
 #endif

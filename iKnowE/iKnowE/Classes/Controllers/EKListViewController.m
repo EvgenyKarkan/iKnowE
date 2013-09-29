@@ -120,6 +120,17 @@
     [self presentViewController:addEVC animated:YES completion:nil];
 }
 
+- (void)editButtonPressedWithCompletionBlock:(void (^)(void))block
+{
+	if (self.listView.tableView.contentOffset.y > 0) {
+		[self.listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
+		                               atScrollPosition:UITableViewScrollPositionBottom
+		                                       animated:YES];
+	}
+    
+	block();
+}
+
 #pragma mark - EKListViewTableDelegate stuff 
 
 - (void)sectionHeaderDidTap

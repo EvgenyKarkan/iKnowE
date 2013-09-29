@@ -26,7 +26,7 @@
         self.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.5f];
 		self.title = [[UILabel alloc] init];
 		self.title.backgroundColor = [UIColor clearColor];
-        self.title.font = [UIFont fontWithName:@"HelveticaNeue" size:12.0f];
+        self.title.font = [UIFont fontWithName:@"Helvetica" size:12.0f];
         self.title.text = title;
 		[self addSubview:self.title];
 		[self addGestureRecognizer];

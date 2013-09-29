@@ -11,6 +11,7 @@
 @protocol EKListViewAddEDelegate <NSObject>
 
 - (void)addButtonPressed;
+- (void)editButtonPressedWithCompletionBlock:(void (^)(void))block;
 
 @end
 

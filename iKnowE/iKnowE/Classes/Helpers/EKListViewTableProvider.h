@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "EKTableSectionHeaderView.h"
 
 @protocol EKListViewTableDelegate <NSObject>
 
 @optional
 - (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath;
 - (void)sectionHeaderDidTap;
+
 @end
 
 
@@ -24,7 +24,6 @@
 @property (nonatomic, strong) NSArray *usualData;
 @property (nonatomic, strong) NSMutableArray *searchPlistData;
 @property (nonatomic, strong) NSMutableArray *searchCoreDataData;
-@property (nonatomic, strong) EKTableSectionHeaderView *headerView;
 
 - (id)initWithDelegate:(id <EKListViewTableDelegate> )delegate;
 

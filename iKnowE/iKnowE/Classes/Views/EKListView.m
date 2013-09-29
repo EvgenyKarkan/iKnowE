@@ -101,36 +101,46 @@
 
 - (void)editPressed
 {
-	if (!self.isTableEditing) {
-		[self.tableView setEditing:YES animated:YES];
-		[UIView animateWithDuration:0.15f
-		                 animations: ^{
-                             self.left.alpha = 0.0f;
-                         } completion: ^(BOOL finished) {
-                             [UIView animateWithDuration:0.15f
-                                              animations: ^{
-                                                  [self.left setTitle:@"Done" forState:UIControlStateNormal];
-                                                  [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Done"] forState:UIControlStateHighlighted];
-                                                  self.left.alpha = 1.0f;
-                                              } completion:nil];
-                         }];
+    if (self.delegate) {
+		[self.delegate editButtonPressedWithCompletionBlock:^{
+            if (!self.isTableEditing) {
+                [self.tableView setEditing:YES animated:YES];
+                [UIView animateWithDuration:0.15f
+                                 animations: ^{
+                                     self.left.alpha = 0.0f;
+                                 } completion: ^(BOOL finished) {
+                                     [UIView animateWithDuration:0.15f
+                                                      animations: ^{
+                                                          [self.left setTitle:@"Done" forState:UIControlStateNormal];
+                                                          [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Done"]
+                                                                               forState:UIControlStateHighlighted];
+                                                          self.left.alpha = 1.0f;
+                                                      } completion:nil];
+                                 }];
+            }
+            else {
+                [self.tableView setEditing:NO animated:YES];
+                [UIView animateWithDuration:0.15f
+                                 animations: ^{
+                                     self.left.alpha = 0.0f;
+                                 } completion: ^(BOOL finished) {
+                                     [UIView animateWithDuration:0.15f
+                                                      animations: ^{
+                                                          [self.left setTitle:@"Edit" forState:UIControlStateNormal];
+                                                          [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"]
+                                                                               forState:UIControlStateHighlighted];
+                                                          self.left.alpha = 1.0f;
+                                                      } completion:nil];
+                                 }];
+            }
+
+        }];
 	}
 	else {
-		[self.tableView setEditing:NO animated:YES];
-		[UIView animateWithDuration:0.15f
-		                 animations: ^{
-                             self.left.alpha = 0.0f;
-                         } completion: ^(BOOL finished) {
-                             [UIView animateWithDuration:0.15f
-                                              animations: ^{
-                                                  [self.left setTitle:@"Edit" forState:UIControlStateNormal];
-                                                  [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
-                                                  self.left.alpha = 1.0f;
-                                              } completion:nil];
-                         }];
+		NSAssert(self.delegate != nil, @"Delegate should not be nill");
 	}
     
-	self.isTableEditing = !self.isTableEditing;
+	self.isTableEditing = !self.isTableEditing;    
 }
 
 - (void)addPressed

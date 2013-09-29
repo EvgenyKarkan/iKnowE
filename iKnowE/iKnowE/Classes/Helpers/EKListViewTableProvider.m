@@ -13,12 +13,14 @@
 #import "EKListViewController.h"
 #import "EKCoreDataProvider.h"
 #import "Additive.h"
+#import "EKTableSectionHeaderView.h"
 
 static NSString * const kITReuseIdentifier = @"defaultCell";
 
 @interface EKListViewTableProvider ()
 
 @property (nonatomic, strong) EKAppDelegate *appDelegate;
+@property (nonatomic, strong) EKTableSectionHeaderView *headerView;
 
 @end
 
@@ -103,7 +105,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 {
 	NSUInteger number = 0;
     
-	if ([self numberOfSectionsInTableView:tableView] == 1) {
+	if ([tableView numberOfSections] == 1) {
 		if (self.search == YES) {
 			number = [self.searchPlistData count];
 		}
@@ -183,14 +185,18 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	self.delegate = self.appDelegate.splitViewController.viewControllers[1];
-	
-	if (self.search) {
-		[self.delegate cellDidPressWithData:self.searchPlistData withIndexPath:indexPath];
-	}
-	else {
-		[self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath];
-	}
-	
+    if (self.delegate) {
+        if (self.search) {
+            [self.delegate cellDidPressWithData:self.searchPlistData withIndexPath:indexPath];
+        }
+        else {
+            [self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath];
+        }
+    }
+    else {
+        NSAssert(self.delegate != nil, @"Delegate should not be nil");
+    }
+    
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
@@ -221,6 +227,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (void)scrollToSectionTop
 {
+    self.delegate = self.appDelegate.splitViewController.viewControllers[0];
 	if (self.delegate) {
 		[self.delegate sectionHeaderDidTap];
 	}

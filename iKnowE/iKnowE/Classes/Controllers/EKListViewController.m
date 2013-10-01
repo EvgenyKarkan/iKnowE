@@ -14,6 +14,7 @@
 #import "EKAddEViewController.h"
 #import "EKCoreDataProvider.h"
 #import "Additive.h"
+#import "EKSettingsProvider.h"
 
 @interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate, EKListViewAddEDelegate>
 
@@ -126,7 +127,7 @@
 		self.listView.isTableEditing = NO;
 	}
     
-	[self adjustTAbleViewContent];
+	[self adjustTableViewContent];
 	EKAddEViewController *addEVC = [[EKAddEViewController alloc] init];
 	[addEVC setModalPresentationStyle:UIModalPresentationFormSheet];
 	[self presentViewController:addEVC animated:YES completion:nil];
@@ -143,6 +144,10 @@
 
 - (void)didDeleteRow
 {
+	if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] == 0) {
+		[[[EKSettingsProvider alloc] init] clear];
+	}
+    
 	[UIView animateWithDuration:0.15f
 	                 animations: ^{
                          self.listView.tableView.alpha = 0.2f;
@@ -170,13 +175,13 @@
 
 - (void)buttonPressed
 {
-	[self adjustTAbleViewContent];
+	[self adjustTableViewContent];
 	[self handleEditState];
 }
 
 #pragma mark - Helpers
 
-- (void)adjustTAbleViewContent
+- (void)adjustTableViewContent
 {
 	if (self.listView.tableView.contentOffset.y > 0) {
 		[self.listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]

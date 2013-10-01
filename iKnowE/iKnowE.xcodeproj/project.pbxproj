@@ -39,6 +39,7 @@
 		DE78635617EF884F001CBA06 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635217EF884F001CBA06 /* search.png */; };
 		DE78635717EF884F001CBA06 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635317EF884F001CBA06 /* search@2x.png */; };
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
+		DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
 		DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4D00217F5EA1E007BBB30 /* EKTextView.m */; };
@@ -94,6 +95,8 @@
 		DE78635217EF884F001CBA06 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		DE78635317EF884F001CBA06 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		DE834C4C17EE48C6000714A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DEB0112917FACFAB00304485 /* EKSettingsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSettingsProvider.h; sourceTree = "<group>"; };
+		DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSettingsProvider.m; sourceTree = "<group>"; };
 		DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAttributedStringUtil.h; sourceTree = "<group>"; };
 		DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAttributedStringUtil.m; sourceTree = "<group>"; };
 		DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextField.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */,
 				DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */,
 				DED8648B17F8C09A0055D77A /* CommonConstants.h */,
+				DEB0112917FACFAB00304485 /* EKSettingsProvider.h */,
+				DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 				DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */,
 				DE0F155E17F788B000DF4778 /* Additive.m in Sources */,
 				DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */,
+				DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@
 #import "EKCoreDataProvider.h"
 #import "Additive.h"
 #import "EKTableSectionHeaderView.h"
+#import "EKSettingsProvider.h"
 
 static NSString * const kITReuseIdentifier = @"defaultCell";
 
@@ -199,6 +200,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		NSAssert(self.delegate != nil, @"Delegate should not be nil");
 	}
     
+    [[[EKSettingsProvider alloc] init] setSectionWithRowData:@[[NSNumber numberWithInteger:indexPath.section], [NSNumber numberWithInteger:indexPath.row]]];
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

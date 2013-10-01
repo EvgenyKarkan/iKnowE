@@ -10,6 +10,9 @@
 #import "EKDetailView.h"
 #import "EKAdditiveDescription.h"
 #import "Additive.h"
+#import "EKSettingsProvider.h"
+#import "EKPlistDataProvider.h"
+#import "EKCoreDataProvider.h"
 
 @interface EKDetailViewController () 
 
@@ -41,6 +44,8 @@
 	[self.dataProvider setDelegate:self];
     
 	self.splitButton = [self splitViewButton];
+    
+    [self preloadDataOnApplicationFinishLaunchingWithSettingsData:[[[EKSettingsProvider alloc] init] sectionWithRowData]];
 }
 
 #pragma mark - EKListViewTableDelegate stuff from provider
@@ -114,6 +119,31 @@
                                               self.detailView.foo.alpha = 1.0f;
                                           } completion:nil];
                      }];
+}
+
+- (void)preloadDataOnApplicationFinishLaunchingWithSettingsData:(NSArray *)dataFromSettings
+{
+	if (dataFromSettings) {
+		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
+			if ([[dataFromSettings objectAtIndex:0] integerValue] == 0) {
+				if (([dataFromSettings[1] integerValue] + 1) > [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count]) {
+					self.detailView.foo.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue] - 1]).information;
+				}
+				else {
+					self.detailView.foo.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue]]).information;
+				}
+			}
+			else {
+				self.detailView.foo.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
+			}
+		}
+		else {
+			self.detailView.foo.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
+		}
+	}
+	else {
+		self.detailView.foo.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][0]).danger;
+	}
 }
 
 @end

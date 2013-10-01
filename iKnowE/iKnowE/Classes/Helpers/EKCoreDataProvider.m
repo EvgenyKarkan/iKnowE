@@ -141,12 +141,29 @@ static id _sharedInstance;
 	}
 }
 
+- (void)deleteEntityWithEntityIndex:(NSIndexPath *)index
+{
+	NSArray *additives = [self fetchedEntitiesForEntityName:kEKEntityName];
+    
+	if ([additives count] > 0) {
+		Additive *additive = [additives objectAtIndex:index.row];
+		[[[EKCoreDataProvider sharedInstance] managedObjectContext] deleteObject:additive];
+        
+		NSError *savingError = nil;
+		[[[EKCoreDataProvider sharedInstance] managedObjectContext] save:&savingError];
+        
+		NSAssert(savingError == nil, @"Fail to delete, error occured %@", [savingError localizedDescription]);
+	}
+	else {
+		[SVProgressHUD showErrorWithStatus:@"Could not find entity in context"];
+	}
+}
+
 - (NSArray *)fetchedEntitiesForEntityName:(NSString *)name
 {
 	NSError *error = nil;
 	NSArray *entities = [[[EKCoreDataProvider sharedInstance] managedObjectContext] executeFetchRequest:[[EKCoreDataProvider sharedInstance] requestWithEntityName:name]
 	                                                                                              error:&error];
-    
 	NSAssert(entities != nil, @"Fetched array should not be nil");
 
 	return entities;
@@ -156,8 +173,7 @@ static id _sharedInstance;
 {
 	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 	NSEntityDescription *entityDescription = [NSEntityDescription entityForName:entityName
-	                                                     inManagedObjectContext:self.managedObjectContext];
-    
+	                                                     inManagedObjectContext:[[EKCoreDataProvider sharedInstance] managedObjectContext]];
 	if (entityDescription != nil) {
 		[fetchRequest setEntity:entityDescription];
 	}
@@ -165,7 +181,6 @@ static id _sharedInstance;
 		NSAssert(entityDescription != nil, @"EntityDescription should not be nil");
 	}
     
-
 	return fetchRequest;
 }
 

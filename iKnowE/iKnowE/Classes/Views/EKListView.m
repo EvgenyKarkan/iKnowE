@@ -11,9 +11,7 @@
 
 @interface EKListView ()
 
-@property (nonatomic, strong) UIButton *left;
-@property (nonatomic, strong) UIButton *right;
-@property (nonatomic, assign) BOOL isTableEditing;
+@property (nonatomic, strong) UIButton *addButton;
 
 @end
 
@@ -30,24 +28,29 @@
 		self.topView.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.5f];
 		[self addSubview:self.topView];
         
-		self.left = [UIButton buttonWithType:UIButtonTypeCustom];
-        [self.left setTitle:@"Edit" forState:UIControlStateNormal];
-        self.left.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+		self.editButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		[self.editButton setTitle:@"Edit" forState:UIControlStateNormal];
+		self.editButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+		[self.editButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
+		[self.topView addSubview:self.editButton];
         
-        [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
-        [self.left addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
-		[self.topView addSubview:self.left];
+		self.cancelButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		[self.cancelButton setTitle:@"Cancel" forState:UIControlStateNormal];
+		self.cancelButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+		[self.cancelButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Cancel"] forState:UIControlStateHighlighted];
+		self.cancelButton.hidden = YES;
+		[self.topView addSubview:self.cancelButton];
         
-		self.right = [UIButton buttonWithType:UIButtonTypeContactAdd];
-        [self.right addTarget:self action:@selector(addPressed) forControlEvents:UIControlEventTouchUpInside];
-		[self.topView addSubview:self.right];
+		self.addButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
+		[self.addButton addTarget:self action:@selector(addPressed) forControlEvents:UIControlEventTouchUpInside];
+		[self.topView addSubview:self.addButton];
         
 		self.searchBar = [[UISearchBar alloc] init];
 		[self addSubview:self.searchBar];
         
 		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
 		self.tableView.backgroundView = nil;
-        self.tableView.bounces = NO;
+		self.tableView.bounces = NO;
 		self.tableView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
 		[self addSubview:self.tableView];
         
@@ -62,8 +65,9 @@
     
 	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
     
-	self.left.frame = CGRectMake(10.0f, 7.0f, 60.0f, 30.0f);
-	self.right.frame = CGRectMake(285.0f, 7.0f, 30.0f, 30.0f);
+	self.editButton.frame = CGRectMake(10.0f, 7.0f, 60.0f, 30.0f);
+	self.cancelButton.frame = CGRectMake(10.0f, 7.0f, 60.0f, 30.0f);
+	self.addButton.frame = CGRectMake(285.0f, 7.0f, 30.0f, 30.0f);
     
 	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
     
@@ -81,67 +85,23 @@
 //		}
 //	}
     
-    UITextField *searchField = [self.searchBar valueForKey:@"_searchField"];
-    searchField.returnKeyType = UIReturnKeyDone;
-	
+	UITextField *searchField = [self.searchBar valueForKey:@"_searchField"];
+	searchField.returnKeyType = UIReturnKeyDone;
+    
 	if (searchField != nil) {
 		[searchField setBackground:[UIImage imageNamed:@"search_background.png"]];
-		
+        
 		UIImage *image = [UIImage imageNamed:@"search.png"];
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 		searchField.leftView = imageView;
 		UIImageView *imageView1 = [[UIImageView alloc] initWithImage:image];
-		
+        
 		searchField.rightView = imageView1;
 		searchField.textColor = [UIColor lightGrayColor];
 	}
 }
 
 #pragma mark - Actions
-
-- (void)editPressed
-{
-    if (self.delegate) {
-		[self.delegate editButtonPressedWithCompletionBlock:^{
-            if (!self.isTableEditing) {
-                [self.tableView setEditing:YES animated:YES];
-                [UIView animateWithDuration:0.15f
-                                 animations: ^{
-                                     self.left.alpha = 0.0f;
-                                 } completion: ^(BOOL finished) {
-                                     [UIView animateWithDuration:0.15f
-                                                      animations: ^{
-                                                          [self.left setTitle:@"Done" forState:UIControlStateNormal];
-                                                          [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Done"]
-                                                                               forState:UIControlStateHighlighted];
-                                                          self.left.alpha = 1.0f;
-                                                      } completion:nil];
-                                 }];
-            }
-            else {
-                [self.tableView setEditing:NO animated:YES];
-                [UIView animateWithDuration:0.15f
-                                 animations: ^{
-                                     self.left.alpha = 0.0f;
-                                 } completion: ^(BOOL finished) {
-                                     [UIView animateWithDuration:0.15f
-                                                      animations: ^{
-                                                          [self.left setTitle:@"Edit" forState:UIControlStateNormal];
-                                                          [self.left setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"]
-                                                                               forState:UIControlStateHighlighted];
-                                                          self.left.alpha = 1.0f;
-                                                      } completion:nil];
-                                 }];
-            }
-
-        }];
-	}
-	else {
-		NSAssert(self.delegate != nil, @"Delegate should not be nill");
-	}
-    
-	self.isTableEditing = !self.isTableEditing;    
-}
 
 - (void)addPressed
 {

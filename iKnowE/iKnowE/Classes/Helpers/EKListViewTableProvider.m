@@ -59,24 +59,6 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     return number;
 }
 #warning magic
-//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-//{
-//	NSString *title = nil;
-//    
-//	if ([tableView numberOfSections] == 1) {
-//		title = @"Default data";
-//	}
-//	else {
-//		if (section == 0) {
-//			title = @"User data";
-//		}
-//		else {
-//			title = @"Default data";
-//		}
-//	}
-//    
-//	return title;
-//}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
@@ -202,10 +184,21 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	if (indexPath.section == 1) {
-		return NO;
+	BOOL edit = NO;
+    
+	if ([tableView numberOfSections] == 1) {
+		edit = NO;
 	}
-	return YES;
+	else {
+		if (indexPath.section == 1) {
+			edit = NO;
+		}
+		else {
+			edit = YES;
+		}
+	}
+    
+	return edit;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -218,9 +211,24 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     return NO;
 }
 
-- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCellEditingStyle)tableView:(UITableView *)aTableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    if (aTableView.editing) {
+        return UITableViewCellEditingStyleDelete;
+    }
+    return UITableViewCellEditingStyleNone;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return UITableViewCellEditingStyleDelete;
+    [[EKCoreDataProvider sharedInstance] deleteEntityWithEntityIndex:indexPath];
+    self.delegate = self.appDelegate.splitViewController.viewControllers[0];
+    if (self.delegate) {
+        [self.delegate didDeleteRow];
+    }
+    else {
+        NSAssert(self.delegate != nil, @"Delegate should not be nil");
+    }
 }
 
 #pragma mark - Delegated stuff

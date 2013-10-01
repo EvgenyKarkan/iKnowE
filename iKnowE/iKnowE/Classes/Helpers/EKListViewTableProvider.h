@@ -13,6 +13,8 @@
 @optional
 - (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath;
 - (void)sectionHeaderDidTap;
+- (void)didDeleteRow;
+- (NSUInteger)provideNumberOfSections;
 
 @end
 

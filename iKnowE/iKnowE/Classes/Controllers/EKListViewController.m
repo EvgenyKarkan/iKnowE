@@ -36,20 +36,24 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	
+    
 	self.dataProvider = [[EKListViewTableProvider alloc] initWithDelegate:self];
-	
+    
 	self.listView.tableView.delegate = self.dataProvider;
 	self.listView.tableView.dataSource = self.dataProvider;
 	self.listView.searchBar.delegate = self;
-    self.listView.delegate = self;
-
-    self.dataProvider.usualData = [EKPlistDataProvider additiveDescriptions];
-	
+	self.listView.delegate = self;
+    
+	self.dataProvider.usualData = [EKPlistDataProvider additiveDescriptions];
+    
+	[self.listView.editButton addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+	[self.listView.cancelButton addTarget:self action:@selector(buttonPressed) forControlEvents:UIControlEventTouchUpInside];
+    
 	[[NSNotificationCenter defaultCenter] addObserver:self
-											 selector:@selector(onKeyboardHide:)
-												 name:UIKeyboardWillHideNotification
-											   object:nil];
+	                                         selector:@selector(onKeyboardHide:)
+	                                             name:UIKeyboardWillHideNotification
+	                                           object:nil];
+	[self reloadTable];
 }
 
 #pragma mark - UISearchBarDelegate stuff
@@ -58,20 +62,20 @@
 {
 	if (([self.dataProvider.searchPlistData count] > 0) || ([self.dataProvider.searchCoreDataData count] > 0)) {
 		[self.dataProvider.searchPlistData removeAllObjects];
-        [self.dataProvider.searchCoreDataData removeAllObjects];
+		[self.dataProvider.searchCoreDataData removeAllObjects];
 	}
-   	if ([searchText length] > 0) {
+	if ([searchText length] > 0) {
 		self.dataProvider.search = YES;
 		for (NSUInteger i = 0; i < [self.dataProvider.usualData count]; i++) {
-			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString:searchText options:NSCaseInsensitiveSearch];
+			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString : searchText options : NSCaseInsensitiveSearch];
 			if (titleResultsRange.length > 0) {
 				[self.dataProvider.searchPlistData addObject:[self.dataProvider.usualData objectAtIndex:i]];
 			}
 		}
 		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
 			for (NSUInteger i = 0; i < [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count]; i++) {
-				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]).ecode rangeOfString:searchText
-                                                                                                                                          options:NSCaseInsensitiveSearch];
+				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]).ecode rangeOfString : searchText
+                                                                                                                                               options : NSCaseInsensitiveSearch];
 				if (range.length > 0) {
 					[self.dataProvider.searchCoreDataData addObject:[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]];
 				}
@@ -81,7 +85,7 @@
 	else {
 		self.dataProvider.search = NO;
 	}
-	
+    
 	[self.listView.tableView reloadData];
 	self.listView.searchBar.showsCancelButton = YES;
 }
@@ -90,10 +94,10 @@
 {
 	self.listView.searchBar.text = @"";
 	[self.listView.searchBar resignFirstResponder];
-    self.listView.searchBar.showsCancelButton = NO;
+	self.listView.searchBar.showsCancelButton = NO;
     
 	[self.dataProvider.searchPlistData removeAllObjects];
-    [self.dataProvider.searchCoreDataData removeAllObjects];
+	[self.dataProvider.searchCoreDataData removeAllObjects];
 	self.dataProvider.search = NO;
     
 	[self.listView.tableView reloadData];
@@ -104,7 +108,7 @@
 	[[searchBar valueForKey:@"_searchField"] resignFirstResponder];
 }
 
-#pragma mark - Listening to UIKeybord notification 
+#pragma mark - Listening to UIKeybord notification
 
 - (void)onKeyboardHide:(NSNotification *)notification
 {
@@ -115,29 +119,86 @@
 
 - (void)addButtonPressed
 {
-    EKAddEViewController *addEVC = [[EKAddEViewController alloc] init];
-    [addEVC setModalPresentationStyle:UIModalPresentationFormSheet];
-    [self presentViewController:addEVC animated:YES completion:nil];
-}
-
-- (void)editButtonPressedWithCompletionBlock:(void (^)(void))block
-{
-	if (self.listView.tableView.contentOffset.y > 0) {
-		[self.listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
-		                               atScrollPosition:UITableViewScrollPositionBottom
-		                                       animated:YES];
+	if (self.listView.isTableEditing) {
+		[self.listView.tableView setEditing:NO animated:YES];
+		[self.listView.cancelButton setHidden:YES];
+		[self.listView.editButton setHidden:NO];
+		self.listView.isTableEditing = NO;
 	}
     
-	block();
+	[self adjustTAbleViewContent];
+	EKAddEViewController *addEVC = [[EKAddEViewController alloc] init];
+	[addEVC setModalPresentationStyle:UIModalPresentationFormSheet];
+	[self presentViewController:addEVC animated:YES completion:nil];
 }
 
-#pragma mark - EKListViewTableDelegate stuff 
+#pragma mark - EKListViewTableDelegate stuff
 
 - (void)sectionHeaderDidTap
 {
 	[self.listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:1]
 	                               atScrollPosition:UITableViewScrollPositionTop
 	                                       animated:YES];
+}
+
+- (void)didDeleteRow
+{
+	[UIView animateWithDuration:0.15f
+	                 animations: ^{
+                         self.listView.tableView.alpha = 0.2f;
+                     } completion: ^(BOOL finished) {
+                         [UIView animateWithDuration:0.15f
+                                          animations: ^{
+                                              self.listView.tableView.alpha = 1.0f;
+                                              [self.listView.cancelButton setHidden:YES];
+                                              [self.listView.tableView setEditing:NO animated:YES];
+                                              [self reloadTable];
+                                          } completion:nil];
+                     }];
+	self.listView.isTableEditing = !self.listView.isTableEditing;
+}
+
+#pragma mark - Public
+
+- (void)reloadTable
+{
+	self.listView.editButton.hidden = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0 ? NO : YES;
+	[self.listView.tableView reloadData];
+}
+
+#pragma mark - Action
+
+- (void)buttonPressed
+{
+	[self adjustTAbleViewContent];
+	[self handleEditState];
+}
+
+#pragma mark - Helpers
+
+- (void)adjustTAbleViewContent
+{
+	if (self.listView.tableView.contentOffset.y > 0) {
+		[self.listView.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]
+		                               atScrollPosition:UITableViewScrollPositionBottom
+		                                       animated:YES];
+	}
+}
+
+- (void)handleEditState
+{
+	if (self.listView.isTableEditing) {
+		[self.listView.tableView setEditing:NO animated:YES];
+		[self.listView.cancelButton setHidden:YES];
+		[self.listView.editButton setHidden:NO];
+		self.listView.isTableEditing = NO;
+	}
+	else {
+		[self.listView.tableView setEditing:YES animated:YES];
+		[self.listView.editButton setHidden:YES];
+		[self.listView.cancelButton setHidden:NO];
+		self.listView.isTableEditing = YES;
+	}
 }
 
 @end

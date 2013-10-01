@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) EKListView *listView;
 
+- (void)reloadTable;
+
 @end

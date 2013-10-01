@@ -66,7 +66,7 @@ static CGFloat const kEKBig = 235.0f;
                                  if (finished) {
                                      [UIView animateWithDuration:0.2f
                                                       animations: ^{
-                                                          [weakListViewController.listView.tableView reloadData];
+                                                          [weakListViewController reloadTable];
                                                       } completion: ^(BOOL finished) {
                                                           if (finished) {
                                                               weakListViewController.listView.tableView.alpha = 1.0f;

@@ -167,17 +167,37 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	self.delegate = self.appDelegate.splitViewController.viewControllers[1];
-    if (self.delegate) {
-        if (self.search) {
-            [self.delegate cellDidPressWithData:self.searchPlistData withIndexPath:indexPath];
-        }
-        else {
-            [self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath];
-        }
-    }
-    else {
-        NSAssert(self.delegate != nil, @"Delegate should not be nil");
-    }
+	if (self.delegate) {
+		if ([tableView numberOfSections] == 1) {
+			if (self.search) {
+				[self.delegate cellDidPressWithData:self.searchPlistData withIndexPath:indexPath useCoreData:NO];
+			}
+			else {
+				[self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath useCoreData:NO];
+			}
+		}
+		else {
+			if (indexPath.section == 0) {
+				if (self.search) {
+					[self.delegate cellDidPressWithData:self.searchCoreDataData withIndexPath:indexPath useCoreData:YES];
+				}
+				else {
+					[self.delegate cellDidPressWithData:[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] withIndexPath:indexPath useCoreData:YES];
+				}
+			}
+			else {
+				if (self.search) {
+					[self.delegate cellDidPressWithData:self.searchPlistData withIndexPath:indexPath useCoreData:NO];
+				}
+				else {
+					[self.delegate cellDidPressWithData:self.usualData withIndexPath:indexPath useCoreData:NO];
+				}
+			}
+		}
+	}
+	else {
+		NSAssert(self.delegate != nil, @"Delegate should not be nil");
+	}
     
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

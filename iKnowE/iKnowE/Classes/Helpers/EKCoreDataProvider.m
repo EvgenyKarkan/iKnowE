@@ -120,12 +120,12 @@ static id _sharedInstance;
     
 	else {
             //no entity was returned add error HUD
-//		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
-//		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
-//		                                                   delegate:nil
-//		                                          cancelButtonTitle:nil
-//		                                          otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
-//		[errorView show];
+		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
+		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
+		                                                   delegate:nil
+		                                          cancelButtonTitle:nil
+		                                          otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
+		[errorView show];
 	}
 }
 

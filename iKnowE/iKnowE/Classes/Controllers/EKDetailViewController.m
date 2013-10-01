@@ -9,6 +9,7 @@
 #import "EKDetailViewController.h"
 #import "EKDetailView.h"
 #import "EKAdditiveDescription.h"
+#import "Additive.h"
 
 @interface EKDetailViewController () 
 
@@ -44,9 +45,18 @@
 
 #pragma mark - EKListViewTableDelegate stuff from provider
 
-- (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath
+- (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath useCoreData:(BOOL)flag
 {
-	self.detailView.foo.text = ((EKAdditiveDescription *)data[indexPath.row]).danger;
+    if (self.masterPopoverController) {
+        [self.masterPopoverController dismissPopoverAnimated:YES];
+    }
+
+    if (!flag) {
+        [self updateUIWithData:@[((EKAdditiveDescription *)data[indexPath.row]).danger]];
+    }
+    else {
+        [self updateUIWithData:@[((Additive *)data[indexPath.row]).information]];
+    }
 }
 
 #pragma mark - Split view controller delegate stuff
@@ -79,7 +89,7 @@
                      }];
 }
 
-#pragma mark - Provide button for splitViewController
+#pragma mark - UI
 
 - (UIButton *)splitViewButton
 {
@@ -90,6 +100,20 @@
 	button.frame = CGRectMake(5.0f, 7.0f, 60.0f, 30.0f);
     
 	return button;
+}
+
+- (void)updateUIWithData:(NSArray *)data
+{
+	[UIView animateWithDuration:0.2f
+	                 animations: ^{
+                         self.detailView.foo.alpha = 0.5f;
+                     } completion: ^(BOOL finished) {
+                         [UIView animateWithDuration:0.2f
+                                          animations: ^{
+                                              self.detailView.foo.text = data[0];
+                                              self.detailView.foo.alpha = 1.0f;
+                                          } completion:nil];
+                     }];
 }
 
 @end

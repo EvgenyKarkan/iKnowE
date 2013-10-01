@@ -41,7 +41,10 @@
 		self.cancelButton.hidden = YES;
 		[self.topView addSubview:self.cancelButton];
         
-		self.addButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
+		self.addButton = [[UIButton alloc] init];
+        [self.addButton setTitle:@"Add" forState:UIControlStateNormal];
+        self.addButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [self.addButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Add"] forState:UIControlStateHighlighted];
 		[self.addButton addTarget:self action:@selector(addPressed) forControlEvents:UIControlEventTouchUpInside];
 		[self.topView addSubview:self.addButton];
         
@@ -65,9 +68,9 @@
     
 	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
     
-	self.editButton.frame = CGRectMake(10.0f, 7.0f, 60.0f, 30.0f);
-	self.cancelButton.frame = CGRectMake(10.0f, 7.0f, 60.0f, 30.0f);
-	self.addButton.frame = CGRectMake(285.0f, 7.0f, 30.0f, 30.0f);
+	self.editButton.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
+	self.cancelButton.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
+	self.addButton.frame = CGRectMake(275.0f, 7.0f, 60.0f, 30.0f);
     
 	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
     
@@ -109,7 +112,7 @@
 		[self.delegate addButtonPressed];
 	}
 	else {
-		NSAssert(self.delegate != nil, @"Delegate should not be nill");
+		NSAssert(self.delegate != nil, @"Delegate should not be nil");
 	}
 }
 

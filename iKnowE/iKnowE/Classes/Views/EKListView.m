@@ -75,16 +75,16 @@
 {
 	[super layoutSubviews];
     
-	self.topView.frame = CGRectMake(0.0f, 20.0f, self.frame.size.width, 44.0f);
+	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
     
 	self.editButton.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
 	self.cancelButton.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
 	self.addButton.frame = CGRectMake(275.0f, 7.0f, 60.0f, 30.0f);
     
-	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height+20, self.frame.size.width, 44.0f);
+	self.searchBar.frame = CGRectMake(0.0f, self.topView.frame.size.height, self.frame.size.width, 44.0f);
     
-	self.tableView.frame = CGRectMake(0.0f, self.topView.frame.size.height + self.searchBar.frame.size.height+20,
-	                                  self.frame.size.width, self.frame.size.height - (self.topView.frame.size.height + self.searchBar.frame.size.height)-20);
+	self.tableView.frame = CGRectMake(0.0f, self.topView.frame.size.height + self.searchBar.frame.size.height,
+	                                  self.frame.size.width, self.frame.size.height - (self.topView.frame.size.height + self.searchBar.frame.size.height));
 }
 
 #pragma mark - Customize UI

@@ -36,7 +36,6 @@ static CGFloat const kEKBig = 235.0f;
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-    self.edgesForExtendedLayout = UIRectEdgeNone;
     
 	[self.addView.cancelButton addTarget:self action:@selector(cancelPressed) forControlEvents:UIControlEventTouchUpInside];
     [self.addView.saveButton addTarget:self action:@selector(savePressed) forControlEvents:UIControlEventTouchUpInside];

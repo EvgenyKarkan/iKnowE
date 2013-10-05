@@ -47,10 +47,10 @@
 - (void)layoutSubviews
 {
 	[super layoutSubviews];
-	
-    self.topView.frame = CGRectMake(0.0f, 20.0f, self.frame.size.width, 44.0f);
-	self.foo.frame = CGRectMake(10.0f, self.topView.frame.size.height + 10.0f+300+20, self.frame.size.width - 20.0f, self.frame.size.height - 64.0f-300-20);
-    self.foo2.frame = CGRectMake(self.frame.size.width - 210, self.topView.frame.size.height + 10.0f+20, 200, 100);
+    
+	self.topView.frame = CGRectMake(0.0f, 0.0f, self.frame.size.width, 44.0f);
+	self.foo.frame = CGRectMake(10.0f, self.topView.frame.size.height + 10.0f + 300, self.frame.size.width - 20.0f, self.frame.size.height - 64.0f - 300);
+	self.foo2.frame = CGRectMake(self.frame.size.width - 210, self.topView.frame.size.height + 10.0f + 20, 200, 100);
 }
 
 @end

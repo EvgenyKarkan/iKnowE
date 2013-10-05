@@ -78,13 +78,7 @@ static CGFloat const kEKBig = 235.0f;
         }];
     }
 	else {
-#warning compose HUD
-		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
-		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
-                                                           delegate:nil
-                                                  cancelButtonTitle:nil
-                                                  otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
-        [errorView show];
+		[SVProgressHUD showErrorWithStatus:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)];
 	}
 }
 

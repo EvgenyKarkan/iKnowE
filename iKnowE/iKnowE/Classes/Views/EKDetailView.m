@@ -22,12 +22,12 @@
         
 		self.infoView = [[UITextView alloc] init];
 		self.infoView.userInteractionEnabled = YES;
-
+        self.infoView.editable = NO;
         self.infoView.layer.borderWidth = 1.0f;
         self.infoView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
         self.infoView.layer.cornerRadius = 5.0f;
         self.infoView.backgroundColor = [UIColor clearColor];
-        self.infoView.textColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
+        self.infoView.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
 		self.infoView.font = [UIFont fontWithName:@"CicleSemi" size:30.0f];
         [self addSubview:self.infoView];
         
@@ -37,7 +37,7 @@
         self.eCodeView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
         self.eCodeView.layer.cornerRadius = 5.0f;
         self.eCodeView.backgroundColor = [UIColor clearColor];
-        self.eCodeView.textColor = [[UIColor whiteColor] colorWithAlphaComponent:0.8f];
+        self.eCodeView.textColor = [UIColor colorWithRed:0.454902 green:0.458824 blue:0.458824 alpha:1];
 		self.eCodeView.font = [UIFont fontWithName:@"CicleSemi" size:30.0f];
 		[self addSubview:self.eCodeView];
     }

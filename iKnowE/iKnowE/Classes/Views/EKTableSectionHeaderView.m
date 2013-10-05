@@ -23,11 +23,12 @@
 {
 	self = [super init];
 	if (self) {
-        self.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.5f];
+        self.backgroundColor = [UIColor colorWithRed:0.062745 green:0.215686 blue:0.274510 alpha:1];
 		self.title = [[UILabel alloc] init];
 		self.title.backgroundColor = [UIColor clearColor];
-        self.title.font = [UIFont fontWithName:@"Helvetica" size:12.0f];
+        self.title.font = [UIFont fontWithName:@"CicleSemi" size:13.0f];
         self.title.text = title;
+        self.title.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
 		[self addSubview:self.title];
 		[self addGestureRecognizer];
 	}

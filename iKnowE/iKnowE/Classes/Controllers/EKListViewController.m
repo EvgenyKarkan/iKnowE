@@ -89,6 +89,7 @@
     
 	[self.listView.tableView reloadData];
 	self.listView.searchBar.showsCancelButton = YES;
+    NSLog(@"<#   #> %@", [self.listView.searchBar valueForKey:@"_cancelButton"]);;
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar

@@ -70,15 +70,15 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 {
     if ([tableView numberOfSections] == 2) {
         if (section == 1) {
-            self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"Default data"];
+            self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"DEFAULT DATA"];
             [self.headerView addTarget:self addAction:@selector(scrollToSectionTop)];
         }
         else {
-            self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"User data"];
+            self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"USER DATA"];
         }
     }
     else {
-        self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"Default data"];
+        self.headerView = [[EKTableSectionHeaderView alloc] initWithTitle:@"DEFAULT DATA"];
     }
 
     return self.headerView;
@@ -125,7 +125,9 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:kITReuseIdentifier];
 		cell.selectionStyle = UITableViewCellSelectionStyleGray;
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	}
+        cell.textLabel.font = [UIFont fontWithName:@"CicleSemi" size:25.0f];
+        cell.textLabel.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+    }
 	if ([tableView numberOfSections] == 1) {
 		if (self.search) {
 			NSAssert([self.searchPlistData count] > 0, @"SearchPlistData array should have at least one object");
@@ -162,7 +164,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	return 49.80f;
+	return 58.0f;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

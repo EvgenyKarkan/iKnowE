@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB711FF645704458B029D483 /* libPods-iKnowE.a */; };
+		DE00B2E817FC1EA600703C82 /* Neometric-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE00B2E617FC1EA600703C82 /* Neometric-Medium.otf */; };
+		DE00B2EF17FC26B300703C82 /* CicleFina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE00B2EE17FC26B300703C82 /* CicleFina.ttf */; };
+		DE00B2F117FC273C00703C82 /* CicleSemi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE00B2F017FC273C00703C82 /* CicleSemi.ttf */; };
 		DE0F155E17F788B000DF4778 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0F155D17F788B000DF4778 /* Additive.m */; };
 		DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */; };
 		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
@@ -44,11 +47,15 @@
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
 		DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4D00217F5EA1E007BBB30 /* EKTextView.m */; };
 		DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */; };
+		DEDFDC7B17FECDF1006D9FC6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDFDC7A17FECDF1006D9FC6 /* bar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iKnowE.xcconfig"; path = "Pods/Pods-iKnowE.xcconfig"; sourceTree = "<group>"; };
 		DB711FF645704458B029D483 /* libPods-iKnowE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iKnowE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE00B2E617FC1EA600703C82 /* Neometric-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neometric-Medium.otf"; sourceTree = "<group>"; };
+		DE00B2EE17FC26B300703C82 /* CicleFina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CicleFina.ttf; sourceTree = "<group>"; };
+		DE00B2F017FC273C00703C82 /* CicleSemi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CicleSemi.ttf; sourceTree = "<group>"; };
 		DE0F155C17F788B000DF4778 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
 		DE0F155D17F788B000DF4778 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
 		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
@@ -106,6 +113,7 @@
 		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionHeaderView.h; sourceTree = "<group>"; };
 		DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSectionHeaderView.m; sourceTree = "<group>"; };
+		DEDFDC7A17FECDF1006D9FC6 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE00B2E517FC1EA600703C82 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE00B2F017FC273C00703C82 /* CicleSemi.ttf */,
+				DE00B2EE17FC26B300703C82 /* CicleFina.ttf */,
+				DE00B2E617FC1EA600703C82 /* Neometric-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		DE1B08D817EE0C6600164B62 /* iKnowE */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +236,7 @@
 		DE1B08ED17EE0C6600164B62 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				DE00B2E517FC1EA600703C82 /* Fonts */,
 				DE1B08EE17EE0C6600164B62 /* Images */,
 			);
 			path = Resourses;
@@ -226,6 +245,7 @@
 		DE1B08EE17EE0C6600164B62 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DEDFDC7A17FECDF1006D9FC6 /* bar.png */,
 				DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */,
 				DE4B783917F20ACD003F96F5 /* reject@2x.png */,
 				DE78635017EF884F001CBA06 /* search_background.png */,
@@ -336,6 +356,10 @@
 				DE78635717EF884F001CBA06 /* search@2x.png in Resources */,
 				DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */,
 				DE4B783B17F20ACD003F96F5 /* reject@2x.png in Resources */,
+				DE00B2E817FC1EA600703C82 /* Neometric-Medium.otf in Resources */,
+				DE00B2EF17FC26B300703C82 /* CicleFina.ttf in Resources */,
+				DE00B2F117FC273C00703C82 /* CicleSemi.ttf in Resources */,
+				DEDFDC7B17FECDF1006D9FC6 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +504,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iKnowE;
 				WRAPPER_EXTENSION = app;
 			};
@@ -493,7 +517,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iKnowE;
 				WRAPPER_EXTENSION = app;
 			};

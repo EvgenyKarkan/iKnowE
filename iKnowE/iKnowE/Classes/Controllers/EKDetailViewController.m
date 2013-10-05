@@ -18,7 +18,7 @@
 
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
 @property (nonatomic, strong) EKDetailView *detailView;
-@property (strong, nonatomic) UIPopoverController *masterPopoverController;
+@property (nonatomic, strong) UIPopoverController *masterPopoverController;
 @property (nonatomic, strong) UIButton *splitButton;
 
 @end
@@ -38,14 +38,13 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	self.view.backgroundColor = [UIColor grayColor];
-    
+
 	self.dataProvider = [[EKListViewTableProvider alloc] init];
 	[self.dataProvider setDelegate:self];
     
-	self.splitButton = [self splitViewButton];
-    
-    [self preloadDataOnApplicationFinishLaunchingWithSettingsData:[[[EKSettingsProvider alloc] init] sectionWithRowData]];
+    self.splitButton = [self splitViewButton];
+
+	[self preloadDataOnApplicationFinishLaunchingWithSettingsData:[[[EKSettingsProvider alloc] init] sectionWithRowData]];
 }
 
 #pragma mark - EKListViewTableDelegate stuff from provider
@@ -67,8 +66,8 @@
 #pragma mark - Split view controller delegate stuff
 
 - (void)splitViewController:(UISplitViewController *)svc willHideViewController:(UIViewController *)aViewController
-          withBarButtonItem:(UIBarButtonItem *)barButtonItem
-       forPopoverController:(UIPopoverController *)pc
+                                                              withBarButtonItem:(UIBarButtonItem *)barButtonItem
+                                                           forPopoverController:(UIPopoverController *)popover
 {
 	[self.splitButton addTarget:barButtonItem.target
 	                     action:barButtonItem.action
@@ -79,12 +78,13 @@
                          self.splitButton.alpha = 1.0f;
                      } completion: ^(BOOL finished) {
                          [self.detailView addSubview:self.splitButton];
-                         self.masterPopoverController = pc;
+                         self.masterPopoverController = popover;
                      }];
+    
 }
 
 - (void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem
-{
+{    
 	[UIView animateWithDuration:0.2f
 	                 animations: ^{
                          self.splitButton.alpha = 0.0f;
@@ -102,7 +102,7 @@
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
 	[button setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
 	[button setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
-	button.frame = CGRectMake(5.0f, 7.0f, 60.0f, 30.0f);
+	button.frame = CGRectMake(5.0f, 27.0f, 60.0f, 30.0f);
     
 	return button;
 }

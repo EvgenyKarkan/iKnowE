@@ -11,6 +11,7 @@
 		DE00B2E817FC1EA600703C82 /* Neometric-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE00B2E617FC1EA600703C82 /* Neometric-Medium.otf */; };
 		DE00B2EF17FC26B300703C82 /* CicleFina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE00B2EE17FC26B300703C82 /* CicleFina.ttf */; };
 		DE00B2F117FC273C00703C82 /* CicleSemi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE00B2F017FC273C00703C82 /* CicleSemi.ttf */; };
+		DE0D44AF1800745500E00F35 /* EKPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D44AE1800745500E00F35 /* EKPlaceholderTextView.m */; };
 		DE0F155E17F788B000DF4778 /* Additive.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0F155D17F788B000DF4778 /* Additive.m */; };
 		DE1B08F317EE0C6700164B62 /* EKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */; };
 		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
@@ -45,7 +46,6 @@
 		DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
-		DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4D00217F5EA1E007BBB30 /* EKTextView.m */; };
 		DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */; };
 		DEDFDC7B17FECDF1006D9FC6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDFDC7A17FECDF1006D9FC6 /* bar.png */; };
 /* End PBXBuildFile section */
@@ -56,6 +56,8 @@
 		DE00B2E617FC1EA600703C82 /* Neometric-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neometric-Medium.otf"; sourceTree = "<group>"; };
 		DE00B2EE17FC26B300703C82 /* CicleFina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CicleFina.ttf; sourceTree = "<group>"; };
 		DE00B2F017FC273C00703C82 /* CicleSemi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CicleSemi.ttf; sourceTree = "<group>"; };
+		DE0D44AD1800745500E00F35 /* EKPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPlaceholderTextView.h; sourceTree = "<group>"; };
+		DE0D44AE1800745500E00F35 /* EKPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKPlaceholderTextView.m; sourceTree = "<group>"; };
 		DE0F155C17F788B000DF4778 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
 		DE0F155D17F788B000DF4778 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
 		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
@@ -108,8 +110,6 @@
 		DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAttributedStringUtil.m; sourceTree = "<group>"; };
 		DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextField.h; sourceTree = "<group>"; };
 		DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextField.m; sourceTree = "<group>"; };
-		DEB4D00117F5EA1D007BBB30 /* EKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextView.h; sourceTree = "<group>"; };
-		DEB4D00217F5EA1E007BBB30 /* EKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextView.m; sourceTree = "<group>"; };
 		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionHeaderView.h; sourceTree = "<group>"; };
 		DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSectionHeaderView.m; sourceTree = "<group>"; };
@@ -225,10 +225,10 @@
 				DE763D4817F36745009BB3BE /* EKAddEView.m */,
 				DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */,
 				DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */,
-				DEB4D00117F5EA1D007BBB30 /* EKTextView.h */,
-				DEB4D00217F5EA1E007BBB30 /* EKTextView.m */,
 				DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */,
 				DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */,
+				DE0D44AD1800745500E00F35 /* EKPlaceholderTextView.h */,
+				DE0D44AE1800745500E00F35 /* EKPlaceholderTextView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -414,11 +414,11 @@
 				DE78634F17EF3F99001CBA06 /* EKDetailView.m in Sources */,
 				DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */,
 				DE763D4617F35FA0009BB3BE /* EKAddEViewController.m in Sources */,
+				DE0D44AF1800745500E00F35 /* EKPlaceholderTextView.m in Sources */,
 				DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */,
 				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
 				DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */,
 				DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */,
-				DEB4D00317F5EA1E007BBB30 /* EKTextView.m in Sources */,
 				DE0F155E17F788B000DF4778 /* Additive.m in Sources */,
 				DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */,
 				DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */,
@@ -506,7 +506,7 @@
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iKnowE;
-				SDKROOT = iphoneos6.1;
+				SDKROOT = iphoneos7.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -520,7 +520,7 @@
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iKnowE;
-				SDKROOT = iphoneos6.1;
+				SDKROOT = iphoneos7.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

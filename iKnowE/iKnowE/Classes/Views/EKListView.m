@@ -57,8 +57,12 @@
 		[self.topView addSubview:self.addButton];
         
 		self.searchBar = [[UISearchBar alloc] init];
+        self.searchBar.barStyle = UISearchBarStyleMinimal;
+        self.searchBar.placeholder = @"Search...";
+        self.searchBar.barTintColor = [UIColor colorWithRed:0.062745 green:0.215686 blue:0.274510 alpha:1];
+        self.searchBar.tintColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
 		[self addSubview:self.searchBar];
-        [self customizeSearchBar];
+            //[self customizeSearchBar];
         
 		self.tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
 		self.tableView.backgroundView = nil;

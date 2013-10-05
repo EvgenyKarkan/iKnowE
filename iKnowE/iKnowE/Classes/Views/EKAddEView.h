@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "EKTextField.h"
-#import "EKTextView.h"
+#import "EKPlaceholderTextView.h"
 
 @interface EKAddEView : UIView
 
@@ -18,6 +18,6 @@
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) EKTextField *eCodeField;
 @property (nonatomic, strong) EKTextField *nameField;
-@property (nonatomic, strong) EKTextView *informationField;
+@property (nonatomic, strong) EKPlaceholderTextView *informationField;
 
 @end

@@ -12,7 +12,7 @@
 
 - (CGRect)textRectForBounds:(CGRect)bounds {
     
-    CGFloat margin = 10.0f;
+    CGFloat margin = 3.0f;
     CGRect inset = CGRectMake(bounds.origin.x + margin, bounds.origin.y, bounds.size.width - margin, bounds.size.height);
     
     return inset;
@@ -20,7 +20,7 @@
 
 - (CGRect)editingRectForBounds:(CGRect)bounds {
     
-    CGFloat margin = 10.0f;
+    CGFloat margin = 3.0f;
     CGRect inset = CGRectMake(bounds.origin.x + margin, bounds.origin.y, bounds.size.width - margin, bounds.size.height);
     
     return inset;

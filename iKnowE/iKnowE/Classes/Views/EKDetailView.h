@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) UINavigationItem *buttonCarrier;
 @property (nonatomic, strong) UIView *topView;
-@property (nonatomic, strong) UITextView *foo;
-@property (nonatomic, strong) UITextView *foo2;
+@property (nonatomic, strong) UITextView *infoView;
+@property (nonatomic, strong) UITextView *eCodeView;
 
 @end

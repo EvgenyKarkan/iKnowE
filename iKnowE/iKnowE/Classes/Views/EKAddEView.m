@@ -32,7 +32,7 @@
         self.eCodeField.layer.borderColor = [[UIColor grayColor] CGColor];
         self.eCodeField.layer.cornerRadius = 5.0f;
         self.eCodeField.backgroundColor = [UIColor clearColor];
-        self.eCodeField.font = [UIFont systemFontOfSize:15.0f];
+        self.eCodeField.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
         self.eCodeField.placeholder = @"Enter E number";
         self.eCodeField.autocorrectionType = UITextAutocorrectionTypeNo;
         self.eCodeField.keyboardType = UIKeyboardTypeDefault;
@@ -47,7 +47,7 @@
         self.nameField.layer.borderColor = [[UIColor grayColor] CGColor];
         self.nameField.layer.cornerRadius = 5.0f;
         self.nameField.backgroundColor = [UIColor clearColor];
-        self.nameField.font = [UIFont systemFontOfSize:15.0f];
+        self.nameField.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
         self.nameField.placeholder = @"Enter additive name";
         self.nameField.autocorrectionType = UITextAutocorrectionTypeNo;
         self.nameField.keyboardType = UIKeyboardTypeDefault;
@@ -56,12 +56,12 @@
         self.nameField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
         [self.scrollView addSubview:self.nameField];
         
-        self.informationField = [[EKTextView alloc] init];
+        self.informationField = [[EKPlaceholderTextView alloc] init];
         self.informationField.layer.borderWidth = 1.0f;
         self.informationField.layer.borderColor = [[UIColor grayColor] CGColor];
         self.informationField.layer.cornerRadius = 5.0f;
         self.informationField.backgroundColor = [UIColor clearColor];
-        self.informationField.font = [UIFont systemFontOfSize:15.0f];
+        self.informationField.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
         self.informationField.placeholder = @"Enter description";
         self.informationField.keyboardType = UIKeyboardTypeDefault;
         self.informationField.returnKeyType = UIReturnKeyDone;

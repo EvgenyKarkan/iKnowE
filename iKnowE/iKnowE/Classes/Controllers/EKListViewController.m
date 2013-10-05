@@ -61,6 +61,8 @@
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
+    self.listView.searchBar.showsCancelButton = YES;
+    
 	if (([self.dataProvider.searchPlistData count] > 0) || ([self.dataProvider.searchCoreDataData count] > 0)) {
 		[self.dataProvider.searchPlistData removeAllObjects];
 		[self.dataProvider.searchCoreDataData removeAllObjects];
@@ -88,8 +90,6 @@
 	}
     
 	[self.listView.tableView reloadData];
-	self.listView.searchBar.showsCancelButton = YES;
-    NSLog(@"<#   #> %@", [self.listView.searchBar valueForKey:@"_cancelButton"]);;
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar

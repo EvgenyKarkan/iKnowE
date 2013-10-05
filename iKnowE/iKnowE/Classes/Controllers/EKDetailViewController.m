@@ -111,12 +111,12 @@
 {
 	[UIView animateWithDuration:0.2f
 	                 animations: ^{
-                         self.detailView.foo.alpha = 0.5f;
+                         self.detailView.infoView.alpha = 0.5f;
                      } completion: ^(BOOL finished) {
                          [UIView animateWithDuration:0.2f
                                           animations: ^{
-                                              self.detailView.foo.text = data[0];
-                                              self.detailView.foo.alpha = 1.0f;
+                                              self.detailView.infoView.text = data[0];
+                                              self.detailView.infoView.alpha = 1.0f;
                                           } completion:nil];
                      }];
 }
@@ -127,22 +127,22 @@
 		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
 			if ([[dataFromSettings objectAtIndex:0] integerValue] == 0) {
 				if (([dataFromSettings[1] integerValue] + 1) > [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count]) {
-					self.detailView.foo.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue] - 1]).information;
+					self.detailView.infoView.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue] - 1]).information;
 				}
 				else {
-					self.detailView.foo.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue]]).information;
+					self.detailView.infoView.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue]]).information;
 				}
 			}
 			else {
-				self.detailView.foo.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
+				self.detailView.infoView.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
 			}
 		}
 		else {
-			self.detailView.foo.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
+			self.detailView.infoView.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
 		}
 	}
 	else {
-		self.detailView.foo.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][0]).danger;
+		self.detailView.infoView.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][0]).danger;
 	}
 }
 

@@ -13,6 +13,8 @@
 #import "EKSettingsProvider.h"
 #import "EKPlistDataProvider.h"
 #import "EKCoreDataProvider.h"
+#import "EKAppDelegate.h"
+#import "EKListViewController.h"
 
 @interface EKDetailViewController () 
 
@@ -123,26 +125,32 @@
 
 - (void)preloadDataOnApplicationFinishLaunchingWithSettingsData:(NSArray *)dataFromSettings
 {
+    EKAppDelegate *dummy = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
+    NSInteger numberOfSections = [((EKListViewController *)dummy.splitViewController.viewControllers[0]).listView.tableView numberOfSections];
+    NSInteger entitiesCount = [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count];
+    NSArray *allEntities = [[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName];
+    NSArray *allEDescriptions = [EKPlistDataProvider additiveDescriptions];
+    
 	if (dataFromSettings) {
-		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
-			if ([[dataFromSettings objectAtIndex:0] integerValue] == 0) {
-				if (([dataFromSettings[1] integerValue] + 1) > [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count]) {
-					self.detailView.infoView.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue] - 1]).information;
+		if (numberOfSections == 2) {
+			if ([dataFromSettings[0] integerValue] == 0) {
+				if ([dataFromSettings[1] integerValue] <= entitiesCount - 1) {
+					self.detailView.infoView.text = ((Additive *)allEntities[[dataFromSettings[1] integerValue]]).information;
 				}
 				else {
-					self.detailView.infoView.text = ((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][[dataFromSettings[1] integerValue]]).information;
+					self.detailView.infoView.text = ((Additive *)allEntities[0]).information;
 				}
 			}
 			else {
-				self.detailView.infoView.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
+				self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).danger;
 			}
 		}
 		else {
-			self.detailView.infoView.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][[[dataFromSettings objectAtIndex:1] integerValue]]).danger;
+			self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).danger;
 		}
 	}
 	else {
-		self.detailView.infoView.text = ((EKAdditiveDescription *)[EKPlistDataProvider additiveDescriptions][0]).danger;
+		self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[0]).danger;
 	}
 }
 

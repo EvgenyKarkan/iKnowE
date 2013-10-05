@@ -23,7 +23,7 @@
 		self.infoView = [[UITextView alloc] init];
 		self.infoView.userInteractionEnabled = YES;
         self.infoView.editable = NO;
-        self.infoView.layer.borderWidth = 1.0f;
+        self.infoView.layer.borderWidth = 1.5f;
         self.infoView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
         self.infoView.layer.cornerRadius = 5.0f;
         self.infoView.backgroundColor = [UIColor clearColor];
@@ -33,7 +33,7 @@
         
         self.eCodeView = [[UITextView alloc] init];
 		self.eCodeView.userInteractionEnabled = NO;
-        self.eCodeView.layer.borderWidth = 1.0f;
+        self.eCodeView.layer.borderWidth = 1.5f;
         self.eCodeView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
         self.eCodeView.layer.cornerRadius = 5.0f;
         self.eCodeView.backgroundColor = [UIColor clearColor];

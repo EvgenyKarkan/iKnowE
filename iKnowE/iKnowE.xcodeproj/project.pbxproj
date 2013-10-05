@@ -506,7 +506,7 @@
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iKnowE;
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos6.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -520,7 +520,7 @@
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = iKnowE;
-				SDKROOT = iphoneos7.0;
+				SDKROOT = iphoneos6.1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

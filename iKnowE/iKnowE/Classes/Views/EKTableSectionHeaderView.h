@@ -11,7 +11,6 @@
 @interface EKTableSectionHeaderView : UIView
 
 - (id)initWithTitle:(NSString *)title;
-
 - (void)addTarget:(id)target addAction:(SEL)action;
 
 @end

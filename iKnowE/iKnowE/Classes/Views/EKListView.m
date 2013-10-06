@@ -69,7 +69,6 @@
 		self.tableView.backgroundColor = [UIColor colorWithRed:0.121569 green:0.329412 blue:0.384314 alpha:1];
         self.tableView.separatorColor = [UIColor colorWithRed:0.062745 green:0.215686 blue:0.274510 alpha:1];
 		[self addSubview:self.tableView];
-        
     }
 	return self;
 }
@@ -107,13 +106,12 @@
 	UITextField *searchField = [self.searchBar valueForKey:@"_searchField"];
     
 	if (searchField != nil) {
-		[searchField setBackground:[UIImage imageNamed:@"search_background.png"]];
-        
 		UIImage *image = [UIImage imageNamed:@"search.png"];
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 		searchField.leftView = imageView;
 		UIImageView *imageView1 = [[UIImageView alloc] initWithImage:image];
         
+        [searchField setBackground:[UIImage imageNamed:@"search_background.png"]];
 		searchField.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
 		searchField.returnKeyType = UIReturnKeyDone;
 		searchField.rightView = imageView1;

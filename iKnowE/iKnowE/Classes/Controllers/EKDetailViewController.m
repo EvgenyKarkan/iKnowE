@@ -142,9 +142,13 @@
 		if (numberOfSections == 2) {
 			if ([dataFromSettings[0] integerValue] == 0) {
 				if ([dataFromSettings[1] integerValue] <= entitiesCount - 1) {
+                    self.detailView.eCodeView.text = ((Additive *)allEntities[[dataFromSettings[1] integerValue]]).ecode;
+                    self.detailView.nameView.text = ((Additive *)allEntities[[dataFromSettings[1] integerValue]]).name;
 					self.detailView.infoView.text = ((Additive *)allEntities[[dataFromSettings[1] integerValue]]).information;
 				}
 				else {
+                    self.detailView.eCodeView.text = ((Additive *)allEntities[0]).ecode;
+                    self.detailView.nameView.text = ((Additive *)allEntities[0]).name;
 					self.detailView.infoView.text = ((Additive *)allEntities[0]).information;
 				}
 			}

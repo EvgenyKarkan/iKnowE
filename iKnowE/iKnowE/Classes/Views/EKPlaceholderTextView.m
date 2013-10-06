@@ -26,7 +26,7 @@
 {
 	if ((self = [super initWithFrame:frame])) {
 		[self setPlaceholder:@""];
-		[self setPlaceholderColor:[UIColor colorWithRed:0.662745 green:0.662745 blue:0.686275 alpha:1]];
+		[self setPlaceholderColor:[UIColor colorWithRed:0.529412 green:0.564706 blue:0.635294 alpha:1]];
 		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChanged:) name:UITextViewTextDidChangeNotification object:nil];
 	}
 	return self;

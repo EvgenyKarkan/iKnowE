@@ -35,6 +35,7 @@
         
 		for (UITextView *textView in @[self.eCodeView, self.nameView, self.infoView]) {
 			textView.userInteractionEnabled = NO;
+            textView.editable = NO;
 			textView.layer.borderWidth = 1.5f;
 			textView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
 			textView.layer.cornerRadius = 5.0f;

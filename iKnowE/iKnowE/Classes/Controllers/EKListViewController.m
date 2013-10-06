@@ -70,15 +70,15 @@
 	if ([searchText length] > 0) {
 		self.dataProvider.search = YES;
 		for (NSUInteger i = 0; i < [self.dataProvider.usualData count]; i++) {
-			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString : searchText options : NSCaseInsensitiveSearch];
+			NSRange titleResultsRange = [((EKAdditiveDescription *)self.dataProvider.usualData[i]).code rangeOfString:searchText options:NSCaseInsensitiveSearch];
 			if (titleResultsRange.length > 0) {
 				[self.dataProvider.searchPlistData addObject:[self.dataProvider.usualData objectAtIndex:i]];
 			}
 		}
 		if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] > 0) {
 			for (NSUInteger i = 0; i < [[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count]; i++) {
-				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]).ecode rangeOfString : searchText
-                                                                                                                                               options : NSCaseInsensitiveSearch];
+				NSRange range = [((Additive *)[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]).ecode rangeOfString:searchText
+                                                                                                                                               options:NSCaseInsensitiveSearch];
 				if (range.length > 0) {
 					[self.dataProvider.searchCoreDataData addObject:[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName][i]];
 				}

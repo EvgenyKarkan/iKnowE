@@ -83,7 +83,6 @@
                          [self.detailView addSubview:self.splitButton];
                          self.masterPopoverController = popover;
                      }];
-    
 }
 
 - (void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem

@@ -128,7 +128,9 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kITReuseIdentifier];
 	if (cell == nil) {
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:kITReuseIdentifier];
-		cell.selectionStyle = UITableViewCellSelectionStyleGray;
+        UIView *selectionColor = [[UIView alloc] init];
+        selectionColor.backgroundColor = [UIColor colorWithRed:0.062745 green:0.215686 blue:0.274510 alpha:1];
+        cell.selectedBackgroundView = selectionColor;
 		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         cell.textLabel.font = [UIFont fontWithName:@"CicleSemi" size:25.0f];
         cell.textLabel.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];

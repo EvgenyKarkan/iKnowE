@@ -58,10 +58,11 @@
     }
 
     if (!flag) {
-        [self updateUIWithData:@[((EKAdditiveDescription *)data[indexPath.row]).danger]];
+        [self updateUIWithData:@[((EKAdditiveDescription *)data[indexPath.row]).danger, ((EKAdditiveDescription *)data[indexPath.row]).code,
+                                 ((EKAdditiveDescription *)data[indexPath.row]).chemicalName]];
     }
     else {
-        [self updateUIWithData:@[((Additive *)data[indexPath.row]).information]];
+        [self updateUIWithData:@[((Additive *)data[indexPath.row]).information, ((Additive *)data[indexPath.row]).ecode, ((Additive *)data[indexPath.row]).name]];
     }
 }
 
@@ -114,10 +115,16 @@
 	[UIView animateWithDuration:0.2f
 	                 animations: ^{
                          self.detailView.infoView.alpha = 0.5f;
+                         self.detailView.eCodeView.alpha = 0.5f;
+                         self.detailView.nameView.alpha = 0.5f;
                      } completion: ^(BOOL finished) {
                          [UIView animateWithDuration:0.2f
                                           animations: ^{
+                                              self.detailView.eCodeView.text = data[1];
+                                              self.detailView.nameView.text = data[2];
                                               self.detailView.infoView.text = data[0];
+                                              self.detailView.eCodeView.alpha = 1.0f;
+                                              self.detailView.nameView.alpha = 1.0f;
                                               self.detailView.infoView.alpha = 1.0f;
                                           } completion:nil];
                      }];
@@ -143,14 +150,20 @@
 			}
 			else {
 				self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).danger;
+                self.detailView.eCodeView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).code;
+                self.detailView.nameView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).chemicalName;
 			}
 		}
 		else {
 			self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).danger;
+            self.detailView.eCodeView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).code;
+            self.detailView.nameView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).chemicalName;
 		}
 	}
 	else {
 		self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[0]).danger;
+        self.detailView.eCodeView.text = ((EKAdditiveDescription *)allEDescriptions[0]).code;
+        self.detailView.nameView.text = ((EKAdditiveDescription *)allEDescriptions[0]).chemicalName;
 	}
 }
 

@@ -43,6 +43,8 @@
 			textView.font = [UIFont fontWithName:@"CicleSemi" size:30.0f];
 			[self addSubview:textView];
 		}
+        self.infoView.userInteractionEnabled = YES;
+        self.eCodeView.font = [UIFont fontWithName:@"CicleSemi" size:60.0f];
         
 		self.eCodeLabel = [[UILabel alloc] init];
 		self.nameLabel = [[UILabel alloc] init];

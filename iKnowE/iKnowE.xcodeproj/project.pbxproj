@@ -60,7 +60,7 @@
 		DE0D44AE1800745500E00F35 /* EKPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKPlaceholderTextView.m; sourceTree = "<group>"; };
 		DE0F155C17F788B000DF4778 /* Additive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Additive.h; sourceTree = "<group>"; };
 		DE0F155D17F788B000DF4778 /* Additive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Additive.m; sourceTree = "<group>"; };
-		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDetailViewController.h; sourceTree = "<group>"; };
+		DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EKDetailViewController.h; path = ../Controllers/EKDetailViewController.h; sourceTree = "<group>"; };
 		DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDetailViewController.m; sourceTree = "<group>"; };
 		DE1B08DD17EE0C6600164B62 /* EKListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewController.h; sourceTree = "<group>"; };
 		DE1B08DE17EE0C6600164B62 /* EKListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EKListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -172,7 +172,6 @@
 		DE1B08DA17EE0C6600164B62 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */,
 				DE1B08DC17EE0C6600164B62 /* EKDetailViewController.m */,
 				DE1B08DD17EE0C6600164B62 /* EKListViewController.h */,
 				DE1B08DE17EE0C6600164B62 /* EKListViewController.m */,
@@ -189,6 +188,7 @@
 				DE44991717F0DEE90091519D /* EKCoreDataProvider.m */,
 				DE1B08E217EE0C6600164B62 /* EKPlistDataProvider.h */,
 				DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */,
+				DE1B08DB17EE0C6600164B62 /* EKDetailViewController.h */,
 				DE78634717EF2C74001CBA06 /* EKListViewTableProvider.h */,
 				DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */,
 				DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */,

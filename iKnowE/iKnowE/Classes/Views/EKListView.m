@@ -94,14 +94,13 @@
 #warning lot of magic
 - (void)customizeSearchBar
 {
-	for (UIView *subview in[self.searchBar subviews]) {
+	for (UIView *subview in [self.searchBar subviews]) {
 		if ([subview isKindOfClass:NSClassFromString(@"UISearchBarBackground")]) {
 			[subview removeFromSuperview];
 		}
 		if ([subview isKindOfClass:[UIButton class]]) {
-			UIButton *btn = (UIButton *)subview;
-			[btn setBackgroundImage:[UIImage imageNamed:@"cnacel-bt.png"]
-			               forState:UIControlStateNormal];
+			UIButton *button = (UIButton *)subview;
+			[button setBackgroundImage:[UIImage imageNamed:@"cnacel-bt.png"] forState:UIControlStateNormal];
 		}
 	}
     
@@ -119,6 +118,7 @@
 		searchField.returnKeyType = UIReturnKeyDone;
 		searchField.rightView = imageView1;
 		searchField.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+        [searchField setValue:[UIColor colorWithRed:0.529412 green:0.564706 blue:0.635294 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
 	}
 }
 

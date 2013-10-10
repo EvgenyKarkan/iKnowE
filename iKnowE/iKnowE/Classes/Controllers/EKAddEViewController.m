@@ -7,19 +7,12 @@
 //
 
 #import "EKAddEViewController.h"
-#import "EKAddEView.h"
 #import "EKCoreDataProvider.h"
 #import "EKAppDelegate.h"
 #import "EKListViewController.h"
 
 static CGFloat const kEKLow = 20.0f;
 static CGFloat const kEKBig = 235.0f;
-
-@interface EKAddEViewController ()
-
-@property (nonatomic, strong) EKAddEView *addView;
-
-@end
 
 
 @implementation EKAddEViewController;

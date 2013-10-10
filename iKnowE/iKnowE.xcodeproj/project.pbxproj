@@ -28,12 +28,12 @@
 		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
 		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
 		DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */; };
-		DE4B783B17F20ACD003F96F5 /* reject@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783917F20ACD003F96F5 /* reject@2x.png */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
 		DE763D4617F35FA0009BB3BE /* EKAddEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE763D4517F35FA0009BB3BE /* EKAddEViewController.m */; };
 		DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE763D4817F36745009BB3BE /* EKAddEView.m */; };
+		DE783F391806B3E000EE40BD /* EKEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE783F381806B3E000EE40BD /* EKEditViewController.m */; };
 		DE78634617EF21B2001CBA06 /* EKListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634517EF21B2001CBA06 /* EKListView.m */; };
 		DE78634917EF2C74001CBA06 /* EKListViewTableProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634817EF2C74001CBA06 /* EKListViewTableProvider.m */; };
 		DE78634C17EF2CAD001CBA06 /* EKAdditiveDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634B17EF2CAD001CBA06 /* EKAdditiveDescription.m */; };
@@ -47,7 +47,6 @@
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
 		DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */; };
-		DEDFDC7B17FECDF1006D9FC6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDFDC7A17FECDF1006D9FC6 /* bar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +81,6 @@
 		DE44991617F0DEE90091519D /* EKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataProvider.h; sourceTree = "<group>"; };
 		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
 		DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cnacel-bt@2x.png"; sourceTree = "<group>"; };
-		DE4B783917F20ACD003F96F5 /* reject@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reject@2x.png"; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +89,8 @@
 		DE763D4517F35FA0009BB3BE /* EKAddEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EKAddEViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE763D4717F36745009BB3BE /* EKAddEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAddEView.h; sourceTree = "<group>"; };
 		DE763D4817F36745009BB3BE /* EKAddEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAddEView.m; sourceTree = "<group>"; };
+		DE783F371806B3E000EE40BD /* EKEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKEditViewController.h; sourceTree = "<group>"; };
+		DE783F381806B3E000EE40BD /* EKEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEditViewController.m; sourceTree = "<group>"; };
 		DE78634417EF21B2001CBA06 /* EKListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListView.h; sourceTree = "<group>"; };
 		DE78634517EF21B2001CBA06 /* EKListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKListView.m; sourceTree = "<group>"; };
 		DE78634717EF2C74001CBA06 /* EKListViewTableProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListViewTableProvider.h; sourceTree = "<group>"; };
@@ -113,7 +113,6 @@
 		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionHeaderView.h; sourceTree = "<group>"; };
 		DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSectionHeaderView.m; sourceTree = "<group>"; };
-		DEDFDC7A17FECDF1006D9FC6 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +177,8 @@
 				DE1B08DE17EE0C6600164B62 /* EKListViewController.m */,
 				DE763D4417F35FA0009BB3BE /* EKAddEViewController.h */,
 				DE763D4517F35FA0009BB3BE /* EKAddEViewController.m */,
+				DE783F371806B3E000EE40BD /* EKEditViewController.h */,
+				DE783F381806B3E000EE40BD /* EKEditViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -245,9 +246,7 @@
 		DE1B08EE17EE0C6600164B62 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				DEDFDC7A17FECDF1006D9FC6 /* bar.png */,
 				DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */,
-				DE4B783917F20ACD003F96F5 /* reject@2x.png */,
 				DE78635017EF884F001CBA06 /* search_background.png */,
 				DE78635117EF884F001CBA06 /* search_background@2x.png */,
 				DE78635217EF884F001CBA06 /* search.png */,
@@ -355,11 +354,9 @@
 				DE78635617EF884F001CBA06 /* search.png in Resources */,
 				DE78635717EF884F001CBA06 /* search@2x.png in Resources */,
 				DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */,
-				DE4B783B17F20ACD003F96F5 /* reject@2x.png in Resources */,
 				DE00B2E817FC1EA600703C82 /* Neometric-Medium.otf in Resources */,
 				DE00B2EF17FC26B300703C82 /* CicleFina.ttf in Resources */,
 				DE00B2F117FC273C00703C82 /* CicleSemi.ttf in Resources */,
-				DEDFDC7B17FECDF1006D9FC6 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +414,7 @@
 				DE0D44AF1800745500E00F35 /* EKPlaceholderTextView.m in Sources */,
 				DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */,
 				DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */,
+				DE783F391806B3E000EE40BD /* EKEditViewController.m in Sources */,
 				DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */,
 				DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */,
 				DE0F155E17F788B000DF4778 /* Additive.m in Sources */,

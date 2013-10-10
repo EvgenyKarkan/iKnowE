@@ -129,6 +129,21 @@ static id _sharedInstance;
 	}
 }
 
+- (void)updateEnityWithName:(NSString *)name withIndex:(NSUInteger)index withData:(NSArray *)data
+{
+    NSArray *additives = [self fetchedEntitiesForEntityName:name];
+    
+    Additive *additive = [additives objectAtIndex:index];
+    additive.ecode = data[0];
+    additive.name = data[1];
+    additive.information = data[2];
+    
+    NSError *updatingError = nil;
+    [[[EKCoreDataProvider sharedInstance] managedObjectContext] save:&updatingError];
+    
+    NSAssert(updatingError == nil, @"Fail to delete, error occured %@", [updatingError localizedDescription]);
+}
+
 - (void)saveContext
 {
 	NSError *error = nil;
@@ -190,6 +205,5 @@ static id _sharedInstance;
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
-
 
 @end

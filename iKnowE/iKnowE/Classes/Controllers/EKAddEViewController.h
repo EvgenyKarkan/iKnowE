@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EKAddEView.h"
 
 @interface EKAddEViewController : UIViewController
+
+@property (nonatomic, strong) EKAddEView *addView;
+
+- (void)savePressed;
+- (BOOL)validateAllInput;
 
 @end

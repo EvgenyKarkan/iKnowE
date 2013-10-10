@@ -7,6 +7,7 @@
 //
 
 #import "EKDetailView.h"
+#import "EKAttributedStringUtil.h"
 
 @interface EKDetailView ()
 
@@ -61,6 +62,16 @@
 			label.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
 			[self addSubview:label];
 		}
+        
+        self.editButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		[self.editButton setTitle:@"Edit" forState:UIControlStateNormal];
+        [self.editButton setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
+        self.editButton.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
+        self.editButton.titleLabel.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+		self.editButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+		[self.editButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
+        [self.editButton addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
+		[self.topView addSubview:self.editButton];
 	}
 	return self;
 }
@@ -78,6 +89,21 @@
     self.eCodeLabel.frame = CGRectMake(self.eCodeView.frame.origin.x, self.eCodeView.frame.origin.y - 20.0f, 80.0f, 25.0f);
     self.nameLabel.frame = CGRectMake(self.nameView.frame.origin.x, self.nameView.frame.origin.y - 20.0f, 80.0f, 25.0f);
     self.infoLabel.frame = CGRectMake(self.infoView.frame.origin.x, self.infoView.frame.origin.y - 20.0f, 120.0f, 25.0f);
+    
+    self.editButton.frame = CGRectMake(self.frame.size.width - 42.0f, 6.0f, 60.0f, 30.0f);
 }
+
+#pragma mark - Actions
+
+- (void)editPressed
+{
+	if (self.delegate) {
+		[self.delegate editButtonPressed];
+	}
+	else {
+		NSAssert(self.delegate != nil, @"Delegate should not be nil");
+	}
+}
+
 
 @end

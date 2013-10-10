@@ -48,7 +48,7 @@
         self.nameField.layer.cornerRadius = 5.0f;
         self.nameField.backgroundColor = [UIColor clearColor];
         self.nameField.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
-        self.nameField.placeholder = @"Enter additive name";
+        self.nameField.placeholder = @"Enter additive's name";
         self.nameField.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
         [self.nameField setValue:[UIColor colorWithRed:0.529412 green:0.564706 blue:0.635294 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
         self.nameField.autocorrectionType = UITextAutocorrectionTypeNo;

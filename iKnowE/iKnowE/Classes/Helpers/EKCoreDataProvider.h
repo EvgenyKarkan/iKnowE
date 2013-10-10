@@ -12,6 +12,7 @@
 
 + (EKCoreDataProvider *)sharedInstance;
 - (void)saveEntityWithName:(NSString *)name withData:(NSArray *)data;
+- (void)updateEnityWithName:(NSString *)name withIndex:(NSUInteger)index withData:(NSArray *)data;
 - (void)saveContext;
 - (void)deleteEntityWithEntityIndex:(NSIndexPath *)index;
 - (NSArray *)fetchedEntitiesForEntityName:(NSString *)name;

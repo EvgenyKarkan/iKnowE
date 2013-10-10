@@ -15,8 +15,10 @@
 #import "EKCoreDataProvider.h"
 #import "EKAppDelegate.h"
 #import "EKListViewController.h"
+#import "EKAttributedStringUtil.h"
+#import "EKEditViewController.h"
 
-@interface EKDetailViewController () 
+@interface EKDetailViewController () <EKDetailViewEditDelegate>
 
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
 @property (nonatomic, strong) EKDetailView *detailView;
@@ -47,6 +49,7 @@
     self.splitButton = [self splitViewButton];
 
 	[self preloadDataOnApplicationFinishLaunchingWithSettingsData:[[[EKSettingsProvider alloc] init] sectionWithRowData]];
+    self.detailView.delegate = self;
 }
 
 #pragma mark - EKListViewTableDelegate stuff from provider
@@ -58,11 +61,13 @@
     }
 
     if (!flag) {
-        [self updateUIWithData:@[((EKAdditiveDescription *)data[indexPath.row]).danger, ((EKAdditiveDescription *)data[indexPath.row]).code,
-                                 ((EKAdditiveDescription *)data[indexPath.row]).chemicalName]];
+        [self updateUIWithData:@[ ((EKAdditiveDescription *)data[indexPath.row]).code, ((EKAdditiveDescription *)data[indexPath.row]).chemicalName,
+                                  ((EKAdditiveDescription *)data[indexPath.row]).danger,]];
+        [self hideEditButton];
     }
     else {
-        [self updateUIWithData:@[((Additive *)data[indexPath.row]).information, ((Additive *)data[indexPath.row]).ecode, ((Additive *)data[indexPath.row]).name]];
+        [self updateUIWithData:@[((Additive *)data[indexPath.row]).ecode, ((Additive *)data[indexPath.row]).name, ((Additive *)data[indexPath.row]).information]];
+        [self showEditButton];
     }
 }
 
@@ -102,9 +107,13 @@
 {
 #warning magic
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-	[button setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateNormal];
-	[button setImage:[UIImage imageNamed:@"cnacel-bt"] forState:UIControlStateHighlighted];
-	button.frame = CGRectMake(5.0f, 27.0f, 60.0f, 30.0f);
+    
+    [button setTitle:@"List" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
+    [button setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"List"] forState:UIControlStateHighlighted];
+    button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+    button.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
+	button.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
     
 	return button;
 }
@@ -119,9 +128,9 @@
                      } completion: ^(BOOL finished) {
                          [UIView animateWithDuration:0.2f
                                           animations: ^{
-                                              self.detailView.eCodeView.text = data[1];
-                                              self.detailView.nameView.text = data[2];
-                                              self.detailView.infoView.text = data[0];
+                                              self.detailView.eCodeView.text = data[0];
+                                              self.detailView.nameView.text = data[1];
+                                              self.detailView.infoView.text = data[2];
                                               self.detailView.eCodeView.alpha = 1.0f;
                                               self.detailView.nameView.alpha = 1.0f;
                                               self.detailView.infoView.alpha = 1.0f;
@@ -150,24 +159,62 @@
                     self.detailView.nameView.text = ((Additive *)allEntities[0]).name;
 					self.detailView.infoView.text = ((Additive *)allEntities[0]).information;
 				}
+                self.detailView.editButton.hidden = NO;
 			}
 			else {
 				self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).danger;
                 self.detailView.eCodeView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).code;
                 self.detailView.nameView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).chemicalName;
+                self.detailView.editButton.hidden = YES;
 			}
 		}
 		else {
 			self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).danger;
             self.detailView.eCodeView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).code;
             self.detailView.nameView.text = ((EKAdditiveDescription *)allEDescriptions[[dataFromSettings[1] integerValue]]).chemicalName;
+            self.detailView.editButton.hidden = YES;
 		}
 	}
 	else {
 		self.detailView.infoView.text = ((EKAdditiveDescription *)allEDescriptions[0]).danger;
         self.detailView.eCodeView.text = ((EKAdditiveDescription *)allEDescriptions[0]).code;
         self.detailView.nameView.text = ((EKAdditiveDescription *)allEDescriptions[0]).chemicalName;
+        self.detailView.editButton.hidden = YES;
 	}
+}
+
+- (void)showEditButton
+{
+	if (self.detailView.editButton.hidden) {
+		[UIView animateWithDuration:0.2f animations: ^{
+		    self.detailView.editButton.alpha = 1.0f;
+		} completion: ^(BOOL finished) {
+		    [self.detailView.editButton setHidden:NO];
+		}];
+	}
+}
+
+- (void)hideEditButton
+{
+	[UIView animateWithDuration:0.2f animations: ^{
+	    self.detailView.editButton.alpha = 0.0f;
+	} completion: ^(BOOL finished) {
+	    [self.detailView.editButton setHidden:YES];
+	}];
+}
+
+#pragma mark - EKDetailViewEditDelegate stuff 
+
+- (void)editButtonPressed
+{
+    EKEditViewController *editVC = [[EKEditViewController alloc] init];
+	[editVC setModalPresentationStyle:UIModalPresentationFormSheet];
+    [self presentViewController:editVC animated:YES completion:nil];
+    
+    editVC.index = [[[[EKSettingsProvider alloc] init] sectionWithRowData][1] integerValue];;
+    editVC.addView.eCodeField.text = self.detailView.eCodeView.text;
+    editVC.addView.nameField.text = self.detailView.nameView.text;
+    editVC.addView.informationField.text = self.detailView.infoView.text;
 }
 
 @end

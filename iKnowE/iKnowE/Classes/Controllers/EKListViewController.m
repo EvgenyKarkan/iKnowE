@@ -59,10 +59,13 @@
 
 #pragma mark - UISearchBarDelegate stuff
 
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
+{
+	self.listView.searchBar.showsCancelButton = YES;
+}
+
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
-    self.listView.searchBar.showsCancelButton = YES;
-    
 	if (([self.dataProvider.searchPlistData count] > 0) || ([self.dataProvider.searchCoreDataData count] > 0)) {
 		[self.dataProvider.searchPlistData removeAllObjects];
 		[self.dataProvider.searchCoreDataData removeAllObjects];

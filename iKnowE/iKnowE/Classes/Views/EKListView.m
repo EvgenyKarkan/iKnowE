@@ -69,6 +69,14 @@
 		self.tableView.backgroundColor = [UIColor colorWithRed:0.121569 green:0.329412 blue:0.384314 alpha:1];
         self.tableView.separatorColor = [UIColor colorWithRed:0.062745 green:0.215686 blue:0.274510 alpha:1];
 		[self addSubview:self.tableView];
+        
+        self.logo = [[UILabel alloc] init];
+        self.logo.backgroundColor = [UIColor clearColor];
+        self.logo.textAlignment = NSTextAlignmentCenter;
+        self.logo.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+        self.logo.font = [UIFont fontWithName:@"CicleSemi" size:25.0f];
+        self.logo.text = @"iKnowE";
+        [self.topView addSubview:self.logo];
     }
 	return self;
 }
@@ -87,6 +95,8 @@
     
 	self.tableView.frame = CGRectMake(0.0f, self.topView.frame.size.height + self.searchBar.frame.size.height,
 	                                  self.frame.size.width, self.frame.size.height - (self.topView.frame.size.height + self.searchBar.frame.size.height));
+    
+     self.logo.frame = CGRectMake(self.topView.frame.size.width/2 - 100.0f, 0.0f, 200, 44);
 }
 
 #pragma mark - Customize UI

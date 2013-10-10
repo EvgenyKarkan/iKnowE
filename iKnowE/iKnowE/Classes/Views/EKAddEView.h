@@ -19,5 +19,6 @@
 @property (nonatomic, strong) EKTextField *eCodeField;
 @property (nonatomic, strong) EKTextField *nameField;
 @property (nonatomic, strong) EKPlaceholderTextView *informationField;
+@property (nonatomic, strong) UILabel *title;
 
 @end

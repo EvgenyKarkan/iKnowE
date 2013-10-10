@@ -24,5 +24,6 @@
 @property (nonatomic, strong) UIButton *cancelButton;
 @property (nonatomic, assign) BOOL isTableEditing;
 @property (nonatomic, assign) id<EKListViewAddEDelegate> delegate;
+@property (nonatomic, strong) UILabel *logo;
 
 @end

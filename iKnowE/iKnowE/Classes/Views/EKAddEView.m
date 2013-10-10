@@ -85,6 +85,14 @@
         self.saveButton.titleLabel.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
         [self.saveButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Save"] forState:UIControlStateHighlighted];
         [self addSubview:self.saveButton];
+        
+        self.title = [[UILabel alloc] init];
+        self.title.backgroundColor = [UIColor clearColor];
+        self.title.textAlignment = NSTextAlignmentCenter;
+        self.title.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+        self.title.font = [UIFont fontWithName:@"CicleSemi" size:25.0f];
+        self.title.text = @"Add new E";
+        [self.topView addSubview:self.title];
     }
     return self;
 }
@@ -103,6 +111,7 @@
 
 	self.cancelButton.frame = CGRectMake(8.0f, 7.0f, 60.0f, 30.0f);
 	self.saveButton.frame = CGRectMake(480.0f, 7.0f, 60.0f, 30.0f);
+    self.title.frame = CGRectMake(self.topView.frame.size.width/2 - 100.0f, 0.0f, 200, 44);
 }
 
 @end

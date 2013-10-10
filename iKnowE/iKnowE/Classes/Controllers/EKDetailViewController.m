@@ -211,6 +211,7 @@
 	[editVC setModalPresentationStyle:UIModalPresentationFormSheet];
     [self presentViewController:editVC animated:YES completion:nil];
     
+    editVC.addView.title.text = @"Edit E";
     editVC.index = [[[[EKSettingsProvider alloc] init] sectionWithRowData][1] integerValue];;
     editVC.addView.eCodeField.text = self.detailView.eCodeView.text;
     editVC.addView.nameField.text = self.detailView.nameView.text;

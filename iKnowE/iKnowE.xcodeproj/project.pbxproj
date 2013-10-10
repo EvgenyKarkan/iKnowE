@@ -24,14 +24,12 @@
 		DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */; };
 		DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44991417F0DE9C0091519D /* CoreData.framework */; };
 		DE44991817F0DEEA0091519D /* EKCoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44991717F0DEE90091519D /* EKCoreDataProvider.m */; };
-		DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */; };
 		DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8517DE880000B1206A /* UIKit.framework */; };
 		DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8717DE880000B1206A /* Foundation.framework */; };
 		DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE518B8917DE880000B1206A /* CoreGraphics.framework */; };
 		DE763D4617F35FA0009BB3BE /* EKAddEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE763D4517F35FA0009BB3BE /* EKAddEViewController.m */; };
 		DE763D4917F36745009BB3BE /* EKAddEView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE763D4817F36745009BB3BE /* EKAddEView.m */; };
 		DE783F391806B3E000EE40BD /* EKEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE783F381806B3E000EE40BD /* EKEditViewController.m */; };
-		DE783F3D1806D55700EE40BD /* foo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE783F3C1806D55700EE40BD /* foo.png */; };
 		DE783F3F1806D98C00EE40BD /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DE783F3E1806D98C00EE40BD /* Default~ipad.png */; };
 		DE783F411806DCA800EE40BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE783F401806DCA800EE40BD /* Default.png */; };
 		DE78634617EF21B2001CBA06 /* EKListView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE78634517EF21B2001CBA06 /* EKListView.m */; };
@@ -81,7 +79,6 @@
 		DE44991417F0DE9C0091519D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DE44991617F0DEE90091519D /* EKCoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataProvider.h; sourceTree = "<group>"; };
 		DE44991717F0DEE90091519D /* EKCoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataProvider.m; sourceTree = "<group>"; };
-		DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cnacel-bt@2x.png"; sourceTree = "<group>"; };
 		DE518B8217DE880000B1206A /* iKnowE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKnowE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE518B8517DE880000B1206A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE518B8717DE880000B1206A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,7 +89,6 @@
 		DE763D4817F36745009BB3BE /* EKAddEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAddEView.m; sourceTree = "<group>"; };
 		DE783F371806B3E000EE40BD /* EKEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKEditViewController.h; sourceTree = "<group>"; };
 		DE783F381806B3E000EE40BD /* EKEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKEditViewController.m; sourceTree = "<group>"; };
-		DE783F3C1806D55700EE40BD /* foo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foo.png; sourceTree = "<group>"; };
 		DE783F3E1806D98C00EE40BD /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		DE783F401806DCA800EE40BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DE78634417EF21B2001CBA06 /* EKListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKListView.h; sourceTree = "<group>"; };
@@ -260,8 +256,6 @@
 				DEF5C03D1806DF26009AEE35 /* Default-Portrait~ipad.png */,
 				DE783F401806DCA800EE40BD /* Default.png */,
 				DE783F3E1806D98C00EE40BD /* Default~ipad.png */,
-				DE783F3C1806D55700EE40BD /* foo.png */,
-				DE4B783817F20ACD003F96F5 /* cnacel-bt@2x.png */,
 				DE78635017EF884F001CBA06 /* search_background.png */,
 				DE78635117EF884F001CBA06 /* search_background@2x.png */,
 				DE78635217EF884F001CBA06 /* search.png */,
@@ -358,7 +352,6 @@
 				DE783F3F1806D98C00EE40BD /* Default~ipad.png in Resources */,
 				DEF5C0421806F3AC009AEE35 /* 144.png in Resources */,
 				DEF5C0401806E00F009AEE35 /* Default-Landscape~ipad.png in Resources */,
-				DE783F3D1806D55700EE40BD /* foo.png in Resources */,
 				DE1B08F717EE0C6700164B62 /* additivies.plist in Resources */,
 				DE1B08F817EE0C6700164B62 /* categories.plist in Resources */,
 				DE1B08F917EE0C6700164B62 /* InfoPlist.strings in Resources */,
@@ -368,7 +361,6 @@
 				DE78635617EF884F001CBA06 /* search.png in Resources */,
 				DE783F411806DCA800EE40BD /* Default.png in Resources */,
 				DE78635717EF884F001CBA06 /* search@2x.png in Resources */,
-				DE4B783A17F20ACD003F96F5 /* cnacel-bt@2x.png in Resources */,
 				DEF5C03E1806DF26009AEE35 /* Default-Portrait~ipad.png in Resources */,
 				DE00B2E817FC1EA600703C82 /* Neometric-Medium.otf in Resources */,
 				DE00B2EF17FC26B300703C82 /* CicleFina.ttf in Resources */,

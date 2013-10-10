@@ -23,5 +23,6 @@
 @property (nonatomic, strong) UITextView *infoView;
 @property (nonatomic, strong) UIButton *editButton;
 @property (nonatomic, assign) id<EKDetailViewEditDelegate> delegate;
+@property (nonatomic, strong) UILabel *logo;
 
 @end

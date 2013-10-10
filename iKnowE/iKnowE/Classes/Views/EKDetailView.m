@@ -72,6 +72,15 @@
 		[self.editButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
         [self.editButton addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
 		[self.topView addSubview:self.editButton];
+        
+        self.logo = [[UILabel alloc] init];
+        self.logo.backgroundColor = [UIColor clearColor];
+        self.logo.textAlignment = NSTextAlignmentCenter;
+        self.logo.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+        self.logo.font = [UIFont fontWithName:@"CicleSemi" size:35.0f];
+        self.logo.text = @"iKnowE";
+        [self.topView addSubview:self.logo];
+        
 	}
 	return self;
 }
@@ -91,6 +100,7 @@
     self.infoLabel.frame = CGRectMake(self.infoView.frame.origin.x, self.infoView.frame.origin.y - 20.0f, 120.0f, 25.0f);
     
     self.editButton.frame = CGRectMake(self.frame.size.width - 42.0f, 6.0f, 60.0f, 30.0f);
+    self.logo.frame = CGRectMake(self.topView.frame.size.width/2 - 100.0f, 0.0f, 200, 44);
 }
 
 #pragma mark - Actions

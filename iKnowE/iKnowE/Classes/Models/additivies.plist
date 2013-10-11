@@ -260,7 +260,10 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>FD&amp;C Blue Dye No:1, CI Acid blue 9, CI Food blue 2, CI Pigment blue 24. Polycyclic Aromatic Hydrocarbon, Triphenylmethane dye. Used in dairy products, sweets and drinks, synthetic usually occurring as aluminium lake (solution) or ammonium salt; Can cause hyperactivity, skin rashes, bronchoconstriction (combined with 127 and 132), chromosomal damage. It is also used in inks, as a fabric and wool dye, and to stain proteins. Banned in British Commonwealth 1972-1980. Banned in Austria, Belgium, France, Germany, Norway Switzerland, Sweden.</string>
+		<string>            Brilliant Blue FCF (Blue 1), also known under commercial names, is a colorant for foods and other substances to induce a color change. It is denoted by E number E133 and has a color index of 42090. It has the appearance of a reddish-blue powder. It is soluble in water, and the solution has a maximum absorption at about 628 nanometer.
+            As a blue color, Brilliant Blue FCF is often found in ice cream, canned processed peas, packet soups, bottled food colorings, icings, ice pops, blue raspberry flavored products, dairy products, sweets and drinks, especially the liqueur blue curacao. It is also used in soaps, shampoos, mouthwash and other hygiene and cosmetics applications. In soil science, Brilliant Blue is applied in tracing studies to visualize infiltration and water distribution in the soil.
+            Brilliant Blue FCF has previously been banned in Austria, Belgium, Denmark, France, Germany, Greece, Italy, Spain, Sweden, and Switzerland among others but has been certified as a safe food additive in the EU and is today legal in most of the countries. It has the capacity for inducing an allergic reaction in individuals with pre-existing moderate asthma.
+            Scientists who were investigating the use of compounds to lessen the severity of inflammation following spinal cord injury had previously tested a compound called OxATP to block a key ATP receptor in spinal neurons. However, OxATP has toxic side effects and must be injected directly into the spinal cord; in searching for alternatives they noted that Brilliant Blue FCF has a similar structure. This led them to test a related dye, Brilliant Blue G (also known as Coomassie Brilliant Blue) in rats, which improved recovery from spinal cord injury.</string>
 		<key>chemicalName</key>
 		<string>Brilliant blue FCF</string>
 		<key>code</key>
@@ -268,7 +271,10 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>CI Acid green 50, CI Food green 4. Green colour; synthetic coal tar derivative; used in canned peas, mint jelly and sauce, packet bread crumbs and cake mixes; May cause asthma, rashes and hyperactivity. Mutagenic in animal tests. Banned in Canada, Japan, Sweden, USA and Norway.</string>
+		<string>            Green S is a green synthetic coal tar triarylmethane.
+            As a food dye, it has E number E142. It can be used in mint sauce, desserts, gravy granules, sweets, ice creams, and tinned peas. Green S is prohibited as a food additive in Canada, United States, Japan, and Norway.[citation needed] It is approved for use as a food additive in the EU and Australia and New Zealand.
+            Green S is a vital dye, meaning it can be used to stain living cells. It is used in ophthalmology, among fluorescein and rose bengal, to diagnose various disorders of the eye's surface.
+            Green S may cause allergic reactions and is one of the colorants that the Hyperactive Children's Support Group recommends to be eliminated from the diet of children.</string>
 		<key>chemicalName</key>
 		<string>Green S</string>
 		<key>code</key>
@@ -276,7 +282,15 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Dark brown colour made from sucrose in the presence of ammonia, ammonium sulphate, sulphur dioxide or sodium hydroxide. The types of caramel colour available include plain (spirit) caramel (prepared by controlled heat treatment of carbohydrates with or without an acid or base), caustic sulphite caramel (produced by heat treatment of carbohydrates with sulphur containing compounds), ammonia caramel (heat treatment in the presence of ammonia) and sulphite ammonia caramel.; the HACSG* recommends to avoid it as it can cause hyperactivity. Some caramels may damage genes, slow down growth, cause enlargement of the intestines and kidneys and may destroy vitamin B.  It can be manufactured without ammonia. Used in oyster, soy, fruit and canned sauces, beer, whiskey, biscuits, pickles, cakes, doughnuts, flour products, chocolate products, fizzy drinks, beer, wine, sweets, crisps, bread, pates, ice cream, sauces, pickles, preserves, vegetable protein and similar meat substitutes.</string>
+		<string>            Caramel color or caramel coloring is a water soluble food coloring. It is made by heat treatment of carbohydrates, in general in the presence of acids, alkalis, or salts, in a process called caramelization. It is more fully oxidized than caramel candy, and has an odor of burnt sugar and a somewhat bitter taste. Its color ranges from pale yellow to amber to dark brown.
+            Caramel color is one of the oldest and most widely-used food colorings, and is found in almost every kind of commercially produced food, including: batters, beer, brown bread, buns, chocolate, cookies, cough drops, spirits and liquor such as brandy, rum, and whisky, chocolate-flavored flour-based confectionery, coatings, custards, decorations, fillings and toppings, potato chips, dessert mixes, doughnuts, fish and shellfish spreads, frozen desserts, fruit preserves, glucose tablets, gravy browning, ice cream, pickles, sauces and dressings, soft drinks (especially colas), sweets, vinegar, and more. Caramel color is widely approved for use in food globally but application and use level restrictions vary by country.
+            Internationally, JECFA has set the Acceptable Daily Intake (ADI) of Class I caramel color as "not specified"; that of Class II as 0–160 mg/kg body weight; that of Class III as 0–200 mg/kg body weight; and that of Class IV as 0–200 mg/kg body weight.
+            The United States Food and Drug Administration (FDA) classifies and regulates caramel color in Title 21 CFR § 73.85 as a generally recognized as safe (GRAS) color additive exempt from certification. Unless a food has a standard of identity, caramel color may be safely used in foods generally at levels consistent with "good manufacturing practice" (GMP).
+            In 2010, the International Programme on Chemical Safety (IPCS) concluded that commercially-produced caramel color has the same toxicological properties as caramel produced by cooking or heating sucrose, except for those prepared using ammonium (Class III and IV). The IPCS has concluded that caramel color does not exhibit carcinogenicity or mutagenicity, based on its studies. While the US FDA, Canadian Health Products and Food Branch and European Food Safety Authority (EFSA)[13] have found caramel color safe for use in food and beverages, California has listed a compound formed in the manufacture of Class III and IV caramel colors in the state's Proposition 65, which requires the Governor to publish, at least annually, a list of chemicals "known to the state to cause cancer or reproductive toxicity."
+            In June 2012, the Center for Science in the Public Interest (CSPI) published results of its own study on ammoniated caramel coloring in Coca-Cola and the presence of 4-Methylimidazole (4-MEI). In samples from nine countries, levels ranged from 4 to 267 μg of 4-MEI per 12 fluid ounces (355 ml), with the lowest levels in California; State of California regulators estimate that consuming 30 μg per day corresponds to a 1:100,000 risk of developing cancer, and require cancer warning labels for foods leading to that much consumption. According to the Food Chemicals Codex, 4-MeI in caramel color is allowed up to 250 ppm on a color-adjusted basis, which means 250 ppm maximum for every 0.100 color absorbance of a 0.10% solution at 610nm.
+            Caramel color has excellent microbiological stability. Since it is manufactured under very high temperature, high acidity, high pressure, and high specific gravity, it is essentially sterile, as it will not support microbial growth unless in a dilute solution.
+            When reacted with sulfites, caramel color may retain traces of sulfite after processing. However, in finished food products, labeling is usually required only for sulfite levels above 10 ppm.
+            Caramel coloring may be derived from a variety of source products that are themselves common allergens, such as glucose (sometimes derived from wheat), starch hydrolysates (from wheat), malt syrup (in general derived from barley), or lactose (from milk). As such, persons with known sensitivities or allergies to food products are advised to avoid foods including generic caramel coloring or first determine the source for the caramel coloring before consuming the food. North American and European manufacturers mostly use glucose derived from corn or wheat to produce caramel color, which is highly processed and is generally considered gluten free.</string>
 		<key>chemicalName</key>
 		<string>Plain caramel</string>
 		<key>code</key>
@@ -284,7 +298,7 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>See 150(a).</string>
+		<string>See E150(a)</string>
 		<key>chemicalName</key>
 		<string>Caustic sulphite caramel</string>
 		<key>code</key>
@@ -292,7 +306,7 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>See 150(a).</string>
+		<string>See E150(a)</string>
 		<key>chemicalName</key>
 		<string>Ammonia caramel</string>
 		<key>code</key>
@@ -300,7 +314,7 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>See 150(a).</string>
+		<string>See E150(a)</string>
 		<key>chemicalName</key>
 		<string>Sulphite ammonia caramel</string>
 		<key>code</key>
@@ -308,18 +322,24 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>CI Food Black 1. Synthetic colour; coal tar derivative (may be carcinogenic); used in brown sauces, blackcurrant cake mixes; Potentially dangerous to asthmatics, probable cause for ADD in children and may cause urticaria and problem to rhinitis sufferers. Also known to interfere with some digestive enzymes.
-Banned in Denmark, Australia, Belgium, France, Germany, Switzerland, Austria, USA, Norway and greatly restricted Sweden.</string>
+		<string>            Brilliant Black BN, Brilliant Black PN, Brilliant Black A, Black PN, Food Black 1, Naphthol Black, C.I. Food Brown 1, or C.I. 28440, is a synthetic black diazo dye. It is soluble in water. It usually comes as tetrasodium salt. It has the appearance of solid, fine powder or granules. Calcium and potassium salts are allowed as well.
+            When used as a food dye, its E number is E151. It is used in food decorations and coatings, desserts, sweets, ice cream, mustard, red fruit jams, soft drinks, flavored milk drinks, fish paste, lumpfish caviar and other foods.
+            It appears to cause allergic or intolerance reactions, particularly amongst those with an aspirin intolerance. It is a histamine liberator, and may worsen the symptoms of asthma.
+            It is one of the colourants that the Hyperactive Children's Support Group recommends be eliminated from the diet of children. E151 has been banned in the United States, Belgium, Denmark, France, Germany, Sweden, Austria, Switzerland, Japan, Finland and Norway. It was banned in Norway until 2001 when it was unbanned due to trade relationships with other countries. However there is an informal agreement in place, whereby Norwegian manufacturers are not allowed to use E151 in food and sweets. However it is approved by the European Union (EU).[citation needed]
+            It is used for staining animal by-products in category 2.</string>
 		<key>chemicalName</key>
-		<string>Brilliant Black BN, Black PN</string>
+		<string>Brilliant Black BN</string>
 		<key>code</key>
 		<string>E151</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>A brown-to-black synthetic diazo dye. It usually comes as a tetrasodium salt. When used as a food dye, it has E number E152. It is also used in cosmetics. Its use is discontinued in USA and EU since 1984. It is currently delisted and not used anymore both in European Union and USA. It is also not permitted in Australia and Japan. It appears to cause allergic or intolerance reactions, particularly amongst those with an aspirin intolerance. It is a histamine liberator, and may worsen the symptoms of asthma. It is one of the colourants that the Hyperactive Children&apos;s Support Group recommends be eliminated from the diet of children.</string>
+		<string>            Carbon black (subtypes are acetylene black, channel black, furnace black, lamp black and thermal black) is a material produced by the incomplete combustion of heavy petroleum products such as FCC tar, coal tar, ethylene cracking tar, and a small amount from vegetable oil. Carbon black is a form of paracrystalline carbon that has a high surface-area-to-volume ratio, although its surface-area-to-volume ratio is low compared to that of activated carbon. It is dissimilar to soot in its much higher surface-area-to-volume ratio and significantly lower (negligible and non-bioavailable) PAH (polycyclic aromatic hydrocarbon) content. However, carbon black is widely used as a model compound for diesel soot for diesel oxidation experiments. Carbon black is mainly used as a reinforcing filler in tires and other rubber products. In plastics, paints, and inks carbon black is used as a color pigment.
+            The current International Agency for Research on Cancer (IARC) evaluation is that, "Carbon black is possibly carcinogenic to humans (Group 2B)". Short-term exposure to high concentrations of carbon black dust may produce discomfort to the upper respiratory tract, through mechanical irritation.
+            Carbon black is considered possibly carcinogenic to humans and classified as a Group 2B carcinogen, because there is sufficient evidence in experimental animals with inadequate evidence in human epidemiologic studies. The body of evidence of carcinogenicity in animal studies comes from two chronic inhalation studies and two intratracheal instillation studies in rats, which showed significantly elevated rates of lung cancer in exposed animals. An inhalation study was tested on mice, but did not show significantly elevated rates of lung cancer in exposed animals. Epidemiologic data comes from three different cohort studies of carbon black production workers. Two studies, from the United Kingdom and Germany, with over 1,000 workers in each study group, showed elevated mortality from lung cancer in the carbon black workers. Another study of over 5,000 workers in the United States did not show elevated mortality from lung cancer in the carbon black workers. Newer findings of increased lung cancer mortality in an update from the UK study may suggest that carbon black could be a late-stage carcinogen. However, a more recent and larger study from Germany did not confirm this hypothesis that carbon black acts as a late-stage carcinogen.
+            In order to properly protect workers from inhalation of carbon black, respiratory personal protective equipment is recommended. The type of respiratory protection varies, depending on the concentration of carbon black used.</string>
 		<key>chemicalName</key>
-		<string>Black 7984, Food Black 2, or C.I. 27755</string>
+		<string>Carbon black</string>
 		<key>code</key>
 		<string>E152</string>
 	</dict>
@@ -333,28 +353,41 @@ Banned in Denmark, Australia, Belgium, France, Germany, Switzerland, Austria, US
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Kipper or Food Brown. Made from 6 azo dyes and sodium chloride and/or sodium sulphate. It is mainly used to give fish flesh a healthy pigment which will not leach or fade during cooking. Typical products include smoked and cured fish, crisps, cooked meats.
-Banned in Austria, Australia, Japan, New Zealand, Switzerland, USA. All EEC countries except the UK.</string>
+		<string>            Brown FK, also called Kipper Brown, Chocolate Brown FK, and C.I. Food Brown 1, is a brown mixture of six synthetic azo dyes, with addition of sodium chloride, and/or sodium sulfate. It is very soluble in water. Its CAS number is [8062-14-4]. When used as a food dye, its E number is E154.
+            It was used in smoked and cured mackerels and other fish and also in some cooked hams and other meats, and crisps. It gave a healthy colour that did not fade during cooking, nor leach.
+            It is one of the colourants that the Hyperactive Children's Support Group recommends be eliminated from the diet of children, especially when in combination with benzoates.[citation needed] It can provoke allergic reactions in people sensitive to salicylates, and can intensify the symptoms of asthma. It is banned in the European Union (but was allowed to colour kippers to produce orange kippers), Australia, Austria, Canada, United States, Japan, Switzerland, New Zealand, Norway and Russia.
+            In 2011, a review by the European Food Safety Authority concluded that Brown FK was no longer used and the Authority could not conclude on the safety of the substance due to the deficiencies in the available toxicity data. Therefore, it should not be included in the Union list of approved food additives.</string>
 		<key>chemicalName</key>
-		<string>Brown FK,
-Kipper Brown</string>
+		<string>Brown FK</string>
 		<key>code</key>
 		<string>E154</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>brown colour, coal tar and azo dye; used in chocolate cake mixes; can produce bad reactions in asthmatics and people allergic to aspirin; also known to induce skin sensitivity; thought to be a carcinogenic in food, ADD children can have an adverse reaction to this dye. Typical products include foods where a chocolate colour is required, e.g. cakes and biscuits.
-Banned in Austria, Belgium, Denmark, France, Germany, Norway, Switzerland, Sweden, USA</string>
+		<string>            Brown HT, also called Chocolate Brown HT, Food Brown 3, and C.I. 20285, is a brown synthetic coal tar diazo dye.
+            When used as a food dye, its E number is E155. It is used to substitute cocoa or caramel as a colorant. It is used mainly in chocolate cakes, but also in milk and cheeses, yogurts, jams, fruit products, fish, and other products. It may provoke allergic reactions in asthmatics, people sensitive to aspirin, and other sensitive individuals, and may induce skin sensitivity.[citation needed]
+            It is one of the food colorings that the Hyperactive Children's Support Group recommends be eliminated from the diet of children. It is banned in Austria, Belgium, Denmark, France, Germany, United States, Norway, Switzerland, and Sweden.
+            It is used in nearly every major brand of chocolate flavoured milk in Australia.</string>
 		<key>chemicalName</key>
-		<string>(Chocolate) Brown HT</string>
+		<string>Brown HT</string>
 		<key>code</key>
 		<string>E155</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Red colour; derived from a tree (Bixa orellana); Water soluble annatto contains bixin, a carotenoid and the main colourant which may be interconverted by hydrolysis to norbixin. Water soluble annatto contains sodium or potassium salts of norbixin as the major colourant. Annatto, bixin and norbixin can be used in a great variety of foods due to being either oil or water soluble. Typical products include soft drinks, fruit fillings, cheese, spreads and sauces, oil, cakes, butter and margarine, pastry, crisps, ice cream and lollies, smoked fish. Used as a body paint, fabric dye, antibacterial, antioxidant, digestive aid and expectorant; used to dye cheese, cereals, snack foods, soaps, textiles and varnishes; known to cause urticaria (nettle rash) and flare-ups of angioneurotic oedema. It is implicated in asthma (containing salicylic acid) and hyperactivity. The HACSG* recommends to avoid it.</string>
+		<string>            Annatto, sometimes called roucou or achiote, is derived from the seeds of the achiote trees of tropical and subtropical regions around the world. The seeds are sourced to produce a carotenoid-based yellow to orange food coloring and flavor. Its scent is described as "slightly peppery with a hint of nutmeg" and flavor as "slightly nutty, sweet and peppery".
+            In commercial processing, annatto coloring is extracted from the reddish pericarp which surrounds the seed of the achiote (Bixa orellana L.). Historically, it has been used as coloring in many cheeses (e.g., Cheddar, Gloucester, Red Leicester), cheese products (e.g. American cheese, Velveeta), and dairy spreads (e.g. butter, margarine). Annatto can also be used to color a number of non-dairy foods such as rice, custard powder, baked goods, seasonings, processed potatoes, snack foods, breakfast cereals and smoked fish. It has been linked to cases of food-related allergies.
+            Annatto is commonly used in Latin American and Caribbean cuisines as both a coloring and flavoring agent. Central and South American natives use the seeds to make body paint and lipstick. For this reason, the achiote is sometimes called the "lipstick-tree". Achiote originated in South America and has spread in popularity to many parts of Asia. It is also grown in other tropical or subtropical regions of the world, including Central America, Africa and Asia. The heart-shaped fruit are brown or reddish brown at maturity, and are covered with short, stiff hairs. When fully mature, the fruit splits open, exposing the numerous dark red seeds. The fruit itself is not edible, however the orange-red pulp that covers the seed is used to produce a yellow to orange food coloring. Achiote dye is prepared by grinding seeds or simmering the seeds in water or oil.
+            Using annatto for color has been a traditional characteristic of Gloucester cheese since the 16th century when producers of inferior cheese used a coloring agent to replicate the orange hue achieved by the best cheesemakers. During the summer months the high levels of carotene in the grass would have given the milk an orangey color which was carried through into the cheese. This orange hue was regarded as an indicator of the best cheese and that is why the custom of adding annatto spread to other parts of the UK, with Cheshire and Red Leicester cheese, as well as colored cheddar made in Scotland, all using this natural dye.
+            Many Latin American cuisines traditionally use annatto in recipes of Spanish origin that originally call for saffron; for example, in arroz con pollo, to give the rice a yellow color. In Venezuela, annatto (called locally onoto[9]) is used in the preparation of hallacas, perico, and other traditional dishes. In Brazil, both annatto (the product) and the tree (Bixa orellana L.) are called urucum, and the product itself may also be called colorau.
+            In the European Union, annatto has the E number E160b. In the United States, annatto extract is listed as a color additive "exempt from certification" and is informally considered to be a natural coloring. Foods colored with annatto may declare the coloring in the statement of ingredients as "colored with annatto” or "annatto color."
+            The yellow to orange color is produced by the chemical compounds bixin and norbixin, which are classified as carotenoids. The fat soluble color in the crude extract is called bixin, which can then be saponified into water soluble norbixin. This dual solubility property of annatto is rare for carotenoids. The seeds contain 4.5-5.5% pigments, which consists of 70-80% bixin. Unlike beta-carotene, another well-known carotenoid, annatto based pigments are not vitamin A precursors. The more norbixin in an annatto color, the more yellow it is; a higher level of bixin gives it a more orange shade.
+            Annatto is a rich source of tocotrienols, antioxidants that are similar in structure and function to vitamin E. The tocotrienols from annatto and other sources like palm oil and rice bran are the subject of current nutritional and medical research since these compounds are thought to prevent cancer due to their anti-angiogenic effect. The annatto seed, unlike palm oil or rice bran, does not contain any tocopherols so it is a natural source of pure tocotrienol compounds.
+            In developing countries, particularly in Colombia, people with low income and less access to modern medicine resources use folk medicine and natural remedies for the treatment of common infections. Achiote is also among those herbs used in Colombian folk medicine to treat infections of microbial origin. In addition to the known health benefits exerted by carotenoids, a bioactive sesquiterpene from achiote exhibited moderate anti-fungal activity. Norbixin isomers are responsible for the antimicrobial activity specific for Gram positive bacteria found in annatto extracts.
+            Annatto is safe for most people when used in food amounts; however, it can cause rare allergic reactions for those who are sensitive. Annatto has been linked to cases of food-related allergies, but it is not one of the "Big Eight" allergens (cow's milk, egg, peanut, tree nuts, fish, shellfish, soy, and wheat) which are responsible for more than 90% of allergic food reactions. The Food and Drug Administration and experts at the Food Allergy Research and Resource Program (FARRP) at the University of Nebraska do not, at present, consider annatto to be a major food allergen.
+            Natural food colors such as annatto extract have not been extensively investigated with respect to potential allergenic properties. In one 1978 study among 61 consecutive patients suffering from chronic hives and/or angioedema, 56 patients were orally provoked by annatto extract during an elimination diet. A challenge was performed with a dose equivalent to the amount used in 25 grams (0.88 oz) of butter. Twenty six per cent of the patients reacted to this color four hours after intake, worse than amaranth (9%) or synthetic dyes such as tartrazine (11%), Sunset Yellow FCF (17%), Food Red 17 (16%), Ponceau 4R (15%), erythrosine (12%) and Brilliant Blue FCF (14%).</string>
 		<key>chemicalName</key>
-		<string>Annatto, bixin, norbixin</string>
+		<string>Annatto</string>
 		<key>code</key>
 		<string>E160(b)</string>
 	</dict>

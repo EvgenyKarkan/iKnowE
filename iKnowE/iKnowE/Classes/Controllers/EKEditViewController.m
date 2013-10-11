@@ -32,17 +32,12 @@
 		                     animations: ^{
                                  weakListViewController.listView.tableView.alpha = 0.2f;
                              } completion: ^(BOOL finished) {
-                                 if (finished) {
-                                     [UIView animateWithDuration:0.2f
-                                                      animations: ^{
-                                                          [weakDetailViewController updateUIWithData:array];
-                                                          [weakListViewController reloadTable];
-                                                      } completion: ^(BOOL finished) {
-                                                          if (finished) {
-                                                              weakListViewController.listView.tableView.alpha = 1.0f;
-                                                          }
-                                                      }];
-                                 }
+                                 [UIView animateWithDuration:0.2f
+                                                  animations: ^{
+                                                      [weakDetailViewController updateUIWithData:array];
+                                                      [weakListViewController reloadTable];
+                                                      weakListViewController.listView.tableView.alpha = 1.0f;
+                                                  } completion:nil];
                              }];
 		}];
 	}
@@ -50,4 +45,5 @@
 		[SVProgressHUD showErrorWithStatus:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)];
 	}
 }
+
 @end

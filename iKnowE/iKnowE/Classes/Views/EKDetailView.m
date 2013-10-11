@@ -46,6 +46,7 @@
 			[self addSubview:textView];
 		}
         self.infoView.userInteractionEnabled = YES;
+        self.infoView.font = [UIFont fontWithName:@"CicleSemi" size:29.0f];
         self.eCodeView.font = [UIFont fontWithName:@"CicleSemi" size:60.0f];
         
 		self.eCodeLabel = [[UILabel alloc] init];
@@ -93,7 +94,7 @@
     
     self.eCodeView.frame = CGRectMake(self.frame.size.width - 250.0f, self.frame.origin.y + 94.0f, 200.0f, 80.0f);
     self.nameView.frame = CGRectMake(50.0f, self.frame.origin.y + 94.0f, self.frame.size.width - 325.0f, 80.0f);
-    self.infoView.frame = CGRectMake(50.0f, self.nameView.frame.origin.y + self.nameView.frame.origin.y + 40.0f, self.frame.size.width - 100.0f, self.frame.size.height - 280.0f);
+    self.infoView.frame = CGRectMake(50.0f, self.nameView.frame.origin.y + self.nameView.frame.origin.y + 40.0f, self.frame.size.width - 100.0f, self.frame.size.height - 271.0f);
     
     self.eCodeLabel.frame = CGRectMake(self.eCodeView.frame.origin.x, self.eCodeView.frame.origin.y - 20.0f, 80.0f, 25.0f);
     self.nameLabel.frame = CGRectMake(self.nameView.frame.origin.x, self.nameView.frame.origin.y - 20.0f, 80.0f, 25.0f);

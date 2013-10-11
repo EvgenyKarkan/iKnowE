@@ -4,9 +4,18 @@
 <array>
 	<dict>
 		<key>danger</key>
-		<string>FD&amp;C Yellow No:5; CI Acid Yellow23, CI Food Yellow 4. Coal tar dye.
-Polycyclic Aromatic Hydrocarbon. Cancer probability. Known to provoke asthma attacks (though the US FDA** do not recognise this) and urticaria (nettle rash) in children (the US FDA** estimates 1:10 000), altered states of perception and behaviour, uncontrolled hyper agitation and confusion; wakefulness in young children. Is known to inhibit zinc metabolism and interfere with digestive enzymes. Tartrazine sensitivity is also linked to aspirin sensitivity; used to colour drinks, sweets, jams, cereals, snack foods, canned fish, packaged soups and a dye for wool and silk..
-Banned in Norway, Austria and Finland. Restricted use in Sweden and Germany.</string>
+		<string>            Tartrazine is a synthetic lemon yellow azo dye primarily used as a food coloring.
+            It is also known as E number E102, C.I.19140, FD&amp; C Yellow 5, Acid Yellow 23, Food Yellow 4, and Trisodium 1 - (4 - sulfonatophenyl) - 4 - (4 - sulfonatophenylazo) - 5 - pyrazolone - 3 - carboxylate).
+            Tartrazine is a synthetic organic chemical. It is water soluble and has a maximum absorbance in an aqueous solution at 427±2 nm.
+            Tartrazine is a commonly used color all over the world, mainly for yellow, but can also be used with Brilliant Blue FCF(FD&amp; C Blue 1, E133) or Green S(E142) to produce various green shades.
+            Polycyclic Aromatic Hydrocarbon. Cancer probability. Known to provoke asthma attacks (though the US FDA** do not recognise this) and urticaria(nettle rash) in children(the US FDA** estimates 1 : 10 000), altered states of perception and behaviour, uncontrolled hyper agitation and confusion; wakefulness in young children. Is known to inhibit zinc metabolism and interfere with digestive enzymes. Tartrazine sensitivity is also linked to aspirin sensitivity; used to colour drinks, sweets, jams, cereals, snack foods, canned fish, packaged soups and a dye for wool and silk.
+            Tartrazine appears to cause the most allergic and intolerance reactions of all the azo dyes, particularly among asthmatics and those with an aspirin intolerance.Symptoms from tartrazine sensitivity can occur by either ingestion or cutaneous exposure to a substance containing tartrazine. Symptoms appear after periods of time ranging from minutes to 6 to 14 hours.
+            A variety of immunologic responses have been attributed to tartrazine ingestion, including anxiety, migraine, clinical depression, blurred vision, itching, general weakness, heatwaves, feeling of suffocation, purple skin patches, and sleep disturbance.
+            Certain people who are exposed to the dye experience symptoms of tartrazine sensitivity even at extremely small doses, some for periods up to 72 hours after exposure. In children, asthma attacks and hives have been claimed, as well as supposed links to thyroid tumors, chromosomal damage, and hyperactivity.
+            The mechanism of sensitivity is obscure and has been called pseudoallergic. The prevalence of tartrazine intolerance is estimated at roughly 360, 000 Americans affected, less than 0.12 % of the general population.According to the FDA, tartrazine causes hives in fewer than 1 in 10, 000 people, or 0.01 %.
+            A 1994 study at the University of Melbourne suggested that children previously identified as hyperactive may exhibit an increase in irritability, restlessness, and sleep disturbance after ingesting tartrazine.
+            It is not clear to what extent these problems can be specifically linked to tartrazine in affected individuals. The existence of a sensitivity reaction is well - known, but the existence of more extreme effects remain controversial. The incidence of tartrazine intolerance is fairly low as indicated above, and there is much controversy about whether tartrazine has ill effects on individuals who are not clearly intolerant.
+            Total avoidance is the most common way to deal with tartrazine sensitivity, but progress has been made in reducing people ’ s tartrazine sensitivity in a study of people who are simultaneously sensitive to both aspirin and tartrazine.</string>
 		<key>chemicalName</key>
 		<string>Tartrazine</string>
 		<key>code</key>
@@ -14,8 +23,12 @@ Banned in Norway, Austria and Finland. Restricted use in Sweden and Germany.</st
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>D&amp;C Yellow No:10. A synthetic &apos;coal tar&apos; dye, prepared by sulfonating 2-(2-quinolyl) indan-1,3-dione, and the product is essentially sodium salts of a mixture of disulfonates, monosulfonates and trisulfonates of the dione. The calcium and potassium salts may also be permitted. Quinoline Yellow is used to give a yellow to greenish yellow colour. Typical products include ice lollies, scotch eggs, smoked fish; used in lipsticks hair products, colognes; also in a wide range of medications. It may cause asthma, rashes and hyperactivity. Aspirin sensitive people must avoid it.
-Banned in Australia, Japan, USA and Norway.</string>
+		<string >            Quinoline yellow, Quinoline Yellow WS, C.I .47005, or Food Yellow 13, is a yellow food dye with a maximum absorption wavelength of 416 nm.
+            Chemically it is a mixture of disulfonates(principally), monosulfonates and trisulfonates of 2 - (2 - quinolyl)indan - 1, 3 - dione.
+            The color Quinoline Yellow SS(Spirit Soluble), which lacks the sulfonate groups, is a related form that is insoluble in water.
+            Quinoline Yellow is used as a greenish yellow food additive, designated in Europe as the E number E104.
+            A study commissioned by the UK 's Food Standards Agency found that a mixture of food colors in combination with preservatives may increase observed symptoms of hyperactivity and may decrease levels of intelligence in children, but it is unclear which component of the mixture may be responsible for the effects. Quinoline yellow is one of the colors that the Hyperactive Children's Support Group recommends be eliminated from the diet of children.UK ministers have agreed that six colorings will be phased out by 2009.
+            The EFSA decided on 23 September 2009 to tighten the allowed Acceptable Daily Intake for Quinoline Yellow WS from 10 mg/kg to 0.5 mg/kg bodyweight per day. It has been reported to cause genotoxicity, dermatitis, urticaria and rhinitis.The color additive can also increase the intake of aluminium beyond the tolerable weekly intake(TWI) of 1 mg/kg/week.Therefore the limit for aluminium may become adjusted to accommodate for this.Also the EFSA panel noted that the JECFA limit for lead is ≤ 2 mg/kg whereas the European Commission limit is ≤ 10 mg/kg.</string>
 		<key>chemicalName</key>
 		<string>Quinoline Yellow</string>
 		<key>code</key>
@@ -23,16 +36,17 @@ Banned in Australia, Japan, USA and Norway.</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>An azo dye. It is used as a food dye. It is now delisted in both Europe and USA and is not used anymore, as toxicological data shown it is harmful.</string>
+		<string>            Fast Yellow AB or Fast Yellow, Acid Yellow, C.I. 13015, C.I. 14270 or Food Yellow 2 is an azo dye. It used to be used as a food dye, designated in Europe by the E number E105. It is now delisted in both Europe and USA and is forbidden if used in foods and drinks, as toxicological data has shown it is harmful. E105 has been implicated in non - atopic asthma.</string>
 		<key>chemicalName</key>
-		<string>Fast Yellow AB, Fast Yellow, Acid Yellow, C.I. 13015, C.I. 14270 or Food Yellow 2</string>
+		<string>Fast Yellow AB</string>
 		<key>code</key>
 		<string>E105</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Acid yellow 17, CI Food yellow 5. Coal tar dye. the HACSG* recommends to avoid it; It may cause asthma, rashes and hyperactivity. People sensitive to aspirin and asthma sufferers should avoid it. Typical products are soft drinks. It is also used commercially in printing inks.
-Banned in Australia (1992), Austria, Belgium, Denmark, France, Germany, Japan, Norway, Sweden, Switzerland, and USA.</string>
+		<string>            Acid yellow 17, CI Food yellow 5. Coal tar dye.Yellow 2G is a food coloring denoted by E number E107. It has the appearance of a yellow powder, and it is soluble in water. It is a synthetic yellow azo dye.
+            It appears to cause allergic or intolerant reactions, particularly amongst those with an aspirin intolerance and asthma sufferers.[citation needed] It is one of the colors that the Hyperactive Children 's Support Group recommends be eliminated from the diet of children.
+            It is not listed by the UK's Food Standards Agency among EU approved food additives. Its use is banned in Austria, Japan, Norway, Sweden, Switzerland and the United States.It may cause asthma, rashes and hyperactivity. People sensitive to aspirin and asthma sufferers should avoid it.Typical products are soft drinks. It is also used commercially in printing inks.</string>
 		<key>chemicalName</key>
 		<string>Yellow 2G</string>
 		<key>code</key>
@@ -40,26 +54,46 @@ Banned in Australia (1992), Austria, Belgium, Denmark, France, Germany, Japan, N
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>FD&amp;C Yellow No:6, CI Food yellow 3. consists primarily of disodium 2-hydroxy-1(4 sulfonatophenylazo) naphthalene-6-sulfonate, although the calcium and potassium salts are also used.Cancer Probability. Used in cereals, bakery, sweets, snack foods, ice cream, drinks and canned fish; synthetic; also in many medications including Berocca, Polaramine, Ventolin syrup; can provoke allergic reactions such as abdominal pain, hyperactivity, hives, nasal congestion, bronchoconstriction, kidney tumours, chromosomal damage, and distaste for food. It produces urticaria, swelling of the blood vessels, gastric upset. Potentially dangerous to asthmatics; and persons with rhinitis should avoid it, is know to upset some of the digestive enzymes. Has been linked to growth retardation and severe weight loss in animal tests and increased incidence of tumours in animals. Typical products include orange squash, jelly, jam, cake, sweets, soups, desert mixes, yoghurt, ice lollies, sauces.
-Banned in Finland, Norway and the UK.</string>
+		<string>            Sunset Yellow FCF (also known as Orange Yellow S, FDC Yellow 6 or C.I. 15985) is a synthetic yellow azo dye with a pH dependent maximum absorption between 480 and 500 nm, manufactured from aromatic hydrocarbons from petroleum. When added to foods sold in Europe, it is denoted by E Number E110. Although there are reports it can induce an allergic reaction, this is not confirmed by scientific research.
+            Sunset Yellow is useful in fermented foods which must be heat treated. It may be found in orange sodas, marzipan, Swiss rolls, apricot jam, citrus marmalade, lemon curd, sweets, beverage mix and packet soups, margarine, custard powders, packaged lemon gelatin desserts, energy drinks such as Lucozade, breadcrumbs, snack chips such as Doritos, packaged instant noodles, cheese sauce mixes and powdered marinades, bottled yellow and green food colouring, ice creams, pharmaceutical pills and prescription medicines, over-the-counter medicines (especially children's medicines) cake decorations and icings, squashes, and other products with artificial yellow, orange or red colours.
+            Sunset Yellow is often used in conjunction with E123, amaranth, to produce a brown colouring in both chocolates and caramel.
+            At high concentrations, Sunset Yellow in solution with water undergoes a phase transition from an isotropic liquid to a nematic liquid crystal. This occurs between 0.8 M and 0.9 M at room temperature.
+            Sunset Yellow is a sulfonated version of Sudan I, a possible carcinogen, which is frequently present in it as an impurity. Sunset Yellow itself may be responsible for causing an allergic reaction in people with an aspirin intolerance, resulting in various symptoms, including gastric upset, diarrhea, vomiting, nettle rash (urticaria), swelling of the skin (angioedema) and migraines.
+            As a result of these potential health issues, there have been calls for the withdrawal of Sunset Yellow from food use.
+            On 6 September 2007, the British Food Standards Agency revised advice on certain artificial food additives, including E110. The report said, "This has been a major study investigating an important area of research. The results suggest that consumption of certain mixtures of artificial food colours and sodium benzoate preservative are associated with increases in hyperactive behaviour in children.
+            "However, parents should not think that simply taking these additives out of food will prevent hyperactive disorders. We know that many other influences are at work but this at least is one a child can avoid."
+            On 10 April 2008, the Foods Standard Agency called for a voluntary removal of the colours (but not sodium benzoate) by 2009. In addition, it recommended there should be action to phase them out in food and drink in the European Union (EU) over a specified period. Sunset Yellow is banned in Norway and Finland.
+            In 2008, a proposed EU deal specified that food and drinks containing any of six artificial colourings that may be linked to hyperactive behaviour in children will have to carry warnings, including Sunset Yellow. The requirement would apply to imports, as well as those made in the EU. Hundreds of products containing the colourings are expected to disappear from shops in the period 2008-2010 following the Food Standards Agency's (FSA) call for a voluntary ban on their use in food products. UK ministers have agreed that the six colourings will be phased out by 2009.
+            EFSA decided in 2009 to lower the acceptable daily intake (ADI) for Sunset Yellow FCF from 2.5 mg/kg to 1.0 mg/kg bodyweight per day[citation needed].Impurities in production may leave unsulphonated aromatic amines in concentrations of 100 mg/kg which may be associated with carcinogenicity. Also a study found that mixtures of four synthetic colours plus the preservative sodium benzoate (E211) cause increased hyperactivity in humans. Sensitivity reactions may occur when Sunset Yellow FCF is mixed with other synthetic colours.
+            Also, the EFSA panel noted the JECFA limit for lead is ≤ 2 mg/kg, whereas the EC specification is ≤ 10 mg/kg. The colour additive can also increase the intake of aluminium beyond the tolerable weekly intake (TWI) of 1 mg/kg/week. Therefore, the limit for aluminum may become adjusted to accommodate for this.
+            On June 30, 2010, the Center for Science in the Public Interest (CSPI) called for the FDA to ban Yellow 6. The CSPI said, "These synthetic chemicals do absolutely nothing to improve the nutritional quality or safety of foods, but trigger behavior problems in children and, possibly, cancer in anybody."
+            On September 9, 2011, the European Union announced that they would be reducing the maximum permitted concentration of sunset yellow (in drinks) from 50mg/L to 20mg/L. The proposed change to be adopted by the end of the year. </string>
 		<key>chemicalName</key>
-		<string>Sunset Yellow FCF, Orange Yellow S</string>
+		<string>Sunset Yellow FCF</string>
 		<key>code</key>
 		<string>E110</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Orange colour. It is the disodium salt of 1-(m-sulfophenylazo)-2-naphthol-6-sulfonic acid. It is currently delisted in Europe and USA, as toxicological data shown it is harmful.</string>
+		<string>            Orange GGN, also known as alpha - naphthol orange, was previously a food dye.It is the disodium salt of 1 - (m - sulfophenylazo) - 2 - naphthol - 6 - sulfonic acid. In Europe it was previously denoted by the E Number E111 previously, but has been forbidden for use in foods since 1 January 1978 (EU directive 76/399/EEC). It has never been included in the food additives list of the Codex Alimentarius. As such it is presently forbidden for food use in general, because toxicological data has shown it is harmful.
+            The absorption spectrum of Orange GGN and Sunset Yellow is nearly identical in visible and ultraviolet range, but they can be distinguished by their IR spectra </string>
 		<key>chemicalName</key>
-		<string>Orange GGN, alpha-naphthol orange</string>
+		<string>Orange GGN</string>
 		<key>code</key>
 		<string>E111</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Red colour; made from insects; rarely used; the HASCG recommends to avoid it, especially hyperactives, rhinitis sufferers, urticaria, asthmatics and aspirin sensitives. a natural red colour obtained by crushing of the female Dactilopius coccus, a cactus-dwelling insect indigenous to Central America. The dye is expensive due to the sheer quantity of shells required to produce a small amount. Alcoholic drinks may contain the water soluble form (ammonium carmine), but the insoluble calcium carmine is found in a many more products. Other commercial uses include as an antineoplastic agent, as a 0.025% solution in concentrated H2SO4 for photometric and fluorimetric determination of B, as an indicator and diagnostic agent (gives colour reactions with Mg, Ge, Pb, Zr, Th, Mo, U). E120 has been linked to the cause of allergic reactions. Typical products include alcoholic beverages, dyed cheeses, puddings, icings, sweets, sauces, fizzy drinks, cakes, soups and pie fillings. Banned in USA.</string>
+		<string>           Carmine (/ˈkɑrmɪn/ or /ˈkɑrmaɪn/), also called Crimson Lake, Cochineal, Carminic acid, Natural Red 4, C.I. 75470, or E120, is a pigment of a bright-red color obtained from the aluminium salt of carminic acid, which is produced by some scale insects, such as the cochineal scale and the Polish cochineal, and is used as a general term for a particularly deep-red color of the same name. Carmine is used in the manufacture of artificial flowers, paints, crimson ink, rouge, and other cosmetics, and is routinely added to food products such as yogurt and certain brands of juice, the most notable ones being those of the ruby-red variety.
+            Carmine is used as a food dye in many different products such as juices, ice cream, yogurt, and candy, and as a dye in cosmetic products such as eyeshadow and lipstick. Although principally a red dye, it is found in many foods that are shades of red, pink, and purple. As a food dye it has been known to cause severe allergic reactions and anaphylactic shock in some people.
+            In January 2006, the United States Food and Drug Administration evaluated a proposal that would require food products containing carmine to list it by name on the ingredient label. It was also announced that the FDA will separately review the ingredient labels of prescription drugs that contain colorings derived from carmine. A request from the Center for Science in the Public Interest urged that the FDA should require ingredient labels to explicitly state that carmine may cause severe allergic reactions and anaphylactic shock and that it is derived from insects was declined by the FDA. Food industries were aggressively opposed to the idea of writing "insect-based" on the label, and the FDA agreed to allow "cochineal extract" or "carmine."
+            Although concerns over hazards from allergic reactions have been asserted, the FDA has not banned the use of carmine and states it found no evidence of a "significant hazard" to the general population. As with any material, the dye may still pose an allergen hazard to a subset of the population.
+            In the European Union, the use of carmine in foods is regulated under the European Commission's directives governing food additives in general and food dyes in particular and listed under the names Cochineal, Carminic acid, Carmines and Natural Red 4 as additive E 120 in the list of EU-approved food additives. The directive governing food dyes approves the use of carmine for certain groups of foods only[18] and specifies a maximum amount which is permitted or restricts it to the quantum satis.
+            The EU-Directive 2000/13/EC on food labeling mandates that carmines (like all food additives) must be included in the list of ingredients of a food product with its additive category and listed name or additive number, that is either as Food colour carmines or as Food colour E 120 in the local language(s) of the market(s) the product is sold in.
+            Although concerns of hazards from allergic reactions were raised, the use of carmine in foods is not banned in the EU. However, the use of carmine in foods has been discouraged by European Food Safety Authorities, and, although it is used predominantly as coloring in alcoholic beverages, it can still be found in foods such as supermarket Indian curries. A re-evaluation process of the approval status of several food colors (including carmine) was started by the Panel on food additives, flavourings, processing aids and materials in contact with food of the EFSA in early 2006 and is scheduled to be completed by 2008.
+            As of January, 2012, the European Food Safety Authority (EFSA) has changed the way they manufacture Carmine E120 for pharmaceutical products. The EFSA had raised concerns, over the increasing number of allergic reactions to Carmine derived from insects (E120.360), when used within the British pharmacopeia. Pharmaceutical products which had previously contained insect-derived carmine, have been replaced with a synthesised version of the food colorant. Internal studies have shown that the new formulations, of popular anti-nausea and weight-gain liquid medication, had a significantly lower risk in terms of allergic reactions. The new formulation is known to be of plant origin, using calcium oxide in order to gauge color depth.</string>
 		<key>chemicalName</key>
-		<string>Cochineal, Carminic acid, Carmines</string>
+		<string>Carmine</string>
 		<key>code</key>
 		<string>E120</string>
 	</dict>

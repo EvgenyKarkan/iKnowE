@@ -10,6 +10,7 @@
 #import "EKListViewController.h"
 #import "EKDetailViewController.h"
 #import "EKCoreDataProvider.h"
+#import "EKPlistDataProvider.h"
 
 @implementation EKAppDelegate
 
@@ -27,12 +28,21 @@
 	self.window.rootViewController = self.splitViewController;
 	[self.window makeKeyAndVisible];
 	
+    [self preloadSettingsInfo];
+    
     return YES;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     [[EKCoreDataProvider sharedInstance] saveContext];
+}
+
+- (void)preloadSettingsInfo
+{
+	[[NSUserDefaults standardUserDefaults] setObject:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"] forKey:@"version"];
+	[[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%d", [[EKPlistDataProvider additiveDescriptions] count]] forKey:@"count"];
+	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 @end

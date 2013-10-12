@@ -485,16 +485,21 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Pigment rubine is a reddish coloured azo dye, used solely for colouring cheese rind. May affect people who suffer from asthma, rhinitis or the skin disease urticaria. Typical products include cheese. Probable cause of rashes, hyperactivity, and potentially dangerous to asthmatics. Avoid it. Banned in Australia and New Zealand.</string>
+		<string>            Lithol Rubine BK or Pigment Rubine is a reddish synthetic azo dye. It has the appearance of a red powder. It is slightly soluble in hot water, insoluble in cold water, and insoluble in ethanol. When dissolved in dimethylformamide, its absorption maximum lies at about 442 nm. It usually comes as a calcium salt.
+            It is used to dye plastics, paints, printing inks, and for textile printing. It is normally used as a standard magenta in the three and four color printing processes.
+            When used as a food dye, it has E number E180. It is used to color cheese rind as well as a component in some lip balms. It is banned in some countries.</string>
 		<key>chemicalName</key>
-		<string>Lithol Rubine BK,
-Pigment Rubine</string>
+		<string>Lithol Rubine BK</string>
 		<key>code</key>
 		<string>E180</string>
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Occurs naturally in fruit, used as a preservative it inhibits fungal growth but allows for bacterial activity, hence is useful for cheese. Obtained from the berries of mountain ash or synthesised from ketene; possible skin irritant, and may cause rashes, asthma and hyperactivity.. Sorbic acid is used in conjunction with sulphur dioxide in wine making, without SO2 bacteria cause reduction of sorbic acid to sorbyl alcohol which converts to a foul smelling ether. Also used as a preservative in cosmetics and pharmaceuticals. Sorbic acid had a conjugated system of double bonds which makes it susceptible to nucleophilic attack, sometimes giving mutagenic products. Food labelled as containing E200 may actually contain sodium, potassium or calcium sorbate instead (E201, E202 and E203 respectively). Typical products include wine, cheese, other fermented products, desert sauces and fillings, soups, sweets, drinks, yeast goods.</string>
+		<string>            Sorbic acid, or 2,4-hexadienoic acid, is a natural organic compound used as a food preservative. It is a colourless solid that is slightly soluble in water and sublimes readily. It was first isolated from the unripe berries of the rowan tree (Sorbus aucuparia), hence its name.
+            With a pKa of 4.76, it is about as acidic as acetic acid.
+            Sorbic acid and its salts, such as sodium sorbate, potassium sorbate, and calcium sorbate, are antimicrobial agents often used as preservatives in food and drinks to prevent the growth of mold, yeast, and fungi. In general the salts are preferred over the acid form because they are more soluble in water, but it is the acid form that is active. The optimal pH for the antimicrobial activity is below pH 6.5. Sorbates are generally used at concentrations of 0.025% to 0.10%. Adding sorbate salts to food will, however, raise the pH of the food slightly so the pH may need to be adjusted to assure safety. It is found in many other foods, such as cheeses and breads.
+            The LD50 value of sorbic acid is estimated between 10-7.4 g/kg, which is quite high. The compound is relatively unstable and is rapidly degraded in soil, hence it is often considered environmentally friendly.
+            Sorbic acid should not be confused with other unrelated, but similarly named food additives sorbitol, polysorbate, and ascorbic acid (Vitamin C).</string>
 		<key>chemicalName</key>
 		<string>Sorbic acid</string>
 		<key>code</key>

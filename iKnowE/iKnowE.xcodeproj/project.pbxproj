@@ -44,6 +44,7 @@
 		DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
+		DEC213DC18098CBE00EF4CF2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DEC213DB18098CBE00EF4CF2 /* Settings.bundle */; };
 		DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */; };
 		DEF5C03E1806DF26009AEE35 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF5C03D1806DF26009AEE35 /* Default-Portrait~ipad.png */; };
 		DEF5C0401806E00F009AEE35 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF5C03F1806E00F009AEE35 /* Default-Landscape~ipad.png */; };
@@ -110,6 +111,7 @@
 		DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAttributedStringUtil.m; sourceTree = "<group>"; };
 		DEB4CFFE17F5E4A5007BBB30 /* EKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTextField.h; sourceTree = "<group>"; };
 		DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTextField.m; sourceTree = "<group>"; };
+		DEC213DB18098CBE00EF4CF2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionHeaderView.h; sourceTree = "<group>"; };
 		DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSectionHeaderView.m; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 			children = (
 				DE00B2E517FC1EA600703C82 /* Fonts */,
 				DE1B08EE17EE0C6600164B62 /* Images */,
+				DEC213DB18098CBE00EF4CF2 /* Settings.bundle */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				DE00B2E817FC1EA600703C82 /* Neometric-Medium.otf in Resources */,
 				DE00B2EF17FC26B300703C82 /* CicleFina.ttf in Resources */,
 				DE00B2F117FC273C00703C82 /* CicleSemi.ttf in Resources */,
+				DEC213DC18098CBE00EF4CF2 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -42,10 +42,11 @@
 			textView.layer.cornerRadius = 5.0f;
 			textView.backgroundColor = [UIColor clearColor];
 			textView.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
-			textView.font = [UIFont fontWithName:@"CicleSemi" size:30.0f];
+
 			[self addSubview:textView];
 		}
         self.infoView.userInteractionEnabled = YES;
+        self.nameView.font = [UIFont fontWithName:@"CicleSemi" size:45.0f];
         self.infoView.font = [UIFont fontWithName:@"CicleSemi" size:29.0f];
         self.eCodeView.font = [UIFont fontWithName:@"CicleSemi" size:60.0f];
         

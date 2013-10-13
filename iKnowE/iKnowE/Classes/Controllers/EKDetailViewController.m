@@ -105,14 +105,13 @@
 
 - (UIButton *)splitViewButton
 {
-#warning magic
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
-    [button setTitle:@"List" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
-    [button setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"List"] forState:UIControlStateHighlighted];
-    button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-    button.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
+	[button setTitle:@"List" forState:UIControlStateNormal];
+	[button setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
+	[button setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"List"] forState:UIControlStateHighlighted];
+	button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+	button.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
 	button.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
     
 	return button;

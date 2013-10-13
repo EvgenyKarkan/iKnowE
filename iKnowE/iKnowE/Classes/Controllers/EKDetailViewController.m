@@ -134,7 +134,9 @@
                                               self.detailView.eCodeView.alpha = 1.0f;
                                               self.detailView.nameView.alpha = 1.0f;
                                               self.detailView.infoView.alpha = 1.0f;
-                                          } completion:nil];
+                                          } completion: ^(BOOL finished) {
+                                              [self.detailView.infoView setContentOffset:CGPointMake(0.0f, 0.0f) animated:YES];
+                                          }];
                      }];
 }
 

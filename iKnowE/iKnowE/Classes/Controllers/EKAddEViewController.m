@@ -45,6 +45,8 @@ static CGFloat const kEKBig = 235.0f;
 - (void)savePressed
 {
     if ([self validateAllInput]) {
+        [self.addView endEditing:YES];
+        [self.addView resignFirstResponder];
         NSArray *array = @[self.addView.eCodeField.text, self.addView.nameField.text, self.addView.informationField.text];
         [[EKCoreDataProvider sharedInstance] saveEntityWithName:kEKEntityName withData:array];
         

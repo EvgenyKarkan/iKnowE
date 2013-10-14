@@ -9,7 +9,7 @@
 #import "EKPlistDataProvider.h"
 #import "EKAdditiveDescription.h"
 
-static NSString * const kEKPlistName = @"additivies";
+static NSString * const kEKPlistName = @"additiviesFirstRelease";
 static NSString * const kEKPlistExtension = @"plist";
 
 

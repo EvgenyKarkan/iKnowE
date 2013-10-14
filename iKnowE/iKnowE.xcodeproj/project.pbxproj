@@ -17,8 +17,7 @@
 		DE1B08F417EE0C6700164B62 /* EKListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08DE17EE0C6600164B62 /* EKListViewController.m */; };
 		DE1B08F517EE0C6700164B62 /* EKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */; };
 		DE1B08F617EE0C6700164B62 /* EKPlistDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */; };
-		DE1B08F717EE0C6700164B62 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E517EE0C6600164B62 /* additivies.plist */; };
-		DE1B08F817EE0C6700164B62 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E617EE0C6600164B62 /* categories.plist */; };
+		DE1B08F717EE0C6700164B62 /* additiviesFirstRelease.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E517EE0C6600164B62 /* additiviesFirstRelease.plist */; };
 		DE1B08F917EE0C6700164B62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE1B08E817EE0C6600164B62 /* InfoPlist.strings */; };
 		DE1B08FB17EE0C6700164B62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B08EC17EE0C6600164B62 /* main.m */; };
 		DE27EDAA17F50295001A183E /* UserAdditive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */; };
@@ -39,6 +38,7 @@
 		DE78635617EF884F001CBA06 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635217EF884F001CBA06 /* search.png */; };
 		DE78635717EF884F001CBA06 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635317EF884F001CBA06 /* search@2x.png */; };
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
+		DE9035D6180C096B000B4A21 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE9035D5180C096B000B4A21 /* additivies.plist */; };
 		DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
@@ -76,8 +76,7 @@
 		DE1B08E017EE0C6600164B62 /* EKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKAppDelegate.m; sourceTree = "<group>"; };
 		DE1B08E217EE0C6600164B62 /* EKPlistDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPlistDataProvider.h; sourceTree = "<group>"; };
 		DE1B08E317EE0C6600164B62 /* EKPlistDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKPlistDataProvider.m; sourceTree = "<group>"; };
-		DE1B08E517EE0C6600164B62 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
-		DE1B08E617EE0C6600164B62 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		DE1B08E517EE0C6600164B62 /* additiviesFirstRelease.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additiviesFirstRelease.plist; sourceTree = "<group>"; };
 		DE1B08E917EE0C6600164B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE1B08EA17EE0C6600164B62 /* iKnowE-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iKnowE-Info.plist"; sourceTree = "<group>"; };
 		DE1B08EB17EE0C6600164B62 /* iKnowE-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iKnowE-Prefix.pch"; sourceTree = "<group>"; };
@@ -109,6 +108,7 @@
 		DE78635217EF884F001CBA06 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		DE78635317EF884F001CBA06 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		DE834C4C17EE48C6000714A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE9035D5180C096B000B4A21 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
 		DEB0112917FACFAB00304485 /* EKSettingsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSettingsProvider.h; sourceTree = "<group>"; };
 		DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSettingsProvider.m; sourceTree = "<group>"; };
 		DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAttributedStringUtil.h; sourceTree = "<group>"; };
@@ -224,8 +224,8 @@
 			children = (
 				DE78634A17EF2CAD001CBA06 /* EKAdditiveDescription.h */,
 				DE78634B17EF2CAD001CBA06 /* EKAdditiveDescription.m */,
-				DE1B08E517EE0C6600164B62 /* additivies.plist */,
-				DE1B08E617EE0C6600164B62 /* categories.plist */,
+				DE1B08E517EE0C6600164B62 /* additiviesFirstRelease.plist */,
+				DE9035D5180C096B000B4A21 /* additivies.plist */,
 				DE27EDA817F50295001A183E /* UserAdditive.xcdatamodeld */,
 				DE0F155C17F788B000DF4778 /* Additive.h */,
 				DE0F155D17F788B000DF4778 /* Additive.m */,
@@ -370,8 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1B08F717EE0C6700164B62 /* additivies.plist in Resources */,
-				DE1B08F817EE0C6700164B62 /* categories.plist in Resources */,
+				DE1B08F717EE0C6700164B62 /* additiviesFirstRelease.plist in Resources */,
 				DE1B08F917EE0C6700164B62 /* InfoPlist.strings in Resources */,
 				DE78635417EF884F001CBA06 /* search_background.png in Resources */,
 				DE78635517EF884F001CBA06 /* search_background@2x.png in Resources */,
@@ -393,6 +392,7 @@
 				DEC213FD180ABC0C00EF4CF2 /* Default-Landscape@2x~ipad.png in Resources */,
 				DEC21400180ABC4F00EF4CF2 /* ITunesArtwork in Resources */,
 				DEC21401180ABC4F00EF4CF2 /* ITunesArtwork@2x in Resources */,
+				DE9035D6180C096B000B4A21 /* additivies.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

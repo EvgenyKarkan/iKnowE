@@ -118,13 +118,11 @@
 	if (searchField != nil) {
 		UIImage *image = [UIImage imageNamed:@"search.png"];
 		UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-		searchField.leftView = imageView;
-		UIImageView *imageView1 = [[UIImageView alloc] initWithImage:image];
         
+		searchField.leftView = imageView;
         [searchField setBackground:[UIImage imageNamed:@"search_background.png"]];
 		searchField.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
 		searchField.returnKeyType = UIReturnKeyDone;
-		searchField.rightView = imageView1;
 		searchField.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
         [searchField setValue:[UIColor colorWithRed:0.529412 green:0.564706 blue:0.635294 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
 	}

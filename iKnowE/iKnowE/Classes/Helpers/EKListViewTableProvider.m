@@ -208,6 +208,8 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
 		NSAssert(self.delegate != nil, @"Delegate should not be nil");
 	}
     
+    [[tableView superview] endEditing:YES];
+    
     [[[EKSettingsProvider alloc] init] setSectionWithRowData:@[[NSNumber numberWithInteger:indexPath.section], [NSNumber numberWithInteger:indexPath.row]]];
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

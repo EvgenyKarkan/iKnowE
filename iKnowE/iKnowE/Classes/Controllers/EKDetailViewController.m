@@ -131,6 +131,7 @@
 	if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] == 0) {
 		EKAdditiveDescription *additive = [EKPlistDataProvider additiveWithIndex:0];
 		array = @[additive.code, additive.chemicalName, additive.danger];
+        [self hideEditButton];
 	}
 	else {
 		if (index.row == 0) {

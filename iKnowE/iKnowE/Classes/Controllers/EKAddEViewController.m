@@ -46,7 +46,7 @@ static CGFloat const kEKBig = 235.0f;
 {
     if ([self validateAllInput]) {
         [self.addView endEditing:YES];
-        [self.addView resignFirstResponder];
+
         NSArray *array = @[self.addView.eCodeField.text, self.addView.nameField.text, self.addView.informationField.text];
         [[EKCoreDataProvider sharedInstance] saveEntityWithName:kEKEntityName withData:array];
         
@@ -73,7 +73,7 @@ static CGFloat const kEKBig = 235.0f;
         }];
     }
 	else {
-		[SVProgressHUD showErrorWithStatus:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)];
+		[SVProgressHUD showErrorWithStatus:NSLocalizedString(@"All fields must be filled", nil)];
 	}
 }
 

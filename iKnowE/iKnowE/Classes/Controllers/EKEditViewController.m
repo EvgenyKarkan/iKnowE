@@ -42,7 +42,7 @@
 		}];
 	}
 	else {
-		[SVProgressHUD showErrorWithStatus:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)];
+		[SVProgressHUD showErrorWithStatus:NSLocalizedString(@"All fields must be filled", nil)];
 	}
 }
 

@@ -101,21 +101,7 @@
                      }];
 }
 
-#pragma mark - UI
-
-- (UIButton *)splitViewButton
-{
-	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    
-	[button setTitle:@"List" forState:UIControlStateNormal];
-	[button setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
-	[button setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"List"] forState:UIControlStateHighlighted];
-	button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-	button.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
-	button.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
-    
-	return button;
-}
+#pragma mark - Public stuff
 
 - (void)updateUIWithData:(NSArray *)data
 {
@@ -137,6 +123,42 @@
                                               [self.detailView.infoView setContentOffset:CGPointMake(0.0f, 0.0f) animated:YES];
                                           }];
                      }];
+}
+
+- (void)updateItselfOnDeletionWithIndexPath:(NSIndexPath *)index
+{
+	NSArray *array = nil;
+	if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] == 0) {
+		EKAdditiveDescription *additive = [EKPlistDataProvider additiveWithIndex:0];
+		array = @[additive.code, additive.chemicalName, additive.danger];
+	}
+	else {
+		if (index.row == 0) {
+			Additive *additive = [[EKCoreDataProvider sharedInstance] additiveWithIndex:index.row];
+			array = @[additive.ecode, additive.name, additive.information];
+		}
+		else {
+			Additive *additive = [[EKCoreDataProvider sharedInstance] additiveWithIndex:index.row - 1];
+			array = @[additive.ecode, additive.name, additive.information];
+		}
+	}
+	[self updateUIWithData:array];
+}
+
+#pragma mark - UI
+
+- (UIButton *)splitViewButton
+{
+	UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+	[button setTitle:@"List" forState:UIControlStateNormal];
+	[button setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
+	[button setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"List"] forState:UIControlStateHighlighted];
+	button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+	button.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
+	button.frame = CGRectMake(12.0f, 7.0f, 60.0f, 30.0f);
+    
+	return button;
 }
 
 - (void)preloadDataOnApplicationFinishLaunchingWithSettingsData:(NSArray *)dataFromSettings

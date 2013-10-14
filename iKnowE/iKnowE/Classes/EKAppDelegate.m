@@ -12,6 +12,7 @@
 #import "EKCoreDataProvider.h"
 #import "EKPlistDataProvider.h"
 
+
 @implementation EKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

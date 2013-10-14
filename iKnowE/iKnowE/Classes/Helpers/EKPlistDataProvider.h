@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EKAdditiveDescription.h"
 
 @interface EKPlistDataProvider : NSObject
 
 + (NSArray *)additiveDescriptions;
++ (EKAdditiveDescription *)additiveWithIndex:(NSUInteger)index;
 
 @end

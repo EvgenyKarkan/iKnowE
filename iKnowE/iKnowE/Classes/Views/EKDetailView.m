@@ -30,25 +30,33 @@
 		self.topView.backgroundColor = [UIColor colorWithRed:0.062745 green:0.215686 blue:0.274510 alpha:1];
 		[self addSubview:self.topView];
         
-		self.eCodeView = [[UITextView alloc] init];
-		self.nameView = [[UITextView alloc] init];
-		self.infoView = [[UITextView alloc] init];
+		self.eCodeView = [[UILabel alloc] init];
+		self.nameView = [[UILabel alloc] init];
         
-		for (UITextView *textView in @[self.eCodeView, self.nameView, self.infoView]) {
-			textView.userInteractionEnabled = NO;
-            textView.editable = NO;
-			textView.layer.borderWidth = 1.5f;
-			textView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
-			textView.layer.cornerRadius = 5.0f;
-			textView.backgroundColor = [UIColor clearColor];
-			textView.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
-
-			[self addSubview:textView];
+		for (UILabel *label in @[self.nameView, self.eCodeView]) {
+			label.layer.borderWidth = 1.5f;
+			label.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
+			label.layer.cornerRadius = 5.0f;
+			label.backgroundColor = [UIColor clearColor];
+			label.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+			label.textAlignment = NSTextAlignmentCenter;
+			[self addSubview:label];
 		}
-        self.infoView.userInteractionEnabled = YES;
-        self.nameView.font = [UIFont fontWithName:@"CicleSemi" size:45.0f];
-        self.infoView.font = [UIFont fontWithName:@"CicleSemi" size:29.0f];
-        self.eCodeView.font = [UIFont fontWithName:@"CicleSemi" size:60.0f];
+        
+		self.nameView.font = [UIFont fontWithName:@"CicleSemi" size:35.0f];
+		self.eCodeView.font = [UIFont fontWithName:@"CicleSemi" size:60.0f];
+        
+		self.infoView = [[UITextView alloc] init];
+		self.infoView.userInteractionEnabled = NO;
+		self.infoView.editable = NO;
+		self.infoView.layer.borderWidth = 1.5f;
+		self.infoView.layer.borderColor = [[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] CGColor];
+		self.infoView.layer.cornerRadius = 5.0f;
+		self.infoView.backgroundColor = [UIColor clearColor];
+		self.infoView.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+		self.infoView.userInteractionEnabled = YES;
+		self.infoView.font = [UIFont fontWithName:@"CicleSemi" size:29.0f];
+		[self addSubview:self.infoView];
         
 		self.eCodeLabel = [[UILabel alloc] init];
 		self.nameLabel = [[UILabel alloc] init];
@@ -65,24 +73,23 @@
 			[self addSubview:label];
 		}
         
-        self.editButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		self.editButton = [UIButton buttonWithType:UIButtonTypeCustom];
 		[self.editButton setTitle:@"Edit" forState:UIControlStateNormal];
-        [self.editButton setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
-        self.editButton.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
-        self.editButton.titleLabel.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+		[self.editButton setTitleColor:[UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1] forState:UIControlStateNormal];
+		self.editButton.titleLabel.font = [UIFont fontWithName:@"CicleSemi" size:20.0f];
+		self.editButton.titleLabel.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
 		self.editButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
 		[self.editButton setAttributedTitle:[EKAttributedStringUtil attributeStringWithString:@"Edit"] forState:UIControlStateHighlighted];
-        [self.editButton addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
+		[self.editButton addTarget:self action:@selector(editPressed) forControlEvents:UIControlEventTouchUpInside];
 		[self.topView addSubview:self.editButton];
         
-        self.logo = [[UILabel alloc] init];
-        self.logo.backgroundColor = [UIColor clearColor];
-        self.logo.textAlignment = NSTextAlignmentCenter;
-        self.logo.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
-        self.logo.font = [UIFont fontWithName:@"CicleSemi" size:35.0f];
-        self.logo.text = @"iKnowE";
-        [self.topView addSubview:self.logo];
-        
+		self.logo = [[UILabel alloc] init];
+		self.logo.backgroundColor = [UIColor clearColor];
+		self.logo.textAlignment = NSTextAlignmentCenter;
+		self.logo.textColor = [UIColor colorWithRed:0.419608 green:0.937255 blue:0.960784 alpha:1];
+		self.logo.font = [UIFont fontWithName:@"CicleSemi" size:35.0f];
+		self.logo.text = @"iKnowE";
+		[self.topView addSubview:self.logo];
 	}
 	return self;
 }

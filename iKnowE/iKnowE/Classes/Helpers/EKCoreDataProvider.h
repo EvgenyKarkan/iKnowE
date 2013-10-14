@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Additive.h"
 
 @interface EKCoreDataProvider : NSObject
 
@@ -16,5 +17,6 @@
 - (void)saveContext;
 - (void)deleteEntityWithEntityIndex:(NSIndexPath *)index;
 - (NSArray *)fetchedEntitiesForEntityName:(NSString *)name;
+- (Additive *)additiveWithIndex:(NSUInteger)index;
 
 @end

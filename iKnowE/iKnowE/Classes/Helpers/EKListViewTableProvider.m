@@ -59,7 +59,6 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     
     return number;
 }
-#warning magic
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
@@ -255,7 +254,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     [[EKCoreDataProvider sharedInstance] deleteEntityWithEntityIndex:indexPath];
     self.delegate = self.appDelegate.splitViewController.viewControllers[0];
     if (self.delegate) {
-        [self.delegate didDeleteRow];
+        [self.delegate didDeleteRowWithIndexPath:indexPath];
     }
     else {
         NSAssert(self.delegate != nil, @"Delegate should not be nil");

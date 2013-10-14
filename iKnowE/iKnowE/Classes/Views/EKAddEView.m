@@ -11,7 +11,7 @@
 
 
 @implementation EKAddEView
-#warning lot of magic
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

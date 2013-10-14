@@ -13,7 +13,7 @@
 @optional
 - (void)cellDidPressWithData:(NSArray *)data withIndexPath:(NSIndexPath *)indexPath useCoreData:(BOOL)flag;
 - (void)sectionHeaderDidTap;
-- (void)didDeleteRow;
+- (void)didDeleteRowWithIndexPath:(NSIndexPath *)indexPath;
 
 @end
 

@@ -9,13 +9,15 @@
 #import "EKPlistDataProvider.h"
 #import "EKAdditiveDescription.h"
 
+static NSString * const kEKPlistName = @"additivies";
+static NSString * const kEKPlistExtension = @"plist";
+
 
 @implementation EKPlistDataProvider;
 
 + (NSArray *)additiveDescriptions
 {
-#warning magic
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"additivies" ofType:@"plist"];
+	NSString *path = [[NSBundle mainBundle] pathForResource:kEKPlistName ofType:kEKPlistExtension];
 	NSArray *raughDescriptions = [[NSArray alloc] initWithContentsOfFile:path];
 	NSMutableArray *result = [[NSMutableArray alloc] initWithCapacity:[raughDescriptions count]];
 	
@@ -25,6 +27,11 @@
 	}
 	
 	return result;
+}
+
++ (EKAdditiveDescription *)additiveWithIndex:(NSUInteger)index
+{
+    return [self additiveDescriptions][index];
 }
 
 @end

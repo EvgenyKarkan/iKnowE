@@ -184,6 +184,13 @@ static id _sharedInstance;
 	return entities;
 }
 
+- (Additive *)additiveWithIndex:(NSUInteger)index
+{
+    return [self fetchedEntitiesForEntityName:kEKEntityName][index];
+}
+
+#pragma mark - Private API
+
 - (NSFetchRequest *)requestWithEntityName:(NSString *)entityName
 {
 	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];

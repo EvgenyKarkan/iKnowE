@@ -12,5 +12,6 @@
 @interface EKDetailViewController : UIViewController <EKListViewTableDelegate, UISplitViewControllerDelegate>
 
 - (void)updateUIWithData:(NSArray *)data;
+- (void)updateItselfOnDeletionWithIndexPath:(NSIndexPath *)index;
 
 @end

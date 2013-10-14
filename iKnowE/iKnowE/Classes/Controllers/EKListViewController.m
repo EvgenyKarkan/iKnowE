@@ -15,10 +15,13 @@
 #import "EKCoreDataProvider.h"
 #import "Additive.h"
 #import "EKSettingsProvider.h"
+#import "EKAppDelegate.h"
+#import "EKDetailViewController.h"
 
 @interface EKListViewController () <UISearchBarDelegate, EKListViewTableDelegate, EKListViewAddEDelegate>
 
 @property (nonatomic, strong) EKListViewTableProvider *dataProvider;
+@property (nonatomic, strong) EKAppDelegate *appDelegate;
 
 @end
 
@@ -39,6 +42,7 @@
 	[super viewDidLoad];
     
 	self.dataProvider = [[EKListViewTableProvider alloc] initWithDelegate:self];
+    self.appDelegate = (EKAppDelegate *)[[UIApplication sharedApplication] delegate];
     
 	self.listView.tableView.delegate = self.dataProvider;
 	self.listView.tableView.dataSource = self.dataProvider;
@@ -146,11 +150,13 @@
 	                                       animated:YES];
 }
 
-- (void)didDeleteRow
+- (void)didDeleteRowWithIndexPath:(NSIndexPath *)indexPath
 {
 	if ([[[EKCoreDataProvider sharedInstance] fetchedEntitiesForEntityName:kEKEntityName] count] == 0) {
 		[[[EKSettingsProvider alloc] init] clear];
 	}
+    
+    __weak EKDetailViewController *weakDetailViewController = self.appDelegate.splitViewController.viewControllers[1];
     
 	[UIView animateWithDuration:0.15f
 	                 animations: ^{
@@ -162,6 +168,7 @@
                                               [self.listView.cancelButton setHidden:YES];
                                               [self.listView.tableView setEditing:NO animated:YES];
                                               [self reloadTable];
+                                              [weakDetailViewController updateItselfOnDeletionWithIndexPath:indexPath];
                                           } completion:nil];
                      }];
 	self.listView.isTableEditing = !self.listView.isTableEditing;

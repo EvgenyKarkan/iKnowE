@@ -40,6 +40,8 @@
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
 		DE9035D6180C096B000B4A21 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE9035D5180C096B000B4A21 /* additivies.plist */; };
 		DE9035DB180C260C000B4A21 /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9035DA180C260C000B4A21 /* libFlurry_4.2.4.a */; };
+		DE9035DD180C2C7C000B4A21 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9035DC180C2C7B000B4A21 /* Security.framework */; };
+		DE9035DF180C2CB9000B4A21 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9035DE180C2CB8000B4A21 /* SystemConfiguration.framework */; };
 		DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
@@ -112,6 +114,8 @@
 		DE9035D5180C096B000B4A21 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
 		DE9035D9180C260C000B4A21 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		DE9035DA180C260C000B4A21 /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.4.a; sourceTree = "<group>"; };
+		DE9035DC180C2C7B000B4A21 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DE9035DE180C2CB8000B4A21 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DEB0112917FACFAB00304485 /* EKSettingsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSettingsProvider.h; sourceTree = "<group>"; };
 		DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSettingsProvider.m; sourceTree = "<group>"; };
 		DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAttributedStringUtil.h; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9035DF180C2CB9000B4A21 /* SystemConfiguration.framework in Frameworks */,
+				DE9035DD180C2C7C000B4A21 /* Security.framework in Frameworks */,
 				DE44991517F0DE9C0091519D /* CoreData.framework in Frameworks */,
 				DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */,
 				DE518B8617DE880000B1206A /* UIKit.framework in Frameworks */,
@@ -317,6 +323,8 @@
 				DE518B8717DE880000B1206A /* Foundation.framework */,
 				DE518B8917DE880000B1206A /* CoreGraphics.framework */,
 				DB711FF645704458B029D483 /* libPods-iKnowE.a */,
+				DE9035DC180C2C7B000B4A21 /* Security.framework */,
+				DE9035DE180C2CB8000B4A21 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

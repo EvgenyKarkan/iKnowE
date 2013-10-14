@@ -39,6 +39,7 @@
 		DE78635717EF884F001CBA06 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE78635317EF884F001CBA06 /* search@2x.png */; };
 		DE834C4D17EE48C6000714A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE834C4C17EE48C6000714A6 /* QuartzCore.framework */; };
 		DE9035D6180C096B000B4A21 /* additivies.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE9035D5180C096B000B4A21 /* additivies.plist */; };
+		DE9035DB180C260C000B4A21 /* libFlurry_4.2.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9035DA180C260C000B4A21 /* libFlurry_4.2.4.a */; };
 		DEB0112B17FACFAB00304485 /* EKSettingsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */; };
 		DEB4CFFA17F5C533007BBB30 /* EKAttributedStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFF917F5C533007BBB30 /* EKAttributedStringUtil.m */; };
 		DEB4D00017F5E4A5007BBB30 /* EKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB4CFFF17F5E4A5007BBB30 /* EKTextField.m */; };
@@ -109,6 +110,8 @@
 		DE78635317EF884F001CBA06 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		DE834C4C17EE48C6000714A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DE9035D5180C096B000B4A21 /* additivies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = additivies.plist; sourceTree = "<group>"; };
+		DE9035D9180C260C000B4A21 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		DE9035DA180C260C000B4A21 /* libFlurry_4.2.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.4.a; sourceTree = "<group>"; };
 		DEB0112917FACFAB00304485 /* EKSettingsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSettingsProvider.h; sourceTree = "<group>"; };
 		DEB0112A17FACFAB00304485 /* EKSettingsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSettingsProvider.m; sourceTree = "<group>"; };
 		DEB4CFF817F5C533007BBB30 /* EKAttributedStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKAttributedStringUtil.h; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 				DE518B8817DE880000B1206A /* Foundation.framework in Frameworks */,
 				DE518B8A17DE880000B1206A /* CoreGraphics.framework in Frameworks */,
 				588FC3D1AF36496C8418FBFC /* libPods-iKnowE.a in Frameworks */,
+				DE9035DB180C260C000B4A21 /* libFlurry_4.2.4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				DE1B08D817EE0C6600164B62 /* iKnowE */,
+				DE9035D7180C25EB000B4A21 /* Libs */,
 				DE518B8417DE880000B1206A /* Frameworks */,
 				DE518B8317DE880000B1206A /* Products */,
 				C118995DA6184FBCAF3BD8F1 /* Pods-iKnowE.xcconfig */,
@@ -314,6 +319,23 @@
 				DB711FF645704458B029D483 /* libPods-iKnowE.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9035D7180C25EB000B4A21 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				DE9035D8180C260C000B4A21 /* Flurry */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		DE9035D8180C260C000B4A21 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				DE9035D9180C260C000B4A21 /* Flurry.h */,
+				DE9035DA180C260C000B4A21 /* libFlurry_4.2.4.a */,
+			);
+			path = Flurry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,6 +567,10 @@
 				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs/Flurry\"",
+				);
 				PRODUCT_NAME = iKnowE;
 				SDKROOT = iphoneos6.1;
 				WRAPPER_EXTENSION = app;
@@ -562,6 +588,10 @@
 				GCC_PREFIX_HEADER = "iKnowE/iKnowE-Prefix.pch";
 				INFOPLIST_FILE = "iKnowE/iKnowE-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs/Flurry\"",
+				);
 				PRODUCT_NAME = iKnowE;
 				SDKROOT = iphoneos6.1;
 				WRAPPER_EXTENSION = app;

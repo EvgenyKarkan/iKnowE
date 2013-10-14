@@ -11,6 +11,9 @@
 #import "EKDetailViewController.h"
 #import "EKCoreDataProvider.h"
 #import "EKPlistDataProvider.h"
+#import "Flurry.h"
+
+static NSString * const kEKFlurryKey = @"QG97GTD5QD7JK6KJCCS2";
 
 
 @implementation EKAppDelegate
@@ -30,6 +33,8 @@
 	[self.window makeKeyAndVisible];
 	
     [self preloadSettingsInfo];
+    
+        //[Flurry startSession:kEKFlurryKey];
     
     return YES;
 }

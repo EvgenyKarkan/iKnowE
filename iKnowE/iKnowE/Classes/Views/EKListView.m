@@ -58,7 +58,7 @@
         
 		self.searchBar = [[UISearchBar alloc] init];
         self.searchBar.placeholder = @"Search...";
-       
+        self.searchBar.keyboardType = UIKeyboardTypeNumberPad;
         self.searchBar.tintColor = [UIColor colorWithRed:0.121569 green:0.329412 blue:0.384314 alpha:1];
 		[self addSubview:self.searchBar];
         [self customizeSearchBar];

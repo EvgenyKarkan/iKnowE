@@ -35,6 +35,13 @@
                                  [UIView animateWithDuration:0.2f
                                                   animations: ^{
                                                       [weakDetailViewController updateUIWithData:array];
+                                                      [weakListViewController.listView.tableView setEditing:NO animated:YES];
+                                                      [weakListViewController.listView.cancelButton setHidden:YES];
+                                                      
+                                                      if (weakListViewController.listView.isTableEditing) {
+                                                          weakListViewController.listView.isTableEditing = NO;
+                                                      }
+                                                      
                                                       [weakListViewController reloadTable];
                                                       weakListViewController.listView.tableView.alpha = 1.0f;
                                                   } completion:nil];

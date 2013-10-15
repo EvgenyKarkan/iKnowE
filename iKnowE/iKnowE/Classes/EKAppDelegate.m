@@ -35,7 +35,7 @@ static NSString * const kEKFlurryKey = @"QG97GTD5QD7JK6KJCCS2";
     
 	[self preloadSettingsInfo];
     
-	[Flurry startSession:kEKFlurryKey];
+        //[Flurry startSession:kEKFlurryKey];
     
 	return YES;
 }

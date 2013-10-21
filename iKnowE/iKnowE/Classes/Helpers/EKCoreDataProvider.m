@@ -117,15 +117,8 @@ static id _sharedInstance;
         
 		NSAssert(savingError == nil, @"Error occurs during saving to context %@", [savingError localizedDescription]);
 	}
-    
 	else {
-            //no entity was returned add error HUD
-		UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"ERROR", nil)
-		                                                    message:NSLocalizedString(@"ERROR_SAVE_MESSAGE", nil)
-		                                                   delegate:nil
-		                                          cancelButtonTitle:nil
-		                                          otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
-		[errorView show];
+		[SVProgressHUD showErrorWithStatus:@"Could not return entity"];
 	}
 }
 

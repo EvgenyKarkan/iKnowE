@@ -507,7 +507,7 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Similar to 200. Sodium sorbate is the sodium salt of sorbic acid.  Typical products include wine, cheese, other fermented products, desert sauces and fillings, soups, sweets.</string>
+		<string>            Similar to 200. Sodium sorbate is the sodium salt of sorbic acid. Sodium sorbate is the sodium salt of sorbic acid. Typical products include wine, cheese, other fermented products, desert sauces and fillings, soups, sweets.</string>
 		<key>chemicalName</key>
 		<string>Sodium sorbate</string>
 		<key>code</key>
@@ -515,7 +515,12 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Similar to 200. otassium sorbate is the sodium salt of sorbic acid. More soluble than sorbic acid. Typical products include cheese, butter, yogurt, preserves, pickles, dried fruit, cakes and wine.</string>
+		<string>            Potassium sorbate is the potassium salt of sorbic acid. It is a white salt that is very soluble in water (58.2% at 20 °C). It is primarily used as a food preservative (E number 202). Potassium sorbate is effective in a variety of applications including food, wine, and personal care products. Potassium sorbate occurs naturally in some berries.
+            Potassium sorbate is used to inhibit molds and yeasts in many foods, such as cheese, wine, yogurt, dried meats, apple cider, soft drinks and fruit drinks, and baked goods. It can also be found in the ingredients list of many dried fruit products. In addition, herbal dietary supplement products generally contain potassium sorbate, which acts to prevent mold and microbes and to increase shelf life, and is used in quantities at which there are no known adverse health effects, over short periods of time. Labeling of this preservative on ingredient statements reads as "potassium sorbate" or "E202". Also, it is used in many personal care products to inhibit the development of microorganisms for shelf stability. Some manufacturers are using this preservative as a replacement for parabens.
+            Also known as "wine stabilizer", potassium sorbate produces sorbic acid when added to wine. It serves two purposes. When active fermentation has ceased and the wine is racked for the final time after clearing, potassium sorbate will render any surviving yeast incapable of multiplying. Yeast living at that moment can continue fermenting any residual sugar into CO2 and alcohol, but when they die no new yeast will be present to cause future fermentation. When a wine is sweetened before bottling, potassium sorbate is used to prevent refermentation when used in conjunction with potassium metabisulfite. It is primarily used with sweet wines, sparkling wines, and some hard ciders but may be added to table wines which exhibit difficulty in maintaining clarity after fining.
+            Some molds (notably some Trichoderma and Penicillium strains) and yeasts are able to detoxify sorbates by decarboxylation, producing piperylene (1,3-pentadiene). The pentadiene manifests as a typical odor of kerosene or petroleum.
+            Solid potassium sorbate (which is rarely encountered in food) is a skin, eye and respiratory irritant. Potassium sorbate exhibits low toxicity with LD50 (rat, oral) of 4.92 g/kg, similar to that of table salt. Typical usage rates of potassium sorbate are 0.025% to 0.1% (see sorbic acid), which in a 100 g serving yields intake of 25 mg to 100 mg. Acceptable daily intakes for human is 12.5 mg/kg, or 875 mg daily for an average adult (70 kg), according to FAO/World Health Organization Expert Committee on Food Additives.
+            Intravenous feeding of potassium sorbate increase gastric burden of pathogenic bacteria. It is often used with ascorbic acid and iron salts as they increase its effectiveness but this can form mutagenic compounds that damage DNA molecules.</string>
 		<key>chemicalName</key>
 		<string>Potassium sorbate</string>
 		<key>code</key>
@@ -523,7 +528,7 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Similar to 200. The calcium salt of sorbic acid. An antifungal antibacterial preservative. Typical products include fermented dairy produce, wine.</string>
+		<string>            Calcium sorbate is the calcium salt of sorbic acid. Calcium sorbate is a polyunsaturated fatty acid salt. An antifungal antibacterial preservative. Typical products include fermented dairy produce, wine.</string>
 		<key>chemicalName</key>
 		<string>Calcium sorbate</string>
 		<key>code</key>
@@ -531,7 +536,14 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>Also known as flowers of benzoin, phenlycarboxylic acid, carboxybenzene. Obtained from Benzoin, a resin exuded by trees native to Asia. Benzoic acid is also used in the manufacture of plasticisers, resin coatings and caprolactam. It is an antiseptic, antifungal, antipyretic agent, and can be used as an alkalimetric standard. Added to alcoholic beverages, baked goods, cheeses, gum, condiments, frozen dairy, relishes, soft sweets, cordials and sugar substitutes. Used in cosmetics, as an antiseptic in many cough medications and an antifungal in ointments; can cause asthma, especially in those dependant on steroid asthma medications. Is also reputed to cause neurological disorders and to react with sulphur bisulphite (222), shown to provoke hyperactivity in children and can cause asthma in those dependant on steroid asthma medications. Other names: benzene carboxylic acid</string>
+		<string>            Benzoic acid /bɛnˈzoʊ.ɪk/, is a colorless crystalline solid and a simple aromatic carboxylic acid. The name is derived from gum benzoin, which was for a long time the only source for benzoic acid. Its salts are used as food preservatives and benzoic acid is an important precursor for the synthesis of many other organic substances. The salts and esters of benzoic acid are known as benzoates /ˈbɛnzoʊ.eɪt/.
+            Benzoic acid is relatively nontoxic. It is excreted as hippuric acid.
+            Benzoic acid occurs naturally as do its esters in many plant and animal species. Appreciable amounts have been found in most berries (around 0.05%). Ripe fruits of several Vaccinium species (e.g., cranberry, V. vitis macrocarpon; bilberry, V. myrtillus) contain as much as 0.03–0.13% free benzoic acid. Benzoic acid is also formed in apples after infection with the fungus Nectria galligena. Among animals, benzoic acid has been identified primarily in omnivorous or phytophageous species, e.g., in viscera and muscles of the Rock Ptarmigan (Lagopus muta) as well as in gland secretions of male muskoxen (Ovibos moschatus) or Asian bull elephants (Elephas maximus).
+            Gum benzoin contains up to 20% of benzoic acid and 40% benzoic acid esters.
+            Cryptanaerobacter phenolicus is a bacterium species that produces benzoate from phenol via 4-hydroxybenzoate
+            Benzoic acid is present as part of hippuric acid (N-benzoylglycine) in urine of mammals, especially herbivores (Gr. hippos = horse; ouron = urine). Humans produce about 0.44 g/L hippuric acid per day in their urine, and if the person is exposed to toluene or benzoic acid, it can rise above that level.
+            For humans, the World Health Organization's International Programme on Chemical Safety (IPCS) suggests a provisional tolerable intake would be 5 mg/kg body weight per day. Cats have a significantly lower tolerance against benzoic acid and its salts than rats and mice. Lethal dose for cats can be as low as 300 mg/kg body weight. The oral LD50 for rats is 3040 mg/kg, for mice it is 1940–2263 mg/kg.
+            In Taipei, Taiwan, a city health survey in 2010 found that 30% of dried and pickled food products had too much benzoic acid, which is known to affect the liver and kidney, along with more serious issues like excessive cyclamate.</string>
 		<key>chemicalName</key>
 		<string>Benzoic acid</string>
 		<key>code</key>
@@ -539,7 +551,18 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>The sodium salt of benzoic acid, sodium benzoate fulfils an antibacterial and antifungal role, and to disguise taste, as of poor-quality food; orange diet soft drinks contain a high amount of it, up to 25mg per 250ml; also in milk and meat products, relishes and condiments, baked goods and lollies, tooth pastes, mouth washes, maple syrup and margarine; used in many oral medications including Actifed, Phenergan and Tylenol; known to causes nettle rash and aggravate asthma. Suspected to be a neurotoxic hazard.</string>
+		<string>            Sodium benzoate is a widely used food preservative, with E number E211. It is the sodium salt of benzoic acid and exists in this form when dissolved in water. It can be produced by reacting sodium hydroxide with benzoic acid.
+            Sodium benzoate is a preservative. It is bacteriostatic and fungistatic under acidic conditions. It is most widely used in acidic foods such as salad dressings (vinegar), carbonated drinks (carbonic acid), jams and fruit juices (citric acid), pickles (vinegar), and condiments. It is also used as a preservative in medicines and cosmetics. As a food additive, sodium benzoate has the E number E211.
+            It is also used in fireworks as a fuel in whistle mix, a powder that emits a whistling noise when compressed into a tube and ignited. The fuel is also one of the fastest burning rocket fuels and provides a lot of thrust and smoke. It does have its downsides: there is a high danger of explosion when the fuel is sharply compressed because of the fuel's sensitivity to impact.
+            Sodium benzoate is produced by the neutralization of benzoic acid with sodium hydroxide. Benzoic acid is detectable at low levels in cranberries, prunes, greengage plums, cinnamon, ripe cloves, and apples. Concentration as a preservative is limited by the FDA in the U.S. to 0.1% by weight. The International Programme on Chemical Safety found no adverse effects in humans at doses of 647–825 mg/kg of body weight per day.
+            Cats have a significantly lower tolerance against benzoic acid and its salts than rats and mice. Sodium benzoate is, however, allowed as an animal food additive at up to 0.1%, according to AFCO's official publication.
+            In combination with ascorbic acid (vitamin C, E300), sodium benzoate and potassium benzoate form benzene, a known carcinogen. However, in most beverages that contain both, the benzene levels are below those considered dangerous for consumption. Heat, light and shelf life can affect the rate at which benzene is formed.
+            Research published in 2007 for the UK's Food Standards Agency (FSA) suggests that certain artificial colors, when paired with sodium benzoate (E211) may be linked to hyperactive behaviour. The results were inconsistent regarding sodium benzoate, so the FSA recommended further study.
+            The report's author, Professor Jim Stevenson from Southampton University, said: "The results suggest that consumption of certain mixtures of artificial food colours and sodium benzoate preservative are associated with increases in hyperactive behaviour in children. . . . Many other influences are at work but this at least is one a child can avoid."
+            On 10 April 2008, the Foods Standard Agency called for a voluntary removal of the colours (but not sodium benzoate) by 2009. In addition, it recommended there should be action to phase them out in food and drink in the European Union (EU) over a specified period.
+            In response to consumer insistence on a more natural product, the Coca Cola Company is in the process of phasing sodium benzoate out of Diet Coke. The company has stated it plans to remove E211 from its other products — including Sprite, Fanta, and Oasis — as soon as a satisfactory alternative is discovered.
+            Recent research shows that sodium benzoate may be beneficial as an add-on therapy (1 gram/day) in schizophrenia. Total PANSS scores dropped by 21% compared to placebo.
+</string>
 		<key>chemicalName</key>
 		<string>Sodium benzoate</string>
 		<key>code</key>
@@ -547,7 +570,11 @@
 	</dict>
 	<dict>
 		<key>danger</key>
-		<string>The potassium salt of benzoic acid, potassium benzoate fulfils an antibacterial and antifungal role. Typical products include margarine, pickles, fruit juice. People with a history of allergies may show allergic reactions. for using. See 210.</string>
+		<string>            Potassium benzoate, the potassium salt of benzoic acid, is a food preservative that inhibits the growth of mold, yeast and some bacteria. It works best in low-pH products, below 4.5, where it exists as benzoic acid.
+            Acidic foods and beverages such as fruit juice (citric acid), sparkling drinks (carbonic acid), soft drinks (phosphoric acid), and pickles (vinegar) may be preserved with potassium benzoate. It is approved for use in most countries including Canada, the U.S., and the EU, where it is designated by the E number E212. In the EU, it is not recommended for consumption by children.
+            Potassium benzoate is also used as the whistle in many fireworks.
+            Potassium benzoate was recently described by the Food Commission, who campaign for 'safer, healthier food in the UK', as "mildly irritant to the skin, eyes and mucous membranes".
+            Cats have a significantly lower tolerance to benzoic acid and its salts than rats and mice.</string>
 		<key>chemicalName</key>
 		<string>Potassium benzoate</string>
 		<key>code</key>

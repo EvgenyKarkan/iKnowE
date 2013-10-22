@@ -14,7 +14,9 @@
 + (NSAttributedString *)attributeStringWithString:(NSString *)string
 {
     NSMutableAttributedString *newString = [[NSMutableAttributedString alloc] initWithString:string];
-    [newString addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:0.168627 green:0.647059 blue:0.803922 alpha:1] range:NSMakeRange(0, [string length])];
+    [newString addAttribute:NSForegroundColorAttributeName
+                      value:[UIColor colorWithRed:0.168627 green:0.647059 blue:0.803922 alpha:1]
+                      range:NSMakeRange(0, [string length])];
     
     return newString;
 }

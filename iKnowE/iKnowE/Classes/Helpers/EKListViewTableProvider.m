@@ -248,6 +248,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     if (aTableView.editing) {
         return UITableViewCellEditingStyleDelete;
     }
+    
     return UITableViewCellEditingStyleNone;
 }
 

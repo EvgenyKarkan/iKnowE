@@ -21,6 +21,8 @@
 	return [[NSUserDefaults standardUserDefaults] objectForKey:@"storedSectionWithRow"];
 }
 
+#pragma mark - Public API
+
 - (void)clear
 {
 	NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];

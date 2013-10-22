@@ -77,7 +77,7 @@ static CGFloat const kEKBig = 235.0f;
 	}
 }
 
-#pragma mark - Key board notifications handling
+#pragma mark - Keyboard notifications handling
 
 - (void)registerForKeyboardNotifications
 {

@@ -1,9 +1,15 @@
 iKnowE
 ======
-
-iKnowE is under development now and need to be improved.  
+![alt tag](https://raw.github.com/EvgenyKarkan/iKnowE/master/iKnowE/iKnowE/Resourses/Images/GitHub_icon.png)  
+Please note:
+------------
 If you want to use some of code snippets from iKnowE - please ask me before for permissions.  
-Otherwise, use of the code snippets and any kind of iKnowE project's recources - e.g. logo, app icon, icons, images, is prohibited. Exclusive rights to distribute application through the Apple App Store belongs only to me.
-Available on App Store.
+Otherwise, use of the code snippets and any kind of iKnowE project's recources - e.g. logo, app icon, icons, images, is prohibited. Exclusive rights to distribute application through the Apple App Store belongs only to me.  
 
 Copyright (c) 2013 Evgeny Karkan. All rights reserved.
+
+Download:
+--------
+[![iKnowE](https://raw.github.com/EvgenyKarkan/iKnowE/master/iKnowE/iKnowE/Resourses/Images/Download_on_the_App_Store_Badge_US-UK_135x40.png)](https://itunes.apple.com/us/app/iknowe/id725541258?mt=8 "iKnowE")
+
+

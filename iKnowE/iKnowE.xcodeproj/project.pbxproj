@@ -59,6 +59,8 @@
 		DEC21400180ABC4F00EF4CF2 /* ITunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = DEC213FE180ABC4E00EF4CF2 /* ITunesArtwork */; };
 		DEC21401180ABC4F00EF4CF2 /* ITunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = DEC213FF180ABC4F00EF4CF2 /* ITunesArtwork@2x */; };
 		DED8648E17F8C6AF0055D77A /* EKTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */; };
+		DEE861D218427B9C005098FE /* Download_on_the_App_Store_Badge_US-UK_135x40.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE861D118427B9C005098FE /* Download_on_the_App_Store_Badge_US-UK_135x40.png */; };
+		DEE861D418427C6C005098FE /* GitHub_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE861D318427C6C005098FE /* GitHub_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +140,8 @@
 		DED8648B17F8C09A0055D77A /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CommonConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		DED8648C17F8C6AD0055D77A /* EKTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKTableSectionHeaderView.h; sourceTree = "<group>"; };
 		DED8648D17F8C6AE0055D77A /* EKTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKTableSectionHeaderView.m; sourceTree = "<group>"; };
+		DEE861D118427B9C005098FE /* Download_on_the_App_Store_Badge_US-UK_135x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Download_on_the_App_Store_Badge_US-UK_135x40.png"; sourceTree = "<group>"; };
+		DEE861D318427C6C005098FE /* GitHub_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GitHub_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +279,8 @@
 		DE1B08EE17EE0C6600164B62 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DEE861D318427C6C005098FE /* GitHub_icon.png */,
+				DEE861D118427B9C005098FE /* Download_on_the_App_Store_Badge_US-UK_135x40.png */,
 				DEC213FE180ABC4E00EF4CF2 /* ITunesArtwork */,
 				DEC213FF180ABC4F00EF4CF2 /* ITunesArtwork@2x */,
 				DEC213E8180ABA0200EF4CF2 /* Icon-Small-50.png */,
@@ -423,6 +429,8 @@
 				DEC21400180ABC4F00EF4CF2 /* ITunesArtwork in Resources */,
 				DEC21401180ABC4F00EF4CF2 /* ITunesArtwork@2x in Resources */,
 				DE9035D6180C096B000B4A21 /* additivies.plist in Resources */,
+				DEE861D218427B9C005098FE /* Download_on_the_App_Store_Badge_US-UK_135x40.png in Resources */,
+				DEE861D418427C6C005098FE /* GitHub_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

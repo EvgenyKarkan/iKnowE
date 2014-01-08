@@ -7,7 +7,6 @@
 //
 
 #import "EKPlistDataProvider.h"
-#import "EKAdditiveDescription.h"
 
 static NSString * const kEKPlistName = @"additiviesFirstRelease";
 static NSString * const kEKPlistExtension = @"plist";
@@ -18,10 +17,10 @@ static NSString * const kEKPlistExtension = @"plist";
 + (NSArray *)additiveDescriptions
 {
 	NSString *path = [[NSBundle mainBundle] pathForResource:kEKPlistName ofType:kEKPlistExtension];
-	NSArray *raughDescriptions = [[NSArray alloc] initWithContentsOfFile:path];
-	NSMutableArray *result = [[NSMutableArray alloc] initWithCapacity:[raughDescriptions count]];
+	NSArray *roughDescriptions = [[NSArray alloc] initWithContentsOfFile:path];
+	NSMutableArray *result = [[NSMutableArray alloc] initWithCapacity:[roughDescriptions count]];
 	
-	for (NSDictionary *dict in raughDescriptions) {
+	for (NSDictionary *dict in roughDescriptions) {
 		EKAdditiveDescription *description = [[EKAdditiveDescription alloc] initWithDictionary:dict];
 		[result addObject:description];
 	}

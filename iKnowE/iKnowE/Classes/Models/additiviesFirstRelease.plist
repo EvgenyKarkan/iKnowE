@@ -991,6 +991,101 @@
 		<key>code</key>
 		<string>E296</string>
 	</dict>
-    
+    <dict>
+		<key>danger</key>
+		<string>    Used to prevent rancidity in oily substances; derived from nutgalls; may cause gastric or skin irritation, gallates are not permitted in foods for infants and small children because of their known tendency to cause the blood disorder, methemoglobinemia; used in oils, margarine, lard and salad dressings, sometimes used in packaging. It is used as an antioxidant in food, often with BHT (E321) and BHA (E320), although it has limited use as it is unstable at high temperatures.
+    A 2009 study found that propyl gallate acts as an estrogen antagonist.
+        </string>
+		<key>chemicalName</key>
+		<string>Propyl gallate</string>
+		<key>code</key>
+		<string>E310</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Octyl gallate is synthesised by the esterification of gallic acid. It is used as an antioxidant in food, often with BHT (E321) and BHA (E320), although it has limited use as it is unstable at high temperatures. Typical products include oils and fats, cereals, snack foods, dairy produce. See 310.</string>
+		<key>chemicalName</key>
+		<string>Octyl gallate</string>
+		<key>code</key>
+		<string>E311</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Dodecyl gallate is synthesised by the esterification of gallic acid. It is used as an antioxidant in food, often with BHT (E321) and BHA (E320), although it has limited use as it is unstable at high temperatures. Typical products include oils and fats, cereals, snack foods, dairy produce. See 310.</string>
+		<key>chemicalName</key>
+		<string>Dodecyl gallate</string>
+		<key>code</key>
+		<string>E312</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Synthetic anti-oxidant. Anti-oxidant in fatty products, especially added to prevent rancidity. Found in oils and fats, (cosmetics). Up to 3 mg/kg body weight. Side effects: None known in the concentrations used. Can normally be consumed by all religious groups, vegans and vegetarians.</string>
+		<key>chemicalName</key>
+		<string>Thiodipropionic acid</string>
+		<key>code</key>
+		<string>E313</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Natural resin from the tree Guajacum officinale and some related tropical trees. Anti-oxidant in cola products. Up to 2.5 mg/kg body weight. No known side effects in the concentrations used, although some allergies have been reported. Can normally be consumed by all religious groups, vegans and vegetarians.</string>
+		<key>chemicalName</key>
+		<string>Guaiac Gum</string>
+		<key>code</key>
+		<string>E314</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Produced from sucrose. No know side effects. Other names: araboascorbic acid, d-isoascorbic acid, glucosaccharonic acid, erycorbin, saccharosonic acid.
+    Clinical trials have been conducted to investigate aspects of the nutritional value of erythorbic acid. One such trial investigated the effects of erythorbic acid on vitamin C metabolism in young women; no effect on vitamin C uptake or clearance from the body was found.
+        </string>
+		<key>chemicalName</key>
+		<string>Erythorbic acid</string>
+		<key>code</key>
+		<string>E315</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Chemically, it is the sodium salt of erythorbic acid. When used in processed meat such as hot dogs and beef sticks, it increases the rate at which nitrate reduces to nitric oxide, thus facilitating a faster cure and retaining the pink coloring. As an antioxidant structurally related to vitamin C, it helps improve flavor stability and prevents the formation of carcinogenic nitrosamines. When used as a food additive, its E number is E316. The use of erythorbic acid and sodium erythorbate as a food preservative has increased greatly since the U.S. Food and Drug Administration banned the use of sulfites as preservatives in foods intended to be eaten fresh (such as ingredients for fresh salads) and as food processors have responded to the fact that some people are allergic to sulfites.
+    Sodium erythorbate is produced from sugars derived from different sources, such as beets, sugar cane, and corn. An urban myth claims that sodium erythorbate is made from ground earthworms; however, there is no truth to the myth. It is thought that the genesis of the legend comes from the similarity of the chemical name to the words earthworm and bait.</string>
+		<key>chemicalName</key>
+		<string>Sodium erythorbate</string>
+		<key>code</key>
+		<string>E316</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Produced from sucrose. No know side effects. Related to ascorbic acid but lacks any vitamin value.  Found in frozen fish, preserved meat and fish, and other foods that use ascorbic acid.
+    Clinical trials have been conducted to investigate aspects of the nutritional value of erythorbic acid. One such trial investigated the effects of erythorbic acid on vitamin C metabolism in young women; no effect on vitamin C uptake or clearance from the body was found. A later study found that erythorbic acid is a potent enhancer of nonheme-iron absorption.
+    Since the U.S. Food and Drug Administration banned the use of sulfites as a preservative in foods intended to be eaten fresh (such as salad bar ingredients), the use of erythorbic acid as a food preservative has increased.
+    It is also used as a preservative in cured meats and frozen vegetables.
+        </string>
+		<key>chemicalName</key>
+		<string>Erythorbic acid</string>
+		<key>code</key>
+		<string>E317</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Petroleum based; the HACSG* recommends to avoid it. May cause nausea, vomiting, delirium. Acceptable Daily Intake: Up to 0.02 mg/kg body weight. A dose of 5g is considered fatal. Typical products are dairy blend edible fats and oils, margarine, dripping, salad dressing, lipsticks. Can normally be consumed by all religious groups, vegans and vegetarians.
+    Both the European Food Safety Authority (EFSA) and the United States Food and Drug Administration (FDA) have evaluated TBHQ and determined that it is safe to consume at the concentration allowed in foods. The FDA sets an upper limit of 0.02% of the oil or fat content in foods. At higher doses, it has some negative health effects on lab animals, such as producing precursors to stomach tumors and damage to DNA. A number of studies have shown that prolonged exposure to high doses of TBHQ may be carcinogenic, especially for stomach tumors. Other studies, however, have shown opposite effects including inhibition against HCA-induced carcinogenesis (by depression of metabolic activation) for TBHQ and other phenolic antioxidants (TBHQ was one of several, and not the most potent). The EFSA considers TBHQ to be non-carcinogenic.
+    A 1986 review of scientific literature concerning the toxicity of TBHQ determined that there is a wide margin of safety between the levels of intake by humans and the doses that produce adverse effects in animal studies.
+        </string>
+		<key>chemicalName</key>
+		<string>tert-Butylhydroquinone</string>
+		<key>code</key>
+		<string>E319</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Petroleum derivative, BHA is a synthetic analogue of vitamin E and operates by reducing oxygen radicals and interrupting the propagation of oxidation processes. It is widely used as an antioxidant and preservative, and is prepared from p-methoxyphenol and isobutene. BHA can be used in baked products as it is stable at high temperatures, it is mainly used to prevent rancidity in fats and oils. Typical products include biscuits, cakes, fats and oils, cereals, pastry and pastry products, sweets, edible oils, chewing gum, fats, margarine, nuts, instant potato products, polyethylene food wraps; not permitted in infant foods, can provoke an allergic reaction in some people, may trigger hyperactivity and other intolerances; serious concerns over carcinogenicity and estrogenic effects, in large doses caused tumours in lab animals, banned in Japan in 1958, official committees of experts recommended that it be banned in the UK, however due to industry pressure it was not banned, McDonalds eliminated BHT from their US products by 1986. Other names: tert-butyl-4-hydroxyanisole, tert-butyl-4-methoxyphenol, BOA, (1,1-dimethylethyl)-4-methoxyphenol.
+    The US National Institutes of Health report that BHA is reasonably anticipated to be a human carcinogen based on evidence of carcinogenicity in experimental animals. In particular, when administered in high doses as part of their diet, BHA causes papillomas and squamous cell carcinomas of the forestomach in rats and Syrian golden hamsters. In mice, there is no carcinogenic effect, and even evidence of a protective effect against the carcinogenicity of other chemicals.
+    When examining human population statistics, the usual low intake levels of BHA shows no significant association with an increased risk of cancer. The State of California, has, however, listed it as a carcinogen.
+        </string>
+		<key>chemicalName</key>
+		<string>Butylated hydroxyanisole</string>
+		<key>code</key>
+		<string>E320</string>
+	</dict>
+
 </array>
 </plist>

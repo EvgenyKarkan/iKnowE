@@ -1086,6 +1086,146 @@
 		<key>code</key>
 		<string>E320</string>
 	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Petroleum derivative; BHT is a synthetic analogue of vitamin E and operates by reducing oxygen radicals and interrupting the propagation of oxidation processes. It is widely used as an antioxidant and preservative, and is prepared from p-cresol and isobutylene. It is one of the most commonly used antioxidants for food oils and fats and is much cheaper than BHA although it has more limited applications due to instability at high temperatures. There is evidence that BHT causes cell division. Typical products include biscuits, cakes, fats and oils, cereals, pastry and pastry products, sweets.see 320. Other names: 2,6-di-tert-butyl-4-methylphenol, 2,6-bis(1,1-dimethylethyl)-4-methylphenol.</string>
+		<key>chemicalName</key>
+		<string>Butylated hydroxytoluene</string>
+		<key>code</key>
+		<string>E321</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Damages tooth enamel. Most citric acid is produced from corn, manufacturers do not always take out the protein which can be hydrolysed and create MSG (621) causing reactions in MSG-sensitive people.
+    Citric acid can be added to ice cream as an emulsifying agent to keep fats from separating, to caramel to prevent sucrose crystallization, or to recipes in place of fresh lemon juice. Citric acid is used with sodium bicarbonate in a wide range of effervescent formulae, both for ingestion (e.g., powders and tablets) and for personal care (e.g., bath salts, bath bombs, and cleaning of grease). Citric acid is also often used in cleaning products and sodas or fizzy drinks.
+    Citric acid sold in a dry powdered form is commonly sold in markets and groceries as "sour salt", due to its physical resemblance to table salt. It has use in culinary applications where an acid is needed for either its chemical properties or for its sour flavor, but a dry ingredient is needed and additional flavors are unwanted (e.g., instead of vinegar or lemon juice).
+        </string>
+		<key>chemicalName</key>
+		<string>Citric acid</string>
+		<key>code</key>
+		<string>E330</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Monosodium tartrate is a sodium salt of tartaric acid, E334, used mainly as an antioxidant and synergist in food, as well as an acidity regulator. Typical products include sweets, jelly, jams, carbonated beverages.
+    Disodium tartrate is a sodium salt of tartaric acid, E334, used mainly as an antioxidant and synergist in food, as well as an acidity regulator. Typical products include sweets, jelly, jams, carbonated beverages.  People with cardiac failure, high blood pressure, damaged liver or kidneys, and fluid retention. Found in most types of foods.
+            Acceptable Daily Intake: Up to 30 mg/kg body weight.
+        </string>
+		<key>chemicalName</key>
+		<string>Sodium tartrates</string>
+		<key>code</key>
+		<string>E335</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Orthophosphoric acid can only be obtained pure in the crystalline state and slowly undergoes dehydration to diphosphoric acid. Crystalline phosphoric acid has a hydrogen-bonded layer structure in which each molecule is attached to 6 others. Impure phosphoric acid has its main application in fertilisers, and also in the synthesis of pure phosphoric acid. In turn pure phosphoric acid is used in food, detergents, pharmaceuticals and metal treatment (e.g. pickling, cleaning, rust-proofing, polishing). Car bodies and electrical appliances are all protected against rust and blistering by the presence of a phosphatised undercoat. Phosphoric acid is used in the production of activated carbon, and may be used in soft drinks to give a sour taste.
+    Phosphoric acid is added to food to enhance the antioxidant effects of other compounds present, and also as an acidity regulator. Typical products include carbonated beverages, processed meat, chocolate, fats and oils, beer, jam, sweets. Too much in diet leads to loss of calcium in bones and onset of osteoporosis.  In fizzy drinks it allows more carbon dioxide concentration without bottle burst.  Soft drinks, beer, cheese products, snacks, and most processed foods. Other names: orthophosphoric acid.
+    Phosphoric acid is banned in organic food and drinks. Phosphoric acid is a highly acidic ingredient in cola drinks, used to offset the extreme sweetness. The way the kidneys excrete it is by bonding it with calcium taken from the bones, which can then leave the bones porous and brittle, and increase the risk of osteoporosis. A study, published in the Archives of Paediatric and Adolescent Medicine in 2000, showed that athletic teenage girls who consume cola drinks have been found to have five times the risk of bone fractures of those athletic girls who do not consume cola drinks. Acceptable Daily Intake: Up to 70 mg/kg body weight. Phosphoric acid and phosphates can normally be consumed by all religious groups, vegans and vegetarians. Although animal bones are mainly made up of phosphates, commercial phosphate is not made from bones.</string>
+		<key>chemicalName</key>
+		<string>Phosphoric acid</string>
+		<key>code</key>
+		<string>E338</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Synthetic food acid from nitric acid or from the beet root. Only a small amount can be metabolised by humans and is listed as having teratogenic properties. Eye irritant. Firming and raising agent used in baking powder, beer, all fruit drinks, jams, pudding mixes, ice blocks, margarine, etc.
+    Adipic acid, like most carboxylic acids, is a mild skin irritant. It is mildly toxic, with an LD50 of 3600 mg/kg for oral ingestion by rats.
+        </string>
+		<key>chemicalName</key>
+		<string>Adipic acid</string>
+		<key>code</key>
+		<string>E355</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Succinic acid is created as a byproduct of the fermentation of sugar. It lends to fermented beverages such as wine and beer a common taste that is a combination of saltiness, bitterness and acidity.
+    Succinic acid is an important biochemical intermediate that occurs in all living creatures. Like other simple mono- and dicarboxylic acids, it is not considered dangerous, although it is a skin irritant.
+    Banned in Australia. Naturally occurring in some animals and plants.
+        </string>
+		<key>chemicalName</key>
+		<string>Succinic acid</string>
+		<key>code</key>
+		<string>E363</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Avoid it. Powdered dessert and dried soup. Synthetic product, prepared from hydroxy-heptanoic acid.
+        </string>
+		<key>chemicalName</key>
+		<string>1,4-Heptonolactone</string>
+		<key>code</key>
+		<string>E370</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Synthetic flavour, texture retainer, anti-gushing agent in beer, preservative, sequestrant and colour promoter. Causes mineral imbalance. Known enzyme and blood coagulant inhibitor. Gastrointestinal disturbances, blood in urine, kidney damage and muscle cramps are side effects. Banned in Australia. Avoid it.  Watch for imported goods. Canned soft drink, tinned white potatoes, salad dressings, egg products, oleomargarine, potato salad, lima beans, mushrooms, pecan pie filling, sandwich spreads.
+        </string>
+		<key>chemicalName</key>
+		<string>Ethylenediaminetetraacetic acid</string>
+		<key>code</key>
+		<string>E385</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Propylene ester of alginic acid. Emulsifier, stabiliser. Allergic reactions but not enough tests done.
+        </string>
+		<key>chemicalName</key>
+		<string>Propylene glycol alginate</string>
+		<key>code</key>
+		<string>E405</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Fibre extracted from seaweed, used as a setting agent.  It has recently been linked with cancer because it may become contaminated when ethylene oxide is added to an inferior product, this results in ethylene chlorohydrin forming, a highly carcinogenic compound; linked to toxic hazards, including ulcers and cancer; the most serious concerns relate to degraded carrageenan, which is not a permitted additive; however, native carrageenan, which is used, may become degraded in the gut.
+            There have been several peer-reviewed animal studies whose authors presented their findings as evidence of tumor promotion by carrageenan. In an industry-funded study, Cohen  Ito discuss methodological problems with four such studies, along with several evaluations of genotoxic activity, and conclude that there is no credible evidence that carrageenan contributes to tumor promotion or colon cancer. In contrast, Tobacman's review of 45 publicly funded studies concludes that "the potential role of carrageenan in the development of gastrointestinal malignancy and inflammatory bowel disease requires careful reconsideration of the advisability of its continued use as a food additive." As of 2011, Kanneganti et al. note that "the role of both CGN  and dCGN as carcinogens still remains controversial".
+    Studies conducted with isolated cells and human intestinal epithelial cells in tissue culture as models for in vivo conditions have suggested carrageenan may trigger a number of responses in the body that lead to inflammation of the intestines or, bind to and activate several membrane receptor signaling pathways.
+    Carrageenan is commonly used to induce inflammatory responses in mice. Notably, the air pouch inflammation model is based on administration of 1% carrageenan into sub-cutaneous air pouches in mice and strong inflammatory reactions are observed as early as 4 hours post administration. This in vivo inflammation model has been widely used to study the effect of anti-inflammatory compounds.
+    Carrageenan's function as a food additive relates to its large molecular weight (200,000 - 800,000 Da) and tight binding to food protein, but also influences carrageenan's fate as it passes through the GI tract. Oral feeding studies with laboratory animals indicate dietary carrageenan is excreted quantitatively and is not accumulated in body organs such as the liver or colon; studies disagree with respect to whether it triggers gastrointestinal tract inflammation or contributes to tumor promotion. Long-term oral feeding studies found no adverse effects on male or female infant baboons reared from birth to 112 days of age on infant formula containing carrageenan at 5-times the concentration typically present in human infant formula as their only diet, but did observe histopathologic changes in rhesus monkey colon after drinking solution containing 1% undegraded carrageenan. Similarly, while no adverse effects were observed for multi-generations of rats fed up to 5% dietary carrageenan, or on hamsters and rats fed for a lifetime diets containing up to 5% carrageenan, administration of carrageenan to rodents in drinking water has resulted in some observations of GI-tract effects. Tight binding of carrageenan to ingested food proteins is considered less available than in drinking water for interaction with the absorptive cells of the GI tract, although some studies have linked food-grade carrageenan to gastrointestinal disease in laboratory animals, including ulcerative colitis-like disease, intestinal lesions, and ulcerations.
+    Carrageenan is inert to hydrolysis by intestinal enzymes in both humans and monogastric animals. Many older studies and a few recent studies have been based on the use of "degraded carrageenan," a fraction of low-molecular weight segments of the carrageenan molecular backbone called "poligeenan" that is used commercially for medical imaging. The use of "carrageenan" and "degraded carrageenan" interchangeably in the literature resulted in confusion and unfounded research conclusions. To resolve this within the scientific community, the U.S. Adopted Names Council assigned the name "poligeenan" to the fragments with molecular weight of 10,000 to 20,000 Da. Approximately 8% of the fragments of food-grade carrageenan are of molecular mass less than 50,000 Da, slightly in excess of the recommended minimum of 5% set by the European Scientific Committee on Food to ensure that the presence of poligeenan is kept to a minimum. The proportion of this 8% that consists of poligeenan is unknown.
+    In the U.S., carrageenan is allowed under FDA regulations as a direct food additive and is considered safe when used in the amount necessary as an emulsifier, stabilizer, or thickener in foods, except those standardized foods that do not provide for such use. FDA also reviewed carrageenan safety for infant formula. The National Organic Program (NOP) added carrageenan to the National List; reviewed and reauthorized in 2008 as "critical to organic production and handling operations". The European Food Safety Authority concluded "there is no evidence of any adverse effects in humans from exposure to food-grade carrageenan, or that exposure to degraded carrageenan from use of food-grade carrageenan is occurring", however, the Joint FAO/WHO expert committee on food additives states that "based on the information available, it is inadvisable to use carrageenan or processed eucheuma seaweed in infant formulas".
+        </string>
+		<key>chemicalName</key>
+		<string>Carrageenan</string>
+		<key>code</key>
+		<string>E407</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Arabinogalactan from Western and Eastern larch tree is self-affirmed as GRAS for use in nutritional supplements. This affirmation is based on a report of a panel of experts qualified to evaluate the safety of substances added to food. It also meets the pre-1994 requirements of the Dietary Supplement and Health Education Act (DSHEA), indicating that it may be sold in the United States as a dietary supplement.
+    Extensive research has been conducted on larch Arabinogalactan since 1970 including three articles in the SCIENCE NEWS, trade magazine of the research industry in 1971. Studies at Washington State University (1972), University of Montana, University of Minnesota Agricultural Experimental Station at Crookston, University of Minnesota (1998-99) and Purdue University. Larch Arabinogalactan was approved by the FDA in 1972 for direct addition to food and with GRAS status in 1998.
+    Arabinogalactan has a strong safety profile. The safety of Arabinogalactan is supported by its daily consumption in common fruits and vegetables, its fermentation by bacteria in the human colon and its ability to rapidly signal fecal bacteria enzymes to begin the fermentation process.
+    Joint FAO/WHO Expert Committee on Food Additives (JECFA) included Arabinogalactan into section “Jellifying Agents, Thickening Agents, Stabilizers of Botanical Origin” and registered it under number E-409. Arabinogalactan from the Western and Eastern larch tree is currently approved in Australia, New Zealand, Canada, Europe, Japan, South Korea, Taiwan, and Thailand.</string>
+		<key>chemicalName</key>
+		<string>Arabinogalactan</string>
+		<key>code</key>
+		<string>E409</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Derived from the Seeds of Cyamoposis tetragonolobus of Indian origin; fed to cattle in the US; can cause nausea, flatulence and cramps, may reduced cholesterol levels.
+    The largest market for guar gum is in the food industry. In the US, differing percentages are set for its allowable concentration in various food applications. In Europe, guar gum has EU food additive code E412. Xanthan gum and guar gum are the most frequently used gums in gluten-free recipes and gluten-free products.
+    Applications include:
+    In baked goods, it increases dough yield, gives greater resiliency, and improves texture and shelf life; in pastry fillings, it prevents "weeping" (syneresis) of the water in the filling, keeping the pastry crust crisp. It is primarily used in hypoallergenic recipes that use different types of whole-grain flours. Because the consistency of these flours allows the escape of gas released by leavening, guar gum is needed to improve the thickness of these flours, allowing them to rise as a normal flour would.
+    In dairy products, it thickens milk, yogurt, kefir, and liquid cheese products, and helps maintain homogeneity and texture of ice creams and sherbets. It is used for similar purposes in plant milks.
+    For meat, it functions as a binder.
+    In condiments, it improves the stability and appearance of salad dressings, barbecue sauces, relishes, ketchups and others.
+    In canned soup, it is used as a thickener and stabilizer.
+    It is also used in dry soups, instant oatmeal, sweet desserts, canned fish in sauce, frozen food items, and animal feed.
+    Guar gum, as a water-soluble fiber, acts as a bulk-forming laxative, so is claimed to be effective in promoting regular bowel movements and relieving constipation and chronic related functional bowel ailments, such as diverticulosis, Crohn's disease, colitis and irritable bowel syndrome.
+    Several studies have found significant decreases in human serum cholesterol levels following guar gum ingestion. These decreases are thought to be a function of its high soluble fiber content.
+    Guar gum has been considered of interest in regard to both weight loss and diabetic diets. It is a thermogenic substance. Moreover, its low digestibility lends its use in recipes as a filler, which can help to provide satiety, or slow the digestion of a meal, thus lowering the glycemic index of that meal. In the late 1980s, guar gum was used and heavily promoted in several weight-loss products. The US Food and Drug Administration eventually recalled these due to reports of esophageal blockage from insufficient fluid intake, after one brand alone caused at least 10 users to be hospitalized, and a death. For this reason, guar gum is no longer approved for use in over-the-counter weight loss aids in the United States. Moreover, a meta-analysis combining the results of 11 randomized, controlled trials found guar gum supplements were not effective in reducing body weight.
+    Two Japanese studies using rats showed guar gum supports increased absorption of calcium occurring in the colon instead of in the small intestine. This means lesser amounts of calcium may be consumed to obtain its recommended minimum daily intake. This has obvious implications for reduced calorie diets, since some calcium-rich dairy products tend to be high in calories.
+    Guar gum, though, is also capable of reducing the absorbability of dietary minerals (other than calcium), when foods or nutritional supplements containing them are consumed concomitantly with it, but this is less of a concern with guar gum than with various insoluble dietary fibers.
+    Some studies have found guar gum to improve dietary glucose tolerance. Research has revealed the water-soluble fiber in it may help people with diabetes by slowing the absorption of sugars by the small intestine. Although the rate of absorption is reduced, the amount of sugar absorbed is the same overall. This may help diabetic patients by moderating glucose "spikes".
+    Some studies have found an allergic sensitivity to guar gum developed in a few individuals working in an industrial environment where airborne concentrations of the substance were present. In those affected by the inhalation of the airborne particles, common adverse reactions were occupational rhinitis and asthma.
+    Soy protein occurs as an impurity in manufactured guar gum, and can make up as much as 10%. The guar gum can therefore adversely affect those with sensitivity to soy.
+    In July 2007, the European Commission issued a health warning to its member states after high levels of dioxins were detected in a food additive - guar gum - used as thickener in small quantities in meat, dairy, dessert or delicatessen products. The source was traced to guar gum from India that was contaminated with pentachlorophenol, a pesticide no longer in use. PCP contains dioxins as contamination. Dioxins damage the human immune system.
+        </string>
+		<key>chemicalName</key>
+		<string>Guar gum</string>
+		<key>code</key>
+		<string>E412</string>
+	</dict>
 
 </array>
 </plist>

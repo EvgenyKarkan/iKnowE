@@ -1226,6 +1226,1227 @@
 		<key>code</key>
 		<string>E412</string>
 	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Derived from the sap of Acacia Sengal; consists of high molecular weight polysaccharides which can be used to produce arabinose, galactose, rhamnose and glucuronic acid. Gum arabic is used in food as a thickener, stabiliser, glazing agent and emulsifier, and is readily water-soluble. Easily broken down by the human digestive system; possible allergen, and may cause asthma and skin rash. Soothes irritations of mucous membranes. Typical products include chewing gum, sweets, jelly, fondants, beer, soft drinks, fruit squash, wine. May cause weak allergic reaction in some individuals. May act as an irritant.</string>
+		<key>chemicalName</key>
+		<string>Tragacanth</string>
+		<key>code</key>
+		<string>E413</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Derived from the sap of Acacia Sengal; consists of high molecular weight polysaccharides which can be used to produce arabinose, galactose, rhamnose and glucuronic acid. Gum arabic is used in food as a thickener, stabiliser, glazing agent and emulsifier, and is readily water-soluble. Easily broken down by the human digestive system; possible allergen, and may cause asthma and skin rash. Soothes irritations of mucous membranes. Typical products include chewing gum, sweets, jelly, fondants, beer, soft drinks, fruit squash, wine. May cause weak allergic reaction in some individuals. May act as an irritant.</string>
+		<key>chemicalName</key>
+		<string>Acacia Gum</string>
+		<key>code</key>
+		<string>E414</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Derived from the tree Sterculia urens; often used in conjunction with Carob (410), in ice cream, custard and sweets, as a filler for its capability to multiply its volume by 100 times with the addition of water, can be used as a laxative; possible allergen and in powdered form causes asthma, urticarisa, rhinitis, and dermatitis.</string>
+		<key>chemicalName</key>
+		<string>Karaya gum</string>
+		<key>code</key>
+		<string>E416</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Stabiliser. No known side effects, powdered form may cause allergies. Used in ice-cream and cosmetics. </string>
+		<key>chemicalName</key>
+		<string>Tara gum</string>
+		<key>code</key>
+		<string>E417</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Artificial sweetener and humectant; derived from glucose, either obtained from berries of the Sorbus aucuparia tree or synthesised; used in confectionary, dried fruit, pastries, low calorie foods, pharmaceutical syrups and ophthalmic preparations and is the seventh most widely used preservative in cosmetics; not permitted in foods for infants and young children, can cause gastric disturbance.  Four pieces of low-joule chewing gum can make a child seriously ill. Not recommended for diabetics or people with fructose intolerance.
+    Aldose reductase is the first enzyme in the sorbitol-aldose reductase pathway responsible for the reduction of glucose to sorbitol, as well as the reduction of galactose to galactitol. Too much sorbitol trapped in retinal cells, the cells of the lens, and the Schwann cells that myelinate peripheral nerves can damage these cells, leading to retinopathy, cataracts and peripheral neuropathy, respectively. Aldose reductase inhibitors, which are substances that prevent or slow the action of aldose reductase, are currently being investigated as a way to prevent or delay these complications, which frequently occur in the setting of long-term hyperglycemia that accompanies poorly-controlled diabetes. It is thought that these agents may help to prevent the accumulation of intracellular sorbitol that leads to cellular damage in diabetics.
+    Sorbitol also may aggravate irritable bowel syndrome, and similar gastrointestinal conditions, resulting in severe abdominal pain for those affected, even from small amounts ingested.
+    It has been noted that the sorbitol added to SPS (Sodium Polystyrene Sulfonate, used in the treatment of hyperkalemia) can cause complications in the GI tract, including bleeding, perforated colonic ulcers, ischemic colitis and colonic necrosis, particularly in patients with uremia. The authors of the paper in question cite a study on rats (both non-uremic and uremic) in which all uremic rats died on a sorbitol enema regimen, whilst uremic rats on non-sorbitol regimens - even with SPS included - showed no signs of colonic damage. In humans, it is suggested that the risk factors for sorbitol-induced damage include "... immunosuppression, hypovolemia, postoperative setting, hypotension after hemodialysis, and peripheral vascular disease." They conclude that SPS-sorbitol should be used with caution, and that "Physicians need to be aware of SPS-sorbitol GI side effects while managing hyperkalemia."
+    Ingesting large amounts of sorbitol can lead to abdominal pain, flatulence, and mild to severe diarrhea. Sorbitol ingestion of 20 grams (0.7 oz) per day as sugar-free gum has led to severe diarrhea leading to unintended weight loss of 11 kilograms (24 lb) in eight months, in a woman originally weighing 52 kilograms (110 lb); another patient required hospitalization after habitually consuming 30 grams (1 oz) per day.
+        </string>
+		<key>chemicalName</key>
+		<string>Sorbitol</string>
+		<key>code</key>
+		<string>E420</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Artificial sweetener and humectant; derived from seaweed or the manna ash tree, but manufactured commercially by hydrogenation of invert sugar (glucose and fructose), monosaccharides and sucrose. Possible allergen, not permitted in infant foods due to its ability to cause diarrhoea and kidney dysfunction, also may cause nausea, vomiting; typical products are low calorie sugar-free foods, mustard, puddings, sauces, frozen fish. Other Names: 1,2,3,4,5,6-hexanehexol, mannite, manna sugar.
+    Mannitol increases blood glucose to a lesser extent than sucrose (thus having a relatively low glycemic index) and is therefore used as a sweetener for people with diabetes, and in chewing gums. Although mannitol has a higher heat of solution than most sugar alcohols, its comparatively low solubility reduces the cooling effect usually found in mint candies and gums. However, when mannitol is completely dissolved in a product, it induces a strong cooling effect. Also, it has a very low hygroscopicity- it does not pick up water from the air until the humidity level is 98%. This makes mannitol very useful as a coating for hard candies, dried fruits, and chewing gums, and it is often included as an ingredient in candies and chewing gum. The pleasant taste and mouthfeel of mannitol also makes it a popular excipient for chewable tablets.
+        </string>
+		<key>chemicalName</key>
+		<string>Mannitol</string>
+		<key>code</key>
+		<string>E421</string>
+	</dict>
+    <dict>
+		<key>danger</key>
+		<string>    Humectant and sweetener; oily colourless alcohol; derived by decomposition of natural fats with alkalis; usually as a by-product of soap making using animal fat or vegetable oil; can be obtained from petroleum products sometimes synthesised from propylene or fermented from sugar; used in flexible coatings on sausages and cheeses, also in crystallised and dried fruit, liqueurs and vodka, marshmallows, soft drinks, desserts, confectionary, tooth paste, etc.;Glycerine has been shown to protect against DNA damage induced by tumour promoters, ultraviolet lights and radiation, presumably via free radical scavenging; large quantities can cause headaches, thirst, nausea and high blood sugar levels.
+    In food and beverages, glycerol serves as a humectant, solvent, and sweetener, and may help preserve foods. It is also used as filler in commercially prepared low-fat foods (e.g., cookies), and as a thickening agent in liqueurs. Glycerol and water are used to preserve certain types of leaves. As a sugar substitute, it has approximately 27 kilocalories per teaspoon (sugar has 20) and is 60% as sweet as sucrose. It does not feed the bacteria that form plaques and cause dental cavities. As a food additive, glycerol is labeled as E number E422. It is added to icing (frosting) to prevent it setting too hard.
+
+        </string>
+		<key>chemicalName</key>
+		<string>Glycerol</string>
+		<key>code</key>
+		<string>E422</string>
+	</dict>
+
+    
+    <dict>
+		<key>danger</key>
+		<string>    Synthetic compound, produced from ethylene oxide (a synthetic compound) and stearic acid (a natural fatty acid). Emulsifier, stabiliser. Potentially cancer-inciting. See E432. Used in sauces and (mainly) cosmetics. Acceptable Daily Intake: Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds. Side effects:
+            No known side effects in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436. These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin.
+        </string>
+		<key>chemicalName</key>
+		<string>Polyoxyethylene (8) Sterate</string>
+		<key>code</key>
+		<string>E430</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Emulsifier. Skin allergy in some people. Synthetic compound, produced from ethylene oxide (a synthetic compound) and stearic acid (a natural fatty acid). Emulsifier, stabiliser. Used in bakery products, puddings, etc. Acceptable Daily Intake: Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds. No known side effects in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436. These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin.
+        </string>
+		<key>chemicalName</key>
+		<string>Polyoxyethylene (40) stearate</string>
+		<key>code</key>
+		<string>E431</string>
+	</dict>
+	<dict>
+		<key></key>
+		<string></string>
+		<key>danger</key>
+		<string>    Emulsifier, stabiliser in a large range of foods including chewing gum, ice cream, soft drinks.  Causes fat absorption. Potentially cancer-inciting. Avoid it. Synthetic compound, produced from ethylene oxide (a synthetic compound) and stearic acid (a natural fatty acid). Acceptable Daily Intake: Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds.
+    No known side effects in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436. These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin. Banned in Australia.</string>
+		<key>chemicalName</key>
+		<string>Polyoxyethylene (20) sorbitan monolaurate</string>
+		<key>code</key>
+		<string>E432</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Emulsifiers derived from animal fatty acids; used as synthetic flavourings, surfactants, defoaming agents and dough conditioners; may increase the absorption of fat-soluble substances. Possible cancer causing. See E432.
+    In Europe and America people eat about 100 mg of polysorbate 80 in foods per day. Influenza vaccines contain 25 μg of polysorbate 80 per dose.
+    In general, polysorbate 80 is safe and well tolerated, although a small number of people may be sensitive to this substance, and it may be harmful to people with Crohn's disease. Polysorbate 80 is not carcinogenic.
+    Rats fed with diets containing up to 5% polysorbate 80 by volume for 12 weeks showed no toxic effects. However, the levels of polysorbate 80 used in the study were determined based on an assumed maximum human consumption of 750 mg per day, and the study did find statistically significant differences in efficiency of caloric utilization.  A 1956 study saw no effect on reproduction in rats at up to 5% of their diet being polysorbate 80, although reproduction decreased at 20% of the diet (duration of study?). A 1993 study raised concerns that polysorbate 80 might decrease fertility in rats. A 1997 study on two rats looked at the effect of consuming three doses by body weight of 0.5%/day on the sex organs of female rats and saw no abnormal changes in uterine weight, note that this does not take into account myriad possible epigenetic, or even physically observable differences in structure and function. (duration of study?); this is equivalent to a 70 kg person consuming about 350 g per day for three days. A 2008 study concluded that there was no observable adverse effects at doses per body weight of up to 1.85 ml/kg·day, which is equivalent to a 70 kg person consuming about 140 g of this substance per day for 21 days. However, administration of 16.783 ml/kg·day to pregnant rats lowered body weight in male and female offspring. This is equivalent to a person consuming about 1.3 kg of polysorbate 80 per day for 21 days.
+        </string>
+		<key>chemicalName</key>
+		<string>Polyoxethylene sorbitan mono-oleate</string>
+		<key>code</key>
+		<string>E433</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Avoid it. Possible cancer causing. A synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and palmitic acid (a natural fatty acid). Emulsifier. Found in cakes Acceptable Daily Intake: Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds. Side effects: None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436. These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin. </string>
+		<key>chemicalName</key>
+		<string>Polyoxethylene sorbitan monopalminate</string>
+		<key>code</key>
+		<string>E434</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Avoid it. Possible cancer causing. Found in every kind of food. A synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and palmitic acid (a natural fatty acid). Emulsifier. Acceptable Daily Intake: Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds. Side effects: None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436. These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin.
+        </string>
+		<key>chemicalName</key>
+		<string>Polyoxethylene sorbitan monostearate</string>
+		<key>code</key>
+		<string>E435</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Avoid it. Possible cancer causing. E436 is a synthetic compound, produced from ethylene oxide (a synthetic compound), sorbitol (see E420) and stearic acid (a natural fatty acid). Emulsifier, anti-foaming agent, etc.  Found in many different products. Acceptable Daily Intake: Up to 25 mg/kg body weight for the entire group of compounds in the 430-E436 range; on the other hand, it has not been specified for the individual compounds. Side effects:  None known in the concentrations used. People intolerant of propylene glycol should also avoid the group of 430-E436. These compounds (430-E436) contain fatty acids, which are nearly always from vegetable oils; however, use of animal fat (including pork) cannot be fully ruled out. Chemically, the origin of these compounds cannot be determined; only the producer may provide information on the origin.
+        </string>
+		<key>chemicalName</key>
+		<string>Polyoxyethylene-20-sorbitan tristearate</string>
+		<key>code</key>
+		<string>E436</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Obtained from animal by-products, such as bones and hides. It can be produced from all species of animals. Used as thickening and gelling agent. Many different products. Acceptable Daily Intake: None determined. Side effects: None known when used in foods. Can not be used by vegans and vegetarians. Use by religious groups, such as Muslims and Jews is restricted, due to the origin of the product. Unfortunately information on origin can only be obtained from the producer. Specific halal gelatine is made from cattle.  In a huge range of foods and in some vaccines.  Possible allergen, may contain 220 (sulphur dioxide), asthmatics and people allergic to sulphites beware!  Classified as a food not an additive.
+    Strict regulations apply for all steps in the gelatin manufacturing process. Gelatin is produced from natural raw materials which originate from animals that have been examined and accepted for human consumption by veterinary authorities. Hygienic regulations with respect to fresh raw materials are ensured and each batch of raw material delivered to the manufacturing plant is immediately checked and documented.
+    In addition to the raw material quality, also the production process itself is an effective quality assurance measure. In the production process a comprehensive monitoring system ensures that potential risks are minimized.
+    The U.S. Food and Drug Administration (FDA), with support from the TSE (Transmissible spongiform encephalopathy) Advisory Committee, has since 1997 been monitoring the potential risk of transmitting animal diseases, especially bovine spongiform encephalopathy (BSE), commonly known as Mad Cow disease. The FDA study concluded: "...steps such as heat, alkaline treatment, and filtration could be effective in reducing the level of contaminating TSE agents; however, scientific evidence is insufficient at this time to demonstrate that these treatments would effectively remove the BSE infectious agent if present in the source material."
+    The Scientific Steering Committee (SSC) of the European Union (EU) in 2003 stated that the risk associated with bovine bone gelatin is very low or zero. In 2006 the European Food Safety Authority (EFSA) stated that the SSC opinion was confirmed, that the BSE risk of bone-derived gelatin was very small, and removed support for the 2003 request of excluding the skull and vertebrae of bovine origin older than 12 months from the material used in gelatin manufacturing.
+    All reputable gelatin manufacturers today follow the Quality Management System according to ISO 9001 to comply with all required physical, chemical, microbiological and technical production and quality standards. In this way all process steps follow international laws and customer-specific quality parameters and are guaranteed and documented. For pharmaceutical grade gelatins strict regulations from the Food and Drug Administration (FDA), the European CPMP's regulation and European Pharmacopoeia must be met. A detailed overview of the regulatory requirements for gelatin production can be found in the Gelatine Handbook, pp. 99–101.
+        </string>
+		<key>chemicalName</key>
+		<string>Gelatine</string>
+		<key>code</key>
+		<string>E441</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    High intakes may upset the calcium/phosphate equilibrium, headaches, nausea, vomiting, dehydration, diarrhoea, thirst, dizziness and mental confusion.
+        </string>
+		<key>chemicalName</key>
+		<string>Glycerol esters of wood rosins</string>
+		<key>code</key>
+		<string>E445</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically methylated. Thickener, emulsifier in baked food, diabetic food, soft and fizzy drinks, jelly, jam and many of 410. Can cause flatulence, distension, intestinal obstruction.
+        </string>
+		<key>chemicalName</key>
+		<string>Methyl cellulose</string>
+		<key>code</key>
+		<string>E461</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Ethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically ethylated. Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsifier. Few products, and no longer permitted as emulsifier in the EU. Acceptable Daily Intake: None determined. Side effects: Ethylcellulose is practically non soluble, but can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.
+        </string>
+		<key>chemicalName</key>
+		<string>Ethyl cellulose</string>
+		<key>code</key>
+		<string>E462 </string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Hydroxypropylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically propylated. Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsfier. Similar as cellulose, but better soluble in water. many different products. Banned in Australia. Hydroxypropyl cellulose is quite soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea. Avoid it.
+        </string>
+		<key>chemicalName</key>
+		<string>Hydroxypropyl cellulose</string>
+		<key>code</key>
+		<string>E463</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Hydroxypropylmethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically modified. Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsifier. Similar as cellulose, but better soluble in water. Found in many different products. Acceptable Daily Intake: None determined. Hydroxypropylmethyl cellulose is quite soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea.
+        </string>
+		<key>chemicalName</key>
+		<string>Hydroxypropyl methyl cellulose</string>
+		<key>code</key>
+		<string>E464</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Carboxymethylcellulose is prepared from cellulose, the main polysaccharide and constituent of wood and all plant structures. Commercially prepared from wood and chemically modified. No known adverse effects but it could be produced from genetically engineered cotton plants. Known to cause cancer when ingested by test animals. Many different uses, mainly as thickening agent, but also as filler, dietary fibre, anti clumping agent and emulsifier. Similar as cellulose, but very soluble in water. Found in many different products. Carboxymethyl cellulose is very soluble, and can be fermented in the large intestine. Large concentrations can cause intestinal problems, such as bloating, constipation and diarrhoea. It also lowers slightly the blood cholesterol level.
+        </string>
+		<key>chemicalName</key>
+		<string>Carboxymethyl cellulose</string>
+		<key>code</key>
+		<string>E466</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    May be re-classified as a miscellaneous additive</string>
+		<key>chemicalName</key>
+		<string>Crosslinked sodium carboxymethyl cellulose</string>
+		<key>code</key>
+		<string>E468</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    No known effects for food use. Emulsifier, stabiliser, artificial sweetener, anti-caking and release agent.
+        </string>
+		<key>chemicalName</key>
+		<string>Magnesium stearate</string>
+		<key>code</key>
+		<string>E470</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>(i) Sodium salts of fatty acids
+            (ii) Potassium salts of fatty acids
+            (iii) Calcium salts of fatty acids
+    Banned in Australia. Salts of natural fatty acids, mainly from plant origin, but also fats of animal origin may be used. The acids are a mixture of stearic-, oleic-, palmitic- and myristinic acid. Emulsifiers and stabilisers. Can cause gastric upsets. The body metabolises the products as any other fat. Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical.
+        </string>
+		<key>chemicalName</key>
+		<string>Sodium, potassium and calcium salts of fatty acids</string>
+		<key>code</key>
+		<string>E470(a)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Avoid it. Esters of sugar and fats, produced from sugar and natural fats. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components. Emulsifiers and stabilisers. Found in many different products. Acceptable Daily Intake: 16 mg/kg bodyweight. The products are first digested to sugar and fats. The body metabolises all components identical to sugar and natural fat. Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical.
+        </string>
+		<key>chemicalName</key>
+		<string>Sucroglycerides</string>
+		<key>code</key>
+		<string>E474</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Emulsifier, stabiliser. Combination of propanediol and natural fats. Normal fat consists of glycerol and fatty acids, for these products glycerol is replaced by propanediol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components. Can be derived from petroleum; no known adverse effects.  Used in confectionary, soft and fizzy drinks, toppings, ice cream, processed meat.  Both components are normally present in the body and will be metabolised in the normal way. High concentrations of propyleneglycol can cause eczema in sensitive persons, but not normally from the use in foods. Although mainly vegetable oils are used, the use of animal fat (incl. pork) can not be excluded. Several groups, such as vegans, Muslims and Jews thus avoid these products. Only the producer can give detailed information on the origin of the fatty acids. Chemically the fatty acids from vegetable or animal origin are identical. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Propane-1, 2-Diol esters of fatty acids</string>
+		<key>code</key>
+		<string>E477</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Combination of lactic acid, glycerol, propanediol and natural fats. Normal fat consists of glycerol and fatty acids, for these products glycerol is replaced by propanediol. The fats are mainly from plant origin, but also fats of animal origin may be used. The product generally is a mixture of different components. Emulsifier, stabiliser, whipping agent, plasticiser and surface active agents. May cause headaches, nausea, vomiting, dehydration, diarrhoea, theist, dizziness and mental confusion. Avoid it.
+        </string>
+		<key>chemicalName</key>
+		<string>Lactylated fatty acid esters of glycerol and propane-1, 2-diol</string>
+		<key>code</key>
+		<string>E478</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Combination of stearic acid and tartaric acid, resulting in a mixture of several components. The origin of stearic acid can be or plant or animal fat, although in practice nearly always vegetable oil will be used. Emulsifier, stabiliser. Banned in Australia. Avoid it.
+        </string>
+		<key>chemicalName</key>
+		<string>Stearyl tartrate</string>
+		<key>code</key>
+		<string>E483</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Emulsifier, stabiliser. Only allowed in compounded chocolate.  May increase the absorption of liquid paraffin and fat-soluble substances. Avoid it.
+        </string>
+		<key>chemicalName</key>
+		<string>Sorbitan tristearate</string>
+		<key>code</key>
+		<string>E492</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Produced from sorbitol and lauric acid, a normal fatty acid from vegetable or animal origin. Emulsifier, stabiliser stopping sugar mixes from foaming. Banned in Australia. Avoid it.
+        </string>
+		<key>chemicalName</key>
+		<string>Sorbitan monolaurate</string>
+		<key>code</key>
+		<string>E493</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Produced from sorbitol and lauric acid, a normal fatty acid from vegetable or animal origin. Emulsifier, stabiliser stopping yeast products foaming.  Banned in Australia. Used in pharmaceuticals. Avoid it.
+        </string>
+		<key>chemicalName</key>
+		<string>Sorbitan mono-oleate</string>
+		<key>code</key>
+		<string>E494</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>    Produced from sorbitol and lauric acid, a normal fatty acid from vegetable or animal origin. Emulsifier, stabiliser as alternative for 491. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Sorbitan monopalmitate</string>
+		<key>code</key>
+		<string>E495</string>
+	</dict>
+    
+    
+	<dict>
+		<key>danger</key>
+		<string>(i) Ammonium carbonate
+            (ii) Ammonium hydrogen carbonate
+            Produced from ammonium sulphate and calcium carbonate, natural minerals. Mineral salt, adjusting and modifying agent. Irritant to mucous membranes, alters pH of urine and may cause loss of calcium and magnesium.  Used in some medications, baked goods, baking powder, cocoa items confectionary, ice cream.</string>
+		<key>chemicalName</key>
+		<string>Ammonium carbonates</string>
+		<key>code</key>
+		<string>E503</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>HCl can be prepared commercially by the reaction of sulphuric acid with sodium chloride, or directly by reaction of hydrogen and chlorine gases; the reaction is very exothermic and takes place readily in sunlight or at elevated temperatures. The major use of HCl is in the manufacture of other chemicals, but other principle applications include metal pickling, gelatine, dyestuffs, casein, pharmaceuticals, synthetic rubber and metal chlorides manufacture. Large amounts of hydrochloric acid are used in effluent treatment and for the regeneration of ion exchange resins in water treatment. Produced in the stomach to aid digestion. May have teratogenic properties and may be carcinogenic when mixed with formaldehyde. Safe in small quantities.  Mainly for the malting of beer, gelatine manufacture, cornflour. Other names: muriatic acid, chlorohydric acid.</string>
+		<key>chemicalName</key>
+		<string>Hydrochloric acid</string>
+		<key>code</key>
+		<string>E507</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mineral salt. Large quantities can cause gastric ulceration. Used as an electrolyte replenisher. Used in brewing, salt substitute, gelling agent, reduced sodium breads.</string>
+		<key>chemicalName</key>
+		<string>Potassium chloride</string>
+		<key>code</key>
+		<string>E508</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Natural salt, part of sea salt and rock salt. Prepared from hydrochloric acid and ammonia. Should be avoided by people with impaired liver or kidney function. Acidity regulator, flavour and nutrient for yeast in yeast-fermented products such as  flour products, bread, bread mixes, low sodium salt substitute.</string>
+		<key>chemicalName</key>
+		<string>Ammonium chloride</string>
+		<key>code</key>
+		<string>E510</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Sulphuric acid was manufactured by the lead-chamber process until the mid-1930s, but this process has now been replaced by the contact process, involving the catalytic oxidation of sulphur dioxide. The structure of sulphuric acid is considered to be a mixture of several rapidly interconverting equivalent forms. Typical products include beer. Banned in Australia. Has teratogenic properties. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Sulphuric acid</string>
+		<key>code</key>
+		<string>E513</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared from salt and sulphuric acid. Mineral salt, anti-caking agent for diluting colour powders in beer, biscuits, chewing gum, confectionary. May upset the body&apos;s water balance.</string>
+		<key>chemicalName</key>
+		<string>Sodium sulphates</string>
+		<key>code</key>
+		<string>E514</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared from magnesium salts and sulphuric acid. Natural mineral. Mineral salt, firming agent for medications, pharmaceuticals, nutrition supplements and infant formula as a mineral. Used in beer and a laxative. Dangerous to people with kidney problems and has teratogenic properties.</string>
+		<key>chemicalName</key>
+		<string>Magnesium sulphate, Epsom salts</string>
+		<key>code</key>
+		<string>E518</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared from natural salt. Adjusting agent, base and colour solvent (caustic). Used in drain cleaners, cocoa products, sour cream, edible fats and oils, jam, tinned vegetables, glaze on pretzels, enhance the industrial peeling of fruits, to blacken olives and in the preparation of caramel. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Sodium hydroxide</string>
+		<key>code</key>
+		<string>E524</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mineral salt (caustic) used in cocoa products, cheese products, jam black olives. Banned in Australia, check imported foods. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Potassium hydroxide</string>
+		<key>code</key>
+		<string>E525</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mineral salt made from lime as a firming and neutralising agent used in making beer, soap and glazing pretzels, infant formula as a mineral, cocoa products, sour cream, edible fats and oils, jam, tinned vegetables. Strong alkali used as acidity regulator, for example in wine. A solution of calcium hydroxide can be used to preserve eggs. A solution of calcium hydroxide and sugar (1:3) is used to regulate the acidity in frozen products. In strengthens the structure of vegetables during processing. No adverse effects in small quantities.</string>
+		<key>chemicalName</key>
+		<string>Calcium hydroxide</string>
+		<key>code</key>
+		<string>E526</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Diluted household ammonia. Strong alkali used as acidity regulator. Also used for the production of caramel. Found in Egg and cocoa products, colours. Banned in Australia. Avoid it.</string>
+		<key>code</key>
+		<string>E527</string>
+		<key>chemialname</key>
+		<string>Ammonium hydroxide</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mineral salt. Milk of magnesia. Strong alkali used as acidity regulator. Used in cheese to enhance rennet and stabilises the colour of vegetables during canning. Laxative in high concentration. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Magnesium hydroxide</string>
+		<key>code</key>
+		<string>E528</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mineral salt prepared from chalk, used as adjusting and modifying agent used in bread, confectionary, sour cream, dairy products, tripe, tinned peas. Also used in the manufacture of sugar to remove impurities, in bakery products as stabiliser and as a nutrient for yeast. It is also used in the preparation of intestines for sausages (as cover, not filling). Safe in small quantities.</string>
+		<key>chemicalName</key>
+		<string>Calcium oxide</string>
+		<key>code</key>
+		<string>E529</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared from several minerals. Alkali, neutraliser and anti-caking agent.  It can be found in frozen dairy products, butter, canned peas, cocoa products, medications. Used as a medical laxative in high concentrations. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Magnesium oxide</string>
+		<key>code</key>
+		<string>E530</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared from hydrogen ferrocyanide and potassium hydroxide. Synthetic crystallising agent. Metal removal in wine, anti-caking agent, seasonings, spices. By-product of coal gas production; low toxicity, reduces oxygen transport in the blood, which in turn may cause breathing difficulties, dizziness or headache.  Banned in the United States.</string>
+		<key>chemicalName</key>
+		<string>Potassium ferrocyanide</string>
+		<key>code</key>
+		<string>E536</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic compound. Used as anti-oxidant, especially to inhibit browning in potato products. Acceptable daily intake (ADI): Up to 0,7 mg/kg bodyweight. Side effects:
+            Thiosulphate is converted into sulphite and has similar side effects, see E221 . Can be used by all religious groups, vegetarians and vegans.</string>
+		<key>chemicalName</key>
+		<string>Sodium thiosulphate</string>
+		<key>code</key>
+		<string>E539</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Occurs naturally as monetite. Buffer, neutralising and raising agent in yeast products, dietary supplement. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Dicalcium diphosphate</string>
+		<key>code</key>
+		<string>E540</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>(i) : Acid sodium aluminium phosphate
+            (ii) : Alkaline sodium aluminium phosphate
+            Synthetically produced from aluminium, phosphoric acid and sodium hydroxide.
+            Acidity regulator, emulsifier used in baked goods, cheese products, confectionary, mince meat, frozen fish, stews. A risk to babies, elderly and people suffering from kidney and heart complaints. Aluminium impairs the calcium and phosphorous uptake by the body.  Possible link to osteoporosis, Parkinson&apos;s and Alzheimer&apos;s disease. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Sodium aluminium phosphate, acidic</string>
+		<key>code</key>
+		<string>E541</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Produced by heating calcium phosphate. Emulsifier and stabiliser salts for use in foods mainly with dairy and cheese products in them, everything but fizzy drinks!  May cause enzyme blocking in the digestive system and cause calcium phosphorous imbalance. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Calcium polyphosphates</string>
+		<key>code</key>
+		<string>E544</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Produced by heating ammonium hydrogen phosphate. Emulsifier salts as for 544, plus chewing gum, beer, cider, herb teas, confectionary, processed nuts. Also used as nutrient for yeast and increases water binding properties. Banned in Australia. Avoid it. See 544</string>
+		<key>chemicalName</key>
+		<string>Ammonium polyphosphates</string>
+		<key>code</key>
+		<string>E545</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>(i) Magnesium silicate
+            (ii) Magnesium trisilicate
+            Produced from magnesium sulphate and sodium silicate or directly from minerals such as talcum, sepiolite and steatite Antacid, glaze, polish, release, anti-caking, dusting, coating agent. Avoid it. </string>
+		<key>chemicalName</key>
+		<string>Magnesium silicates</string>
+		<key>code</key>
+		<string>E553(a)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Produced from magnesium sulphate and sodium silicate or directly from minerals such as talcum, sepiolite and steatite Has been linked to stomach cancer, typical products are polished rice, chocolate, confectionary, icing sugar, noodles, medicinal tablets.</string>
+		<key>chemicalName</key>
+		<string>Talc</string>
+		<key>code</key>
+		<string>E553(b)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Produced from several natural minerals. Mineral salt, anti-caking agent. Used in salt, dried milk substitutes, egg mixes, sugar products and flours.  Aluminium is known to cause placental problems in pregnancy and has been linked to Alzheimer&apos;s Parkinson&apos;s, bone loss.</string>
+		<key>chemicalName</key>
+		<string>Sodium aluminium silicate</string>
+		<key>code</key>
+		<string>E554</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Produced from several natural minerals. Used as anti-caking agent. Used in dry products (milk), but hardly used. See 554</string>
+		<key>chemicalName</key>
+		<string>Calcium aluminium silicate</string>
+		<key>code</key>
+		<string>E556</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>No known adverse effects. A natural type of clay from volcanic origin. Decolouriser, filter medium, emulsifier and anti-caking agent. Used in pharmaceutical agents for external use, edible fats and oils, sugar, wine. Known to block skin pores.</string>
+		<key>chemicalName</key>
+		<string>Bentonite</string>
+		<key>code</key>
+		<string>E558</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>A fine usually white clay formed by the weathering of aluminous minerals (such as feldspar). No known adverse effects, except in large quantities can cause intestinal obstruction and tumours. Mineral salt, anti-caking agent used in medications and vending machine dried milk. Used in cosmetics, blocks skin pores.</string>
+		<key>chemicalName</key>
+		<string>Aluminium silicate (Kaolin)</string>
+		<key>code</key>
+		<string>E559</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Sodium salt of gluconic acid, E574. Synthetic.  Picks up metal traces and holds them in the product. Dietary supplement and sequestrant found in baked goods, confectionary, soft, sports and fizzy drinks, processed meats, nutritional supplements, desserts. Banned in Australia. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Sodium gluconate</string>
+		<key>code</key>
+		<string>E576</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Colour-retention agent; Iron salt of gluconic acid, E574.; used in olives, iron supplements (use sparingly). In small amounts it is safe but may cause gastrointestinal stress. Used in the treatment of iron deficiency anaemia. Restricted in the USA for colouring olives only as is known to cause death in children up to 24 months with only 1 - 2 grams! Acceptable daily intake (ADI): Up to 0,8 mg/kg bodyweight</string>
+		<key>chemicalName</key>
+		<string>Ferrous gluconate</string>
+		<key>code</key>
+		<string>E579</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Natural amino acid (building block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Glutamic acid and glutamates are present in all proteins. Free glutamates are present in high concentrations in ripened cheese, breast milk, tomatoes and sardines. Flavour enhancer, salt substitute used in sausages, seasoning, savoury snacks - many savoury foods. An amino acid present in many animal and vegetable proteins, derived commercially from bacteria; might cause similar problems as MSG (621), young children should avoid it. It could kill nerve cells, resulting in diseases such as Huntington&apos;s, Alzheimer&apos;s and Parkinson&apos;s.</string>
+		<key>chemicalName</key>
+		<string>Glutamic acid</string>
+		<key>code</key>
+		<string>E620</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Sodium salt from glutamic acid (E620), a natural amino acid (building block of protein). Commercially prepared from molasses by bacterial fermentation. Added to any savoury processed protein food.  In cigarettes and animal food.  In over 10,000 foods in USA.  Flavour enhancer derived from the fermentation of molasses, salt substitute; adverse effects appear in some asthmatic people, should not be permitted in foods for infants and young children as it could damage the nervous system. Typical products are canned vegetables, canned tuna, dressings, many frozen foods. To be avoided. It could kill nerve cells, resulting in diseases such as Huntington&apos;s, Alzheimer&apos;s and Parkinson&apos;s. Pregnant women, children, hypoglycaemic, elderly and those with heart disease are at risk from reactions.</string>
+		<key>chemicalName</key>
+		<string>Monosodium L-glutamate (MSG)</string>
+		<key>code</key>
+		<string>E621</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Potassium salt from glutamic acid (E620), a natural amino acid (building block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Less used and not as salty, low sodium salt substitute. Can cause nausea, vomiting, diarrhoea, abdominal cramps; typical products are low sodium salt substitutes. Not for babies under 12 months old or those people with impaired kidneys.  See 621.</string>
+		<key>chemicalName</key>
+		<string>Monopotassium L-glutamate</string>
+		<key>code</key>
+		<string>E622</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>g block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Salt substitute, no known adverse effects, but possible problems for asthmatics and aspirin sensitive people. See 621.</string>
+		<key>chemicalName</key>
+		<string>Calcium di-L-glutamate</string>
+		<key>code</key>
+		<string>E623</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>g block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Salt substitute, flavour enhancer. No known adverse effects.</string>
+		<key>chemicalName</key>
+		<string>Monoammonium L-glutamate</string>
+		<key>code</key>
+		<string>E624</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>g block of protein). Commercially prepared from molasses by bacterial fermentation. Also prepared from vegetable protein, such as gluten, or soy protein. Salt substitute, flavour enhancer. Hardly used, only in low sodium meat products. No known adverse effects.</string>
+		<key>chemicalName</key>
+		<string>Magnesium di-L-glutamate</string>
+		<key>code</key>
+		<string>E625</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Not listed for use in Australia. Guanylic acid is a natural acid, which is part of RNA, one of the genetic carrier molecules in the cell. It is thus part of all cells in all living organisms. Commercially prepared from yeast extract or sardines. Asthmatic people should avoid guanylic acid and guanylates. As guanylates are metabolised to purines, they should be avoided by people suffering from gout.</string>
+		<key>chemicalName</key>
+		<string>Guanylic acid</string>
+		<key>code</key>
+		<string>E626</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Flavour enhancer. Isolated from sardines or yeast extract; not permitted in foods for infants and young children. Persons with gout, hyperactivity, asthmatics and aspirin sensitive&apos;s should avoid it.    It is found in instant noodles, potato chips and snacks, savoury rice, tinned vegetables, cured meats, packet soup. </string>
+		<key>chemicalName</key>
+		<string>Disodium guanylate</string>
+		<key>code</key>
+		<string>E627</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Flavour enhancer. Guanylic acid and guanylates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt needed in a product. Asthmatic people should avoid guanylic acid and guanylates. As guanylates are metabolised to purines, they should be avoided by people suffering from gout. However, the concentrations used are generally so low that no effects are to be expected. Guanlyic acic and guanylates are generally produced from yeasts, but partly also from fish. They may thus not suitable for vegans and vegetarians.</string>
+		<key>chemicalName</key>
+		<string>Dipotassium guanylate, 5&apos;-</string>
+		<key>code</key>
+		<string>E628</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Calcium salt of guanylic acid (E626), a natural acid, which is part of RNA, one of the genetic carrier molecules in the cell. It is thus part of all cells in all living organisms. Commercially prepared from yeast extract or sardines.Flavour enhancer. Guanylic acid and guanylates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt needed in a product. Used in many products, mainly in low-salt/sodium products. Acceptable daily intake (ADI): None determined. Guanylates may not be used in products intended for children under 12 weeks. Asthmatic people should avoid guanylic acid and guanylates. As guanylates are metabolised to purines, they should be avoided by people suffering from gout.</string>
+		<key>chemicalName</key>
+		<string>Calcium guanylate</string>
+		<key>code</key>
+		<string>E629</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>A natural acid, that is mainly present in animals. Commercially prepared from meat or fish (sardines). May also be produced by bacterial fermentation of sugars. Used by athletes to supposedly increase the oxygen capacity of there blood. Used in many products. Acceptable daily intake (ADI): None determined. Inosinates may not be used in products intended for children under 12 weeks. Asthmatic people should avoid inosinates. As inosinates are metabolised to purines, they should be avoided by people suffering from gout. Inosinates are generally produced from meat, but partly also from fish. They are thus not suitable for vegans and vegetarians, and in most cases not suitable for Jews, Muslims and Hindus, depending on the origin of the product. Only the producer can provide information on the origin.</string>
+		<key>chemicalName</key>
+		<string>Inosinic acid</string>
+		<key>code</key>
+		<string>E630</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>May be prepared from meat or sardines; not permitted in foods for infants and young children. Gout sufferers avoid.  It is found in instant noodles, potato chips and snacks, savoury rice, tinned vegetables, cured meats, packet soup.  Asthmatic people should avoid inosinates. As inosinates are metabolised to purines, they should be avoided by people suffering from gout. Frequently contains MSG(621).</string>
+		<key>chemicalName</key>
+		<string>Disodium inosinate</string>
+		<key>code</key>
+		<string>E631</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Potassium salt of inosinic acid (E630), a natural acid, that is mainly present in animals. Commercially prepared from meat or fish (sardines). May also be produced by bacterial fermentation of sugars. Flavour enhancer. Inosinic acid and inosinates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt or other flavour enhancers needed in a product. Used in many products. Mainly used in low sodium/salt products. Acceptable daily intake (ADI): None determined. Inosinates may not be used in products intended for children under 12 weeks. Asthmatic people should avoid inosinates. As inosinates are metabolised to purines, they should be avoided by people suffering from gout. However, the concentrations used are generally so low that no effects are to be expected. Inosinates are generally produced from meat, but partly also from fish. They are thus not suitable for vegans and vegetarians, and in most cases not suitable for Jews, Muslims and Hindus, depending on the origin of the product. Only the producer can provide information on the origin.</string>
+		<key>chemicalName</key>
+		<string>Dipotassium inosinate</string>
+		<key>code</key>
+		<string>E632</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Calcium salt of inosinic acid (E630), a natural acid, that is mainly present in animals. Commercially prepared from meat or fish (sardines). May also be produced by bacterial fermentation of sugars. Flavour enhancer. Inosinic acid and inosinates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt or other flavour enhancers needed in a product. Used in many products. Mainly used in low sodium/salt products. Acceptable daily intake (ADI): None determined. Inosinates may not be used in products intended for children under 12 weeks. Asthmatic people should avoid inosinates. As inosinates are metabolised to purines, they should be avoided by people suffering from gout. However, the concentrations used are generally so low that no effects are to be expected.</string>
+		<key>chemicalName</key>
+		<string>Calcium inosinate</string>
+		<key>code</key>
+		<string>E633</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mixture of calcium salts of guanylic (E626) and inosinic acid (E630). Flavour enhancer. Guanylates and inosinates do not have the specific umami taste but strongly enhance many other flavours, thereby reducing the amounts of salt or other flavour enhancers needed in a product. Used in many products. Mainly used in low sodium/salt products. Acceptable daily intake (ADI): None determined. Guanylates and inosinates may not be used in products intended for children under 12 weeks. Asthmatic people should avoid guanylates and inosinates. As guanylates and inosinates are metabolised to purines, they should be avoided by people suffering from gout. However, the concentrations used are generally so low that no effects are to be expected.</string>
+		<key>chemicalName</key>
+		<string>Calcium 5&apos;-ribonucleotides</string>
+		<key>code</key>
+		<string>E634</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Made from 627 and 631.  Check imported foods. May be associated with itchy skin rashes up to 30 hours after ingestion; rashes may vary from mild to dramatic; the reaction is dose-related and cumulative, some individuals are more sensitive than others; typical foods include flavoured chips, instant noodles and party pies.
+            Avoid it, especially gout sufferers, asthmatics and aspirin sensitive people.</string>
+		<key>chemicalName</key>
+		<string>Disodium 5&apos;-ribonucleotide</string>
+		<key>code</key>
+		<string>E635</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Mixture of sodium salts of guanylic (E626) and inosinic acid (E630).  Check imported foods. May be associated with itchy skin rashes up to 30 hours after ingestion; rashes may vary from mild to dramatic; the reaction is dose-related and cumulative, some individuals are more sensitive than others; typical foods include flavoured chips, instant noodles and party pies. Avoid it, especially gout sufferers, asthmatics and aspirin sensitive people. </string>
+		<key>chemicalName</key>
+		<string>Sodium 5&apos;-ribonucleotide</string>
+		<key>code</key>
+		<string>E635</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Derived from the bark of larch trees, pine needles, chicory wood, oils and roasted malt; it may be produced synthetically. Artificial sweetener, flavour enhancer used in baked goods to give a &apos;fresh baked&apos; taste and smell in bread and cakes, chocolate substitute, soft and fizzy drinks, ice cream, jam. In large quantities it can help aluminium pass into the brain to cause Alzheimer&apos;s disease. Sometimes lactose (from cow&apos;s milk) is used. It should thus be avoided by vegans. It does not contain lactose and can be used by lactose-intolerant people. Acceptable daily intake (ADI): Up to 2 mg/kg bodyweight.  Some countries ban it for babies and young children.</string>
+		<key>chemicalName</key>
+		<string>Maltol</string>
+		<key>code</key>
+		<string>E636</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Derived from maltol chemically. Needs more testing. Base for essences, synthetic artificial flavour and flavour enhancer. Sometimes lactose (from cow&apos;s milk) is used. It should thus be avoided by vegans. It does not contain lactose and can be used by lactose-intolerant people. Some countries ban it for babies and young children.  See 636. Acceptable daily intake (ADI): Up to 2 mg/kg bodyweigh</string>
+		<key>chemicalName</key>
+		<string>Ethyl maltol</string>
+		<key>code</key>
+		<string>E637</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Spiramycins are a class of antibiotics, produced by the mould Streptomyces ambofaciens. Antibiotic against fungi and moulds.
+            
+            Products:
+            Dairy, meat, egg-products. Only allowed with special permission.</string>
+		<key>chemicalName</key>
+		<string>Spiramycins</string>
+		<key>code</key>
+		<string>E710</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Tylosin is an antibiotic, produced by the mould Streptomyces fradiae. Antibiotic against fungi and moulds.
+            Found in dairy, meat, egg-products. Only allowed with special permission. Acceptable Daily Intake: Up to 0,2 mg/kg bodyweight.
+        </string>
+		<key>chemicalName</key>
+		<string>Tylosin</string>
+		<key>code</key>
+		<string>E713</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Natural polymer produced from the Mexican trees Euphorbia antisyphilitica , E. cerifera and Pedilanthus pavonis .Glazing agent, used to wax fruit and vegetables. Not enough research done to be conclusive. Used as substitute for Carnauba wax (903)</string>
+		<key>chemicalName</key>
+		<string>Candelilla wax</string>
+		<key>code</key>
+		<string>E902</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Natural polymer produced from the Canauba palm (Copernica cerifera ) and related species from Brazil. Used in cosmetics and inks, and to wax fruit, chocolates, cocoa products, chewing gum, confectionary, flavour carrier in drinks, savoury snacks, toppings. Occasionally causes allergic reactions (dermal eczema) and possible carcinogen.</string>
+		<key>chemicalName</key>
+		<string>Carnauba wax</string>
+		<key>code</key>
+		<string>E903</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Derived from the Lac insect of India; occasionally causes irritations of the skin. Used as glazing agent, chocolate, confectionary, orange fizzy drinks, orange skin, medications. Can be used by all religious groups and vegetarians. Vegans generally avoid the product as there are still lice in the raw product. These are eliminated during purification.</string>
+		<key>chemicalName</key>
+		<string>Shellac, Lac</string>
+		<key>code</key>
+		<string>E904</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic mixture of hydrocarbons. Chewing gum ingredient, sealant, glazing agent, de-foamer, food processing machine lubricant, protective coating on fresh vegetables and fruit, lubricant and binder for tablets and capsules. Listed as having teratogenic properties probably responsible for bowel cancer and can cause defects.</string>
+		<key>chemicalName</key>
+		<string>Mineral oil, white</string>
+		<key>code</key>
+		<string>E905(a)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic mixture of hydrocarbons. May contain aromatic hydrocarbons and petrolatum extracts are listed as having teratogenic properties. May inhibit absorption of fats and fat soluble vitamins, mild laxative.</string>
+		<key>chemicalName</key>
+		<string>Petrolatum (petroleum jelly)(Vasaline)</string>
+		<key>code</key>
+		<string>E905(b)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic mixture of hydrocarbons. May inhibit absorption of fats and fat soluble vitamins, mild laxative, there may be a link to bowel cancer. Used on sweets, in processing yeast, vitamin tablets, dried fruit, confectionary, collagen.</string>
+		<key>chemicalName</key>
+		<string>Paraffins, Microcrystalline wax</string>
+		<key>code</key>
+		<string>E905(c)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>For tablet coatings, chewing gum. Polishing, release and stiffening agent. Banned in Australia. Avoid it. See E905(c)</string>
+		<key>chemicalName</key>
+		<string>Refined microcrystalline wax</string>
+		<key>code</key>
+		<string>E907</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>A naturally occurring sulphur containing amino acid, derived from cystine, that the body needs to produce Glutathione, one of the body&apos;s major antioxidants. Natural sources of cysteine include eggs, meat, dairy products and some cereals although it is commercially produced from hair, both animal and human, (which is around 12% cysteine) and feathers. In compound form (E920 and E921) it is used in flour and bakery products (except wholemeal) where it is used as an improving agent and in chicken stock cubes where it is used as a flavour. Diabetics should be aware that there are some reports that it may interfere with insulin and there are anecdotal reports that it can react with monosodium glutamate (E621) in individuals who suffer from the so called Chinese restaurant syndrome, a set of symptoms, including headache, burning sensations, dizziness and disorientation</string>
+		<key>chemicalName</key>
+		<string>L-cysteine</string>
+		<key>code</key>
+		<string>E910</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Wax obtained by solvent extraction of lignite (brown coal). It consists of non-glyceride carboxylic acid esters, free acids and resins. Coating for citrus fruits. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Montanic acid esters</string>
+		<key>code</key>
+		<string>E912</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Protective coating on fruits and vegetables. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Oxidized polyethylene wax</string>
+		<key>code</key>
+		<string>E914</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Flour treatment agent derived from animal hair and chicken feathers. If from China - human hair. Used in shampoo and chicken flavouring. Bread enhancer. It stabilises the structure of leavened bread. Aid to detoxification of many chemicals related to smoking, prevent hangovers and also prevent brain and liver damage due to alcohol consumption. Useful for rheumatoid arthritis, helps the immune system and promotes healing.  Is a known neurotoxin.</string>
+		<key>chemicalName</key>
+		<string>L-Cystein monohydrochloride</string>
+		<key>code</key>
+		<string>E920</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>See 920.</string>
+		<key>chemicalName</key>
+		<string>L-cysteine hydrochloride monohydrate</string>
+		<key>code</key>
+		<string>E921</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Large quantities can cause nausea, vomiting, diarrhoea, abdominal pain, kidney damage and failure. The WHO in 1993 said that this ingredient is no longer acceptable for use as it is a possible carcinogen.  Typically used in flour products.</string>
+		<key>chemicalName</key>
+		<string>Potassium bromate</string>
+		<key>code</key>
+		<string>E924</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Destroys nutrients, listed carcinogen, in some areas tap water is contaminated with it (most of Australia!), to make it &apos;safer&apos; to drink. Typical products are flour products for bleaching, as a disinfectant, decolouriser and irritant poison. Toxic by inhalation, ingestion and through skin contact. Inhalation can cause serious lung damage and may be fatal. 1000ppm (0.1%) is likely to be fatal after a few deep breaths, and half that concentration fatal after a few minutes. May irritate or burn skin.</string>
+		<key>chemicalName</key>
+		<string>Chlorine</string>
+		<key>code</key>
+		<string>E925</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Azoformamide. Flour treatment and bleaching agent in baked goods, breads, rice, chewing gum, flour, grains.  The US FDA require further testing. Banned in Australia.  Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Azodicarbonamide</string>
+		<key>code</key>
+		<string>E927(a)</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Obtained from benzoylchloride and sodium peroxide. Approved by FDA* for bleaching the carotenoids in refined flours, cheese, milk, rice, starch.  Asthmatics and people with a history of allergies BEWARE, see Benzoic Acid (210).</string>
+		<key>chemicalName</key>
+		<string>Benzoyl peroxide</string>
+		<key>code</key>
+		<string>E928</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic inert gas. Propellant, anti-freeze Canned and frozen products. Hardly used. Acceptable daily intake (ADI) : Up to 1,5 mg/kg bodyweight.</string>
+		<key>chemicalName</key>
+		<string>Dichlorodifluoromethane</string>
+		<key>code</key>
+		<string>E940</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>200 times sweeter than sugar, has a bitter after taste.  Used widely as artificial sweetener in low joule gums, drinks, diet foods, etc.  Possible carcinogen in humans, caused cancer in test animals. Suggested that it is worse than Aspartame or Saccharin. AVOID IT!</string>
+		<key>chemicalName</key>
+		<string>Acesulphane potassium, Acesulphane K</string>
+		<key>code</key>
+		<string>E950</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Artificial sweetener, too many adverse effects possible to list, 92 documented with the US FDA!, Some people are allergic to aspartame, migraine headaches are a common reaction in these people. Research currently in the USA in regard to incidence of brain tumours. Diet drinks containing it are banned for U.S. Airforce pilots and in an pilots magazine, commercial pilots are told to avoid it. In 9,000 products from low joule to pharmaceuticals. AVOID IT!</string>
+		<key>chemicalName</key>
+		<string>Aspartame</string>
+		<key>code</key>
+		<string>E951</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Calcium; sodium cyclamate, artificial sweetener; known to cause migraines and other reactions, can be carcinogenic, caused damage to rats testicles and mouse embryos in tests.
+            Banned in the US and UK due its links with cancer. AVOID IT!</string>
+		<key>chemicalName</key>
+		<string>Cyclamic acid and its Na and Ca salts</string>
+		<key>code</key>
+		<string>E952</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Calcium &amp; sodium saccharin; artificial sweetener derived from toluene (a known carcinogen). Not listed in Australia by number until 1992. Banned in 1977 in the US, but reinstated subject to strict labelling stating: &quot;Use of this product may be hazardous to your health, this product contains saccharin which has been determined to cause cancer in laboratory animals&quot;. It interferes with normal blood coagulation, blood sugar levels and digestive function.
+            Banned in France, Germany, Hungary, Portugal, Spain.  Banned as food additive in Malaysia and Zimbabwe.  Banned as a beverage additive in Fiji, Israel, Peru, and Taiwan.</string>
+		<key>chemicalName</key>
+		<string>Saccharine</string>
+		<key>code</key>
+		<string>E954</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Artificial sweetener 600 times sweeter than sugar. Not listed in Australia prior to 1992.  Found under the brand name of &quot;Splenda&quot;.  In animal test before being accepted in Australia, they showed detrimental effects to the thalamus glands, liver and kidney enlargement, and renal mineralisation.</string>
+		<key>chemicalName</key>
+		<string>Sucralose
+            (trichlorogalactosucrose)</string>
+		<key>code</key>
+		<string>E955</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Artificial sweetener 2000 times sweeter than sugar. Not listed in Australia prior to 1992.  Current research suggests that it is safe.  Not endorsed for use in the USA.</string>
+		<key>chemicalName</key>
+		<string>Alitame</string>
+		<key>code</key>
+		<string>E956</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>See 951.</string>
+		<key>chemicalName</key>
+		<string>Salt of Aspartame-acesulfame</string>
+		<key>code</key>
+		<string>E962</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Humectant, artificial sweetener base, bulking agent, base for essences. Starch decomposed with digestive enzymes. In some of 953, plus used in confectionery, dried fruits, low-joule foods, chocolate, jam, ice cream; laxative in high concentrations.</string>
+		<key>chemicalName</key>
+		<string>Maltitol, Maltitol syrup,
+            Hydrogenated glucose syrup</string>
+		<key>code</key>
+		<string>E965</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Quillaia extract is a purified extract of the outer cambium layer of Quillaia Saponaria Molina, or Quillay Bark. The Quillaia tree is native to Peru and Chile, and cultivated in Northern Hindustan. Quillaia bark infusion has good foam capabilities due to the presence of saponin, a non-poisonous, white powder. Saponin is a glucoside which will yield quillaic acid and quillaia-sapotoxin upon decomposure. The latter products are both poisonous irritants, however it is the sapotoxin which foams upon shaking. Quillaic acid is also known as 3,16-dihydroxy-23-oxo-12-oleanen-28-oic acid. Used in the production of foam on non-alcoholic beverages. Use is banned in a number of countries. Used medically as a stimulating expectorant.</string>
+		<key>chemicalName</key>
+		<string>Quillaia extract</string>
+		<key>code</key>
+		<string>E999</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Stabiliser, flavour enhancer, flour treatment agent, meat tenderiser and used in alcoholic beverages. Some are known to be possible teratogenic in nature.</string>
+		<key>chemicalName</key>
+		<string>Protease&apos;s
+            (Papain, bromelain, ficin)</string>
+		<key>code</key>
+		<string>E1101</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>See Glycerol (E455). Flavour enhancer.</string>
+		<key>chemicalName</key>
+		<string>Lipases</string>
+		<key>code</key>
+		<string>E1104</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Polymer of glucose, with some sorbitol. Produced by heating dextrose (glucose) in the presence of sorbitol and citric acid. Humectant and modifying agent in baked foods, modified carbohydrates, confectionary, chocolate, jam, ice cream, low joule foods.  Binds water and protects against freeze damage. Suitable for diabetics. Seems safe in small doses, can cause diarrhoea in large doses (90g per day), see warning in 967.  Not to be used for babies or infants</string>
+		<key>chemicalName</key>
+		<string>Polydextrose</string>
+		<key>code</key>
+		<string>E1200</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic polymer made from formaldehyde - supposed to be inert and non-toxic.  Excess may cause damage to the lungs or kidneys, gas and faecal impaction. Dispersing agent, colour stabiliser, Flavours and fragrances, pharmaceuticals. Coating for tablets; used in artificial sweeteners in low joule foods and chewing gum. Carcinogenic. Avoid it. Light sensitive, hygroscopic. Other names: povidone, PVP</string>
+		<key>chemicalName</key>
+		<string>Polyvinylpyrrolidone</string>
+		<key>code</key>
+		<string>E1201</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Synthetic polymer. Clarifying agent for wine, beer and vinegar; colour and colloidal stabiliser, almost completely unabsorbed when taken orally. Artificial sweetener .  May cause damage to kidneys and stay in the system for up to a year. Avoid it.</string>
+		<key>chemicalName</key>
+		<string>Polyvinylpolypyrrolidone
+            (PPVP)</string>
+		<key>code</key>
+		<string>E1202</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Polymer of dextrose, prepared by partial degradation of starch. Thickener, vegetable gum, foam stabiliser in beer, artificial sweetener base from tapioca or corn. No known adverse effects, but not fully evaluated for safety.  Foods are made more digestible to babies, but the chemicals to create may be harmful.</string>
+		<key>chemicalName</key>
+		<string>Dextrin</string>
+		<key>code</key>
+		<string>E1400</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with bleaching agents. The starch is partially degraded and oxidised. Thickener, vegetable gum which may be bleached with sulphur dioxide (one of a choice), which is dangerous to asthmatics.  Used in baby food, jelly type sweets, wine gums, batter mixes - wide range of foods.  Further testing required.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Bleached starch</string>
+		<key>code</key>
+		<string>E1403</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with hypochlorite. The starch is partially degraded and oxidised. Thickener, vegetable gum which is bleached with possible sulphur dioxide residue, which is dangerous to asthmatics.  High concentrations cause diarrhoea and kidney defects in animals. See 1403.  Further testing required.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Oxidised starch</string>
+		<key>code</key>
+		<string>E1404</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Occurs naturally in the body.  Thickener, vegetable gum in baby foods.  May or may not be used in Australia.  No known adverse effects.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Enzyme treated starch</string>
+		<key>code</key>
+		<string>E1405</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with phosphoric acid. The starch is partially degraded and phosphorylated. Thickening agent and stabiliser. No known adverse effects, further testing required.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Mono-starch phosphate</string>
+		<key>code</key>
+		<string>E1410</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with glycerol. The starch is partially degraded and combined with glycerol. Thickening agent and emulsifier. Many food products, pharmaceuticals</string>
+		<key>chemicalName</key>
+		<string>Di-starch glycerol</string>
+		<key>code</key>
+		<string>E1411</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>(i) : prepared with trimetaphosphate
+            (ii) : prepared with phosphoroxychloride
+            Thickener used in baby food, carbohydrate modified foods, starch.  Not recommended for infant formulas. No known adverse effects, further testing required.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Distarch phosphates</string>
+		<key>code</key>
+		<string>E1412</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with a phosphorylating agent and phosphoric acid. The resulting starch has increased stability at high and low temperatures and is more resistant against acid. No known adverse effects, further testing required.  Prepared for baby foods, frozen foods, refrigerated sweets, soy and other infant formula.  Babies should not be given soy products.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Phosphated distarch phosphate</string>
+		<key>code</key>
+		<string>E1413</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with a phosphorylating agent and acetic acid. The resulting starch has increased stability and dissolves better at low temperatures. Thickener for food in cans: thin soups, foods and cereals for young children, soy and other infant formula.  Babies should not be given soy products.  No known adverse effects at low levels, further testing required.  May cause diarrhoea. See 1400.</string>
+		<key>chemicalName</key>
+		<string>Acetylated distarch phosphate</string>
+		<key>code</key>
+		<string>E1414</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with acetic acid anhydride. The resulting starch is more stable at high temperatures and low pH. Thickener, vegetable gum in iced lollies, confectionary, yoghurts, egg white mix, fruit flavoured fillings. No known adverse effects, further testing required. May cause diarrhoea. See 1400.</string>
+		<key>chemicalName</key>
+		<string>Acetylated starch</string>
+		<key>code</key>
+		<string>E1420</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>epared by treating starch with vinylacetate. The resulting starch is more stable at high temperatures and low pH. Comparable with E1420.Thickener, vegetable gum. No known adverse effects. May cause diarrhoea. See 1400 and 1420.</string>
+		<key>chemicalName</key>
+		<string>Starch acetate esterfied with vinyl acetate</string>
+		<key>code</key>
+		<string>E1421</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with acetic acid anhydride and adipinic acid anhydride. This results in a starch that is resistant against stirring and high temperatures. Thickener, vegetable gum to give improved &apos;mouth feel&apos; in a wide range of foods such as relishes and pickles, fruit pies and fillings, baby food. No known adverse effects at low levels, further testing required.  See 1400.</string>
+		<key>chemicalName</key>
+		<string>Acelylated distarch adipate</string>
+		<key>code</key>
+		<string>E1422</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with acetic acid anhydride and glycerol. This results in a starch that is resistant against stirring and high temperatures and with a high stability after cooling. Thickening agent. Many food products. Acceptable Daily Intake: None determined</string>
+		<key>chemicalName</key>
+		<string>Acetylated di-starch glecerol</string>
+		<key>code</key>
+		<string>E1423</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Stabiliser, Thickening agent</string>
+		<key>chemicalName</key>
+		<string>Distarch glycerine</string>
+		<key>code</key>
+		<string>E1430</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with propyleneoxide. The resulting starch is more stable against acid, alkaline and starch degrading enzymes. It also provides better colour and shine to products. Thickener, vegetable gum from potatoes, wheat, maize, rice, barley, or roots like cassava.  No known adverse effects, further testing required.  It may slow down the degradation of food in the intestine. See 1400.</string>
+		<key>chemicalName</key>
+		<string>Hydroxypropylstarch</string>
+		<key>code</key>
+		<string>E1440</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with propyleneoxide, epichlorhydrine and glycerol. The resulting starch is more stable against acid, alkaline and starch degrading enzymes. It also provides better colour and shine to products and is more stable after cooling. Stabiliser, Thickening agent. It may cause diarrhoea.</string>
+		<key>chemicalName</key>
+		<string>Hydroxy propyl distarch glycerine</string>
+		<key>code</key>
+		<string>E1441 </string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with propyleneoxide and phosphoric acid. The resulting starch is more stable against acid, alkaline and starch degrading enzymes. It also provides better colour and shine to products and has very good freeze-thaw properties. Thickener, vegetable gum in frozen products. No known adverse effects, further testing required. It may slow down the degradation of food in the intestine. See 1400.</string>
+		<key>chemicalName</key>
+		<string>Hydroxy propyl distarch phosphate</string>
+		<key>code</key>
+		<string>E1442</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Prepared by treating starch with octenylsuccinate. Thickener, vegetable gum where oil and water must mix in salad dressings, drink whiteners, dry drink bases, essences. No known adverse effects, further testing required.  See 1400 and 1422.</string>
+		<key>chemicalName</key>
+		<string>Starch sodium octenyl succinate</string>
+		<key>code</key>
+		<string>E1450</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Thickener, vegetable gum. No known adverse effects, further testing required.</string>
+		<key>chemicalName</key>
+		<string>Acetylated oxidised starch</string>
+		<key>code</key>
+		<string>E1451</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>(i): Benzyl alcohol
+            (ii): Benzyl acetate
+            (iii): Benzyl benzoate
+            Natural compounds, which constitute part of the flavour and fragrance of many plant species. They are commercially produced by chemical synthesis. Flavourings and fragrances. Found in many products; these compounds are also used in cosmetics and pharmaceuticals. Acceptable Daily intake: Up to 5 mg/kg body weight. No side effects known when used in foods. Skin problems may occur when used in cosmetics.</string>
+		<key>chemicalName</key>
+		<string>Benzylated hydrocarbons</string>
+		<key>code</key>
+		<string>E1501</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>It is commercially produced by chemical synthesis. Solvent for flavours. In tobacco products. Acceptable Daily intake: Up to 4 mg/kg body weight.</string>
+		<key>chemicalName</key>
+		<string>Butane-1,3-diol</string>
+		<key>code</key>
+		<string>E1502</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Natural oil extracted from the seeds of Ricinus communis (castor bean). Castor oil is a flavour component as well as a solvent for flavours. Found in flavoured sugar, lip products, etc. Acceptable Daily intake: Up to 0.7 mg/kg body weight.</string>
+		<key>chemicalName</key>
+		<string>Castor Oil</string>
+		<key>code</key>
+		<string>E1503</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Natural component of many fruits; it is commercially produced from acetic acid. Ethyl acetate is a flavour component as well as a solvent for flavours. Found in many products with fruit flavour. Acceptable Daily Intake: Up to 6 mg/kg body weight.</string>
+		<key>chemicalName</key>
+		<string>Ethyl Acetate</string>
+		<key>code</key>
+		<string>E1504</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Commercially produced from citric acid. Whipping aid, thickener, vegetable gum for flavoured and sports drinks, egg white liquid or dried. Part becomes alcohol in the body.  See 1510.</string>
+		<key>chemicalName</key>
+		<string>Triethyl acetate or citrate</string>
+		<key>code</key>
+		<string>E1505</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Alcohol. Not permitted in foods in Australia, but used in cough medicines, perfumes, mouth wash, antiseptic, hairspray as an additive carrier not listed except in alcoholic drinks. Suspected neurotoxic hazard, danger to persons with Candida and allergies.  In ice creams, dessert sauces, apple cider, stews and casseroles, tomatoes and rock melon.</string>
+		<key>chemicalName</key>
+		<string>Ethanol, ethyl alcohol, Ethanon</string>
+		<key>code</key>
+		<string>E1510</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Commercially produced from acetic acid and glycerol. Solvent for flavours. Found in many products.</string>
+		<key>chemicalName</key>
+		<string>Glycerol monoacetate</string>
+		<key>code</key>
+		<string>E1516</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Glycerol diacetate is commercially produced from acetic acid and glycerol. Used as solvent for flavours. May cause headaches, nausea, vomiting, dehydration, diarrhoea, thirst, dizziness and mental confusion.</string>
+		<key>chemicalName</key>
+		<string>Glycerol diacetate</string>
+		<key>code</key>
+		<string>E1517</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Binder for solid rocket fuels.  Fungicide, humectant and solvent  for flavours derived from glycerol; used to coat fresh fruit in the US, essences, cigarette filters. Other names: triacetin, glyceryl triacetate, 1,2,3-propanetriyl triacetate, 1,2,3-propanetriol triacetate, triacetylglycerol.</string>
+		<key>chemicalName</key>
+		<string>Glycerol triacetate, triacetin</string>
+		<key>code</key>
+		<string>E1518</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Propylene glycol is commercially produced from propylene and carbonate. Humectant, wetting agent, dispersing agent, radiator anti-freeze, petroleum based; its glycerine like taste has made it popular for children;s medications and other elixirs; used in many toothpastes, topical creams and ointments, in cosmetics, hair products and deodorants, artificial sweetener bases, liquid food colour, essences, sweetened coconut, chewing gum, chocolates. Total recall of all medications in USA (if you still have some old ones, throw them out!) and has been linked with fatal heart attacks (when given intravenously), central nervous system depression and cosmetic or pharmaceutical contact dermatitis. Suspected as a neurotoxic hazard.
+            Material Data Safety Sheets recommend not have dermal contact, wear rubber gloves. Other names: 1,2-propanediol; 1,2-dihydroxypropane; methylethylene glycol; propane-1,2-diol</string>
+		<key>chemicalName</key>
+		<string>Propylene glycol</string>
+		<key>code</key>
+		<string>E1520</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Artificial sweetener, anti-foaming agent. Known to cause renal failure in burns victims.</string>
+		<key>chemicalName</key>
+		<string>Polyethylene glycerol 8000</string>
+		<key>code</key>
+		<string>E1521</string>
+	</dict>
+	<dict>
+		<key>danger</key>
+		<string>Hydroxy ethyl cellulose is commercially produced from ethanol and cellulose. Thickening agent. Found in many products. Acceptable Daily Intake: Up to 25 mg/kg body weight. Side effects: 
+            None known when used in foods. In high concentrations it acts as a laxative.</string>
+		<key>chemicalName</key>
+		<string>Hydroxy ethyl cellulose</string>
+		<key>code</key>
+		<string>E1525</string>
+	</dict>
+
 
 </array>
 </plist>

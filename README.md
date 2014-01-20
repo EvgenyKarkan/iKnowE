@@ -9,7 +9,7 @@ Then this app is just for you.
 The iKnowE allows you to get info about food additives on your iPad.   
 You can also search, save your own data, update it or delete.
 
-Version 1.0.0 contains 41 food additives.
+Version 1.0.0 contains 41 food additives.   
 Version 1.0.1 contains 248 food additives.
 Download:
 --------

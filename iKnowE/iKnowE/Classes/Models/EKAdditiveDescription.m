@@ -9,8 +9,8 @@
 #import "EKAdditiveDescription.h"
 
 static NSString * const kEKDangerKey = @"danger";
-static NSString * const kEKNameKey = @"chemicalName";
-static NSString * const kEKCodeKey = @"code";
+static NSString * const kEKNameKey   = @"chemicalName";
+static NSString * const kEKCodeKey   = @"code";
 
 
 @implementation EKAdditiveDescription
@@ -18,6 +18,7 @@ static NSString * const kEKCodeKey = @"code";
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
 	self = [super init];
+    
 	if (self) {
 		self.danger = [dictionary valueForKey:kEKDangerKey];
 		self.chemicalName = [dictionary valueForKey:kEKNameKey];

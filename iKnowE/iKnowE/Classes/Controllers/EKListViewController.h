@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 EvgenyKarkan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+
 #import "EKListView.h"
 
 @interface EKListViewController : UIViewController

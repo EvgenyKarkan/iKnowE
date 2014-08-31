@@ -47,8 +47,10 @@ static NSString * const kEKFlurryKey = @"QG97GTD5QD7JK6KJCCS2";
 
 - (void)preloadSettingsInfo
 {
-	[[NSUserDefaults standardUserDefaults] setObject:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"] forKey:@"version"];
-	[[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%d", [[EKPlistDataProvider additiveDescriptions] count]] forKey:@"count"];
+	[[NSUserDefaults standardUserDefaults] setObject:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+                                              forKey:@"version"];
+	[[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@"%lu", (unsigned long)[[EKPlistDataProvider additiveDescriptions] count]]
+                                              forKey:@"count"];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 

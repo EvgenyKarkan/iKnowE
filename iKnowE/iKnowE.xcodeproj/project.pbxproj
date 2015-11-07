@@ -381,7 +381,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EK;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = EvgenyKarkan;
 			};
 			buildConfigurationList = DE518B7D17DE880000B1206A /* Build configuration list for PBXProject "iKnowE" */;
@@ -526,6 +526,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Yevgeniy Karkan (3YZNAVUC8R)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yevgeniy Karkan (3YZNAVUC8R)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -539,7 +540,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos6.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -568,7 +569,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "AE6BDFAA-962D-4BB7-9DC3-FA2E06CFD512";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AE6BDFAA-962D-4BB7-9DC3-FA2E06CFD512";
-				SDKROOT = iphoneos6.1;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -589,8 +590,9 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Libs/Flurry\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenykarkan.iknowe;
 				PRODUCT_NAME = iKnowE;
-				SDKROOT = iphoneos6.1;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -611,9 +613,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Libs/Flurry\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.evgenykarkan.iknowe;
 				PRODUCT_NAME = iKnowE;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AE6BDFAA-962D-4BB7-9DC3-FA2E06CFD512";
-				SDKROOT = iphoneos6.1;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

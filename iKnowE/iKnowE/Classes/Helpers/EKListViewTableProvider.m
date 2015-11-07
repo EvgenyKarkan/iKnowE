@@ -83,7 +83,7 @@ static NSString * const kITReuseIdentifier = @"defaultCell";
     return self.headerView;
 }
 
-- (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 	NSUInteger number = 0;
     
